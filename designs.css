@@ -1,0 +1,488 @@
+/* ==========================================================================
+   1. CORE VARIABLES & RESET
+   ========================================================================== */
+
+   /*SETS THE GLOBAL VARIABLES FOR USE*/
+:root {
+    --bg-black: #050505;
+    --dark-green: #0a2412;
+    --glow-green: #39ff14;
+    --bright-green-glow: #52c41a;
+    --text-white: #ffffff;
+    --text-muted: #aaaaaa;
+    --card-bg: #0b0b0b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* CSS Snap Scroll configures smooth section mechanics */
+    scroll-snap-type: y mandatory;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-white);
+    background-color: var(--bg-black);
+}
+
+/* ==========================================================================
+   2. GLOBAL PANEL SNAPPING & LAYOUTS
+   ========================================================================== */
+.panel {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 8% 60px 8%;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Sticky Header styling */
+.global-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+    background: linear-gradient(to bottom, rgba(5,5,5,0.8), transparent);
+}
+
+.global-header .logo {
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.global-header .asterisk {
+    color: #6ed66e;
+    margin-right: 5px;
+}
+
+.global-header .nav-links a {
+    color: var(--text-white);
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.global-header .nav-links a:hover {
+    opacity: 1;
+    border-bottom:1.7px solid var(--bright-green-glow);
+}
+
+/* ==========================================================================
+   3. HERO SECTION (PANEL 1)
+   ========================================================================== */
+.hero-section {
+    background: linear-gradient(to right, #0d381e 0%, var(--bg-black) 70%);
+}
+
+.hero-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+}
+
+.glow-title {
+    font-size: 6.5rem;
+    font-weight: 350;
+    letter-spacing: 2px;
+    color: var(--text-white);
+    /* Custom Neon Glow Drop Shadows matching screen 1 */
+    text-shadow: 0 0 10px rgba(110, 214, 110, 0.4), 
+                 0 0 30px rgba(110, 214, 110, 0.2);
+}
+
+.glow-title span {
+    color: #7bb85d;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 3.7px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    color: #e5e5e5;
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    font-weight: 300;
+    color: #b0b0b0;
+    margin-bottom: 50px;
+    padding: 0 30px;
+}
+
+.highlight-green {
+    color: #55b255;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Action UI Buttons styling */
+.cta-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.cta-container.central {
+    margin-bottom: 60px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px 35px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    min-width: 280px;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn i {
+    font-size: 1.4rem;
+}
+
+.btn-light-green {
+    background: linear-gradient(135deg, #c4dec4 0%, #ebf3eb 100%);
+    color: #1a421a;
+    box-shadow: 0 0px 15px rgba(3, 63, 23, 0.4);
+}
+
+.btn-dark-green {
+    background: linear-gradient(135deg, #1d4d22 0%, #112d14 100%);
+    color: #ffffff;
+    box-shadow: 0 0px 15px rgba(3, 63, 23, 0.4);
+}
+
+/* Foreground corner leaf structure visual mock helper */
+.leaf-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 550px;
+    height: 500px;
+    background-image: url('/img-assets/greenplant-Photoroom.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.70;
+    pointer-events: none;
+    
+}
+
+/* ==========================================================================
+   4. ABOUT & MISSION SECTION (PANEL 2)
+   ========================================================================== */
+.about-section {
+    background: linear-gradient(to right, rgba(5,5,5,0.92) 40%, rgba(5,5,5,0.7) 100%), 
+                url('/img-assets/planting.png') no-repeat center right;
+    background-size: cover;
+}
+
+.split-content-left {
+    max-width: 600px;
+    z-index: 2;
+}
+
+.text-block {
+    margin-bottom: 55px;
+}
+
+.text-block h2 {
+    font-size: 3.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.text-block p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #bbbbbb;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   5. WORKING CARDS SECTION (PANEL 3)
+   ========================================================================== */
+.working-section {
+    background-image:
+        radial-gradient(circle at 80% 80%, rgba(110,214,110,0.1), transparent 40%),
+        radial-gradient(circle at 20% 90%, rgba(110,214,110,0.08), transparent 35%),
+        radial-gradient(circle at bottom center, #0f3d20, var(--bg-black) 70%);
+}
+
+.section-title-center {
+    font-size: 3.8rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1.5px solid #151515;
+    border-radius: 16px;
+    padding: 45px 30px;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: border-color 0.3s;
+}
+
+.card:hover {
+    border-color: #25542b;
+    box-shadow: 0 0px 15px rgba(14, 65, 15, 0.5);
+}
+
+.card h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 35px;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #cccccc;
+    font-weight: 300;
+}
+
+/* Precise step title centering alignments on Cards 1,2,3,4 per mockup */
+.cards-grid .card h3,
+.cards-grid .card p{
+    text-align: center;
+}
+
+/* ==========================================================================
+   6. JOURNEY TIMELINE SECTION (PANEL 4)
+   ========================================================================== */
+.journey-section {
+    background-image:
+        radial-gradient(circle at top center, #0f3d20 0%, var(--bg-black) 70%),
+        radial-gradient(circle at 80% 20%, rgba(110,214,110,0.1) 0%, transparent 40%),
+        radial-gradient(circle at 20% 10%, rgba(110,214,110,0.08) 0%, transparent 35%);
+    background-color: var(--bg-black);
+    text-align: left;
+}
+
+.journey-content h2 {
+    font-size: 3.8rem;
+    font-weight: 300;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.journey-content .subheading {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #888888;
+    margin-bottom: 70px;
+}
+
+/* Interactive Horizonal Connecting Node System */
+.timeline-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0;
+    padding: 0 20px;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255,255,255,0.4);
+    z-index: 1;
+}
+
+.circle-node {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: var(--text-white);
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    z-index: 2;
+    box-shadow: 0 0 30px rgba(110, 214, 110, 0.5); /* Outer neon halo vibe */
+    position: relative;
+}
+
+.journey-footer-text {
+    margin-top: 70px;
+}
+
+.journey-footer-text p {
+    font-size: 1.4rem;
+    color: #8c8c8c;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.journey-footer-text h3 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* ==========================================================================
+   7. REPEAT CTA & FOOTER COMPONENT (PANEL 5)
+   ========================================================================== */
+.footer-section {
+    background-color: var(--bg-black);
+    justify-content: space-between;
+    padding-bottom: 0; /* Align directly to screen base floor */
+}
+
+.pre-footer-cta {
+    text-align: center;
+    margin-top: auto;
+    padding-top: 40px;
+}
+
+.pre-footer-cta p {
+    font-size: 1.4rem;
+    color: #8c8c8c;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.pre-footer-cta h3 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+/* Green Blocks base Container wrapper */
+.main-footer {
+    background-color: #081c0e;
+    width: 100vw;
+    margin-left: -9.6%; /* Offsets padding constraints to span full edge-to-edge width */
+    padding: 60px 8% 50px 8%;
+    border-top: 1px solid #14331c;
+}
+
+.footer-logo {
+    font-size: 3.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    color: var(--text-white);
+}
+
+.footer-logo span {
+    color: #7bb85d;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 80px;
+}
+
+.footer-col h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    color: var(--text-white);
+}
+
+.footer-col p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #b3cbba;
+    font-weight: 300;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #b3cbba;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 300;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--text-white);
+}
+
+/* ==========================================================================
+   8. MEDIA QUERIES FOR SCALABILITY
+   ========================================================================== */
+@media (max-width: 1200px) {
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .circle-node {
+        width: 100px;
+        height: 100px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .glow-title { font-size: 4rem; }
+    .text-block h2 { font-size: 2.5rem; }
+    .cards-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; gap: 40px; }
+    .timeline-container { flex-direction: column; gap: 20px; }
+    .timeline-line { display: none; }
+    .cta-container { flex-direction: column; gap: 15px; align-items: center; }
+}
