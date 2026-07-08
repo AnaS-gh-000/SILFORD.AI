@@ -41,6 +41,34 @@ html {
     justify-content: center;
     position: relative;
     overflow: hidden;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.panel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.107) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.089) 1px, transparent 1px);
+
+    background-size: 40px 40px;
+
+    opacity: .5;
+}
+
+.hero-content,
+.split-content-left,
+.cards-grid,
+.journey-content,
+.pre-footer-cta,
+.main-footer {
+    position: relative;
+    z-index: 1;
 }
 
 /* Sticky Header styling */
@@ -269,7 +297,7 @@ html {
 
 .card:hover {
     border-color: #25542b;
-    box-shadow: 0 0px 15px rgba(14, 65, 15, 0.5);
+    box-shadow: 0 0px 20px rgba(14, 65, 15, 0.5);
 }
 
 .card h3 {
@@ -293,6 +321,35 @@ html {
     text-align: center;
 }
 
+.c-1{
+    z-index: 2;
+}
+.c-2{
+    z-index: 3;
+}
+.c-3{
+    z-index: 4;
+}
+.c-4{
+    z-index: 6;
+}
+
+
+.neuron-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    width: 100%;
+    height: 600px;
+    background-image: url('/img-assets/aiNN-Photoroom.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.70;
+    pointer-events: none;
+    z-index: 5;
+
+}
+
 /* ==========================================================================
    6. JOURNEY TIMELINE SECTION (PANEL 4)
    ========================================================================== */
@@ -306,8 +363,8 @@ html {
 }
 
 .journey-content h2 {
-    font-size: 3.8rem;
-    font-weight: 300;
+    font-size: 3rem;
+    font-weight: 450;
     margin-bottom: 15px;
     letter-spacing: 1px;
 }
@@ -326,7 +383,7 @@ html {
     justify-content: space-between;
     align-items: center;
     margin: 80px 0;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .timeline-line {
@@ -343,28 +400,36 @@ html {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    background-color: var(--text-white);
-    color: #222222;
+    /* background-color: var(--text-white); */
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #e4e4e7;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.1rem;
     font-weight: 400;
     z-index: 2;
-    box-shadow: 0 0 30px rgba(110, 214, 110, 0.5); /* Outer neon halo vibe */
+    
     position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.circle-node:hover{
+    box-shadow: 0 0 30px rgba(110, 214, 110, 0.5); /* Outer neon halo vibe */
+    color: #ffffff;
+    transform: translateY(-4px);
+    border-color: rgba(34, 197, 94 ,0.6);
+    background: rgba(34, 197, 94 ,0.08);
 }
 
 .journey-footer-text {
     margin-top: 70px;
 }
 
-.journey-footer-text p {
-    font-size: 1.4rem;
-    color: #8c8c8c;
-    font-weight: 300;
-    margin-bottom: 15px;
-}
+
 
 .journey-footer-text h3 {
     font-size: 3.5rem;
