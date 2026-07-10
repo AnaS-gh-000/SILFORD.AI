@@ -687,7 +687,7 @@ html {
     display: flex;
     align-items: center;
     gap: 20px;
-    font-size: 1.9rem;
+    font-size: 2.2rem;
     font-weight: 400;
 }
 
@@ -709,7 +709,7 @@ html {
 }
 
 .alert-right h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     margin-bottom: 12px;
     font-weight: 400;
@@ -718,9 +718,9 @@ html {
 
 .affected-systems-list {
     list-style: none;
-    font-size: 1rem;
+    font-size: 1.07rem;
     color: #cccccc;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .affected-systems-list li::before {
@@ -733,17 +733,28 @@ html {
 .summary-disclaimer-text {
     text-align: center;
     color: #8c8c8c;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
+
+
 
 /* Generic Info Box Panel Styles */
 .info-card-box {
     background-color: #121212;
     border-radius: 24px;
     padding: 45px;
-    border: 1px solid #1c1c1c;
+    border: 1px solid var(--theme-border);
     position: relative;
+    transition:
+        box-shadow 0.3s ease,
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.info-card-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px var(--theme-glow);
 }
 
 /* Embeds the smooth peripheral side glows directly onto content containers */
@@ -753,7 +764,7 @@ html {
     top:0; left:0; right:0; bottom:0;
     border-radius: 24px;
     box-shadow: 0 0 35px var(--theme-glow);
-    opacity: 0.15;
+    opacity: 0.4;
     pointer-events: none;
 }
 
@@ -766,6 +777,12 @@ html {
 }
 
 .left-side-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right-side-main {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -790,11 +807,11 @@ html {
     color: #dddddd;
 }
 
-/* Scrollable window frame container mimicry */
-.effects-scrollable {
-    max-height: 280px;
-    overflow-y: auto;
+
+.effects-box {
+    min-height: 280px;
     padding-right: 10px;
+    margin-bottom: 5px;
 }
 
 .effect-heading {
@@ -805,7 +822,7 @@ html {
 }
 
 .effects-list {
-    list-style-position: inside;
+    list-style-position: outside;
     line-height: 1.8;
     color: #bbbbbb;
 }
@@ -843,11 +860,11 @@ html {
 .safety-card-box {
     width: 100%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .safety-steps-list {
-    list-style-position: inside;
+    list-style-position: outside;
     line-height: 2.2;
     font-size: 1.1rem;
     color: #e5e5e5;
