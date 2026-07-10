@@ -552,3 +552,512 @@ html {
     .timeline-line { display: none; }
     .cta-container { flex-direction: column; gap: 15px; align-items: center; }
 }
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   9. PREDICTION VIEW ARCHITECTURE LAYOUTS
+   ========================================================================== */
+#prediction-view {
+    width: 100%;
+}
+
+/* Hero Panel Image configuration style */
+.predict-hero {
+    position: relative;
+    background-color: var(--bg-black);
+    display: flex;
+    justify-content: flex-end; /* Pushes meta boxes to page floor */
+    padding-bottom: 40px;
+}
+
+.predict-bg-hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    z-index: 1;
+}
+
+.predict-header-content {
+    z-index: 5;
+    width: 100%;
+    margin-top: 35vh;
+}
+
+.plant-name-title {
+    font-size: 5rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* Metadata pills layout */
+.meta-pills-row {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 40px;
+}
+
+.meta-pill {
+    text-align: center;
+}
+
+.meta-pill .pill-label {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--text-muted);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.meta-pill .pill-value {
+    background-color: rgba(255,255,255,0.25);
+    color: #111;
+    padding: 12px 45px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    backdrop-filter: blur(5px);
+}
+
+/* ==========================================================================
+   10. TOXICITY ENGINE SYSTEM VARIABLES (RED / YELLOW / GREEN)
+   ========================================================================== */
+/* THEME A: HIGH TOXICITY (RED) */
+#prediction-view.tox-high {
+    --theme-glow: rgba(235, 94, 85, 0.5);
+    --theme-border: #eb5e55;
+    --theme-text: #eb5e55;
+    --theme-bg-halo: radial-gradient(circle at center, rgba(235,94,85,0.06) 0%, transparent 70%);
+}
+
+/* THEME B: MEDIUM TOXICITY (YELLOW) */
+#prediction-view.tox-mid {
+    --theme-glow: rgba(243, 198, 35, 0.45);
+    --theme-border: #f3c623;
+    --theme-text: #f3c623;
+    --theme-bg-halo: radial-gradient(circle at center, rgba(243,198,35,0.05) 0%, transparent 70%);
+}
+
+/* THEME C: LOW TOXICITY (GREEN) */
+#prediction-view.tox-low {
+    --theme-glow: rgba(46, 204, 113, 0.45);
+    --theme-border: #2ecc71;
+    --theme-text: #2ecc71;
+    --theme-bg-halo: radial-gradient(circle at center, rgba(46,204,113,0.05) 0%, transparent 70%);
+}
+
+/* ==========================================================================
+   11. DATA BOX DESIGN COMPONENTS
+   ========================================================================== */
+.toxicity-alert-box {
+    border: 2px solid var(--theme-border);
+    box-shadow: 0 0 25px var(--theme-glow);
+    background-color: rgba(15, 15, 15, 0.85);
+    border-radius: 20px;
+    padding: 35px 50px;
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr 2fr;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 25px;
+    transition: all 0.5s ease;
+}
+
+.alert-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.warning-icon {
+    color: var(--theme-text);
+    font-size: 2.8rem;
+}
+
+.alert-center .toxicity-level-text {
+    color: var(--theme-text);
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.alert-center .toxicity-subtext {
+    font-size: 1.2rem;
+    color: #e5e5e5;
+}
+
+.alert-right h3 {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.affected-systems-list {
+    list-style: none;
+    font-size: 1rem;
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.affected-systems-list li::before {
+    content: "• ";
+    color: var(--theme-text);
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+
+.summary-disclaimer-text {
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* Generic Info Box Panel Styles */
+.info-card-box {
+    background-color: #121212;
+    border-radius: 24px;
+    padding: 45px;
+    border: 1px solid #1c1c1c;
+    position: relative;
+}
+
+/* Embeds the smooth peripheral side glows directly onto content containers */
+.info-card-box::after {
+    content: '';
+    position: absolute;
+    top:0; left:0; right:0; bottom:0;
+    border-radius: 24px;
+    box-shadow: 0 0 35px var(--theme-glow);
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+/* Split Column Arrangements */
+.details-split-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 40px;
+    width: 100%;
+}
+
+.left-side-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-side-cards .detail-card {
+    min-height: 250px;
+}
+
+.info-card-box h2, .info-card-box h3 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.info-card-box h2 { font-size: 2.5rem; }
+.info-card-box h3 { font-size: 1.8rem; }
+
+.constituents-list {
+    list-style-position: inside;
+    line-height: 2;
+    color: #dddddd;
+}
+
+/* Scrollable window frame container mimicry */
+.effects-scrollable {
+    max-height: 280px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.effect-heading {
+    color: var(--theme-text);
+    font-size: 1.2rem;
+    margin: 20px 0 10px 0;
+    font-weight: 500;
+}
+
+.effects-list {
+    list-style-position: inside;
+    line-height: 1.8;
+    color: #bbbbbb;
+}
+
+/* Toxic Parts text styling configurations */
+.toxic-parts-wrapper .part-entry {
+    margin-bottom: 30px;
+}
+
+.part-title {
+    color: var(--theme-text) !important;
+    font-size: 1.4rem !important;
+    margin-bottom: 8px !important;
+}
+
+.part-entry p {
+    color: #cccccc;
+    line-height: 1.7;
+}
+
+.danger-banner-note {
+    margin-top: 50px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #e5e5e5;
+    font-weight: 300;
+}
+
+.danger-text-highlight {
+    color: var(--theme-text);
+    font-weight: 600;
+}
+
+/* Safety Section Step Items styling adjustments */
+.safety-card-box {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.safety-steps-list {
+    list-style-position: inside;
+    line-height: 2.2;
+    font-size: 1.1rem;
+    color: #e5e5e5;
+}
+
+/* ==========================================================================
+   12. CAROUSEL & VISUAL MODULE CHIPS
+   ========================================================================== */
+.center-section-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.carousel-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.carousel-arrow {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.carousel-arrow:hover { opacity: 1; }
+
+.mistake-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.mistake-thumb-card {
+    background-color: #121212;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #1c1c1c;
+}
+
+.thumb-img-wrapper {
+    width: 100%;
+    height: 220px;
+    border-radius: 14px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.badge-high { background-color: #eb5e55; color: white; }
+.badge-mid { background-color: #f3c623; color: black; }
+.badge-low { background-color: #2ecc71; color: white; }
+
+.mistake-thumb-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.mistake-thumb-card p {
+    font-size: 0.9rem;
+    color: #999;
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+   13. MEDICINAL USES & EXTRA VISUAL DATA PLOTS
+   ========================================================================== */
+.medicinal-card {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.medicinal-intro {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.uses-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.use-block h3 {
+    color: var(--theme-text);
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.use-block p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.narrow-margin-pill {
+    background-color: rgba(255,255,255,0.08);
+    border-radius: 30px;
+    padding: 12px 30px;
+    display: inline-block;
+    color: #888;
+    font-size: 0.95rem;
+}
+
+.narrow-margin-pill.center-text {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* AI Image Feature Attentions Grid Component Section */
+.panel-section-headline {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.analysis-card-box, .emergency-card-box {
+    width: 100%;
+}
+
+.analysis-subtitle, .center-box-sub-title {
+    font-size: 1.5rem !important;
+    text-align: center;
+    color: #888;
+    margin-bottom: 45px !important;
+}
+
+.features-text-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.feature-accent-heading {
+    color: var(--theme-text) !important;
+    font-size: 1.3rem !important;
+    margin-bottom: 12px !important;
+}
+
+.features-text-grid p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.feature-images-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.img-square-card .img-holder {
+    width: 100%;
+    height: 200px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.img-square-card p {
+    font-size: 0.95rem;
+    color: #bbb;
+    text-align: center;
+}
+
+/* Emergency Grid configurations layout rules */
+.emergency-three-col-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.emergency-col h4 {
+    color: var(--theme-text);
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.emergency-col ul {
+    list-style-position: inside;
+    line-height: 1.8;
+    color: #ccc;
+}
+
+/* Fixes base layout structure for footer inside prediction engine container view */
+#prediction-view .main-footer {
+    margin-top: 80px;
+}
+

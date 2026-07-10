@@ -1,157 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SILFORD.ai - Herbal Identification Made Easy</title>
-    <link rel="stylesheet" href="designs.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SILFORD.ai - Herbal Identification Made Easy</title>
+        <link rel="stylesheet" href="designs.css">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
 
-    <header class="global-header">
-        <div class="logo">
-            <span class="asterisk">✳</span> SILFORD.ai
-        </div>
-
-        <nav class="nav-links">
-            <!--USES ANCHOR LINKS FOR CLICK-SCROLLING TO RIGHT PANEL-->
-            <a href="#home">Home</a>
-            <a href="#about">About Us</a>
-            <a href="#model">Our Model</a>
-            <a href="#journey">Start Now</a>
-        </nav>
-    </header>
-
-    <section id="home" class="hero-section panel">
-        <div class="hero-content">
-            <h1 class="glow-title">SILFORD<span>.ai</span></h1>
-            <h2 class="subtitle">HERBAL IDENTIFICATION MADE EASY</h2>
-            
-            <p class="hero-description">
-                Nature is full of plants that look remarkably alike, but some harmless herbs have dangerous toxic counterparts. 
-                <span class="highlight-green">Our AI-powered plant identification tool helps you quickly distinguish between safe and potentially toxic plants from a simple photo.</span>
-            </p>
-
-            <div class="cta-container">
-                <button class="btn btn-light-green">
-                    <i class="fa-solid fa-camera"></i> Take a picture
-                </button>
-                <button class="btn btn-dark-green">
-                    <i class="fa-regular fa-file-lines"></i> Upload from local files
-                </button>
-            </div>
-        </div>
-        <div class="leaf-overlay"></div> 
-    </section>
-
-    <section id="about" class="about-section panel">
-        <div class="split-content-left">
-            <div class="text-block">
-                <h2>About Us</h2>
-                <p>Silford arose from a vision. We envisioned a tool that could help people confidently identify plants, reducing the risk of confusing harmless species with toxic lookalikes and making outdoor exploration a little safer.</p>
-                <p>Driven by that vision, we built an AI-powered platform that combines modern machine learning with botanical knowledge to identify plants from a single photograph.</p>
-            </div>
-            <div class="text-block">
-                <h2>Our Mission</h2>
-                <p>Our mission is to empower hikers, gardeners, foragers, students, and nature enthusiasts with accessible technology that supports informed decisions.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="model" class="working-section panel">
-        <h2 class="section-title-center">Our Model & Its Working</h2>
-        
-        <div class="cards-grid">
-            <div class="card c-1">
-                <h3>01. Image Capture</h3>
-                <p>Upload an existing image or take a live photo of the plant.</p>
-            </div>
-            <div class="card c-2">
-                <h3>02. AI Feature Analysis</h3>
-                <p>A Convolutional Neural Network (CNN) with Localized Attention focuses on key visual regions such as leaf shape & stem texture.</p>
-            </div>
-            <div class="card c-3">
-                <h3>03. Safety Assessment</h3>
-                <p>The identified plant is compared with visually similar toxic and non-toxic relatives, helping users avoid dangerous misidentifications.</p>
-            </div>
-            <div class="card c-4">
-                <h3>04. Detailed Results</h3>
-                <p>Each prediction shows a detailed result with plant name, close toxic relatives, key features, & more.</p>
-            </div>
-        </div>
-        <div class="neuron-overlay"></div> 
-    </section>
-
-    <section id="journey" class="journey-section panel">
-        <div class="journey-content">
-            <h2>No matter who you are,</h2>
-            <p class="subheading">Find tailored herbal insights for your field.</p>
-            
-            <div class="timeline-container">
-                <div class="timeline-line"></div>
-                <div class="circle-node"><span>Student</span></div>
-                <div class="circle-node"><span>Botanist</span></div>
-                <div class="circle-node"><span>Researcher</span></div>
-                <div class="circle-node"><span>Herbalist</span></div>
-                <div class="circle-node"><span>Explorer</span></div>
+        <header class="global-header">
+            <div class="logo">
+                <span class="asterisk">✳</span> SILFORD.ai
             </div>
 
-            <div class="journey-footer-text">
-                <h3>Start your worry-free herbal journey today.</h3>
-            </div>
-        </div>
-    </section>
+            <nav class="nav-links">
+                <!--USES ANCHOR LINKS FOR CLICK-SCROLLING TO RIGHT PANEL-->
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#model">Our Model</a>
+                <a href="#journey">Start Now</a>
+            </nav>
+        </header>
 
-    <section class="footer-section panel">
-        <div class="pre-footer-cta">
-            <p>Every staircase is climbed by taking that first step. Let us be that first step.</p>
-            <h3>Start at Silford.</h3>
-            
-            <div class="cta-container central">
-                <button class="btn btn-light-green">
-                    <i class="fa-solid fa-camera"></i> Take a picture
-                </button>
-                <button class="btn btn-dark-green">
-                    <i class="fa-regular fa-file-lines"></i> Upload from local files
-                </button>
-            </div>
-        </div>
+        <div id="landing-view" style="display: none;">
+            <section id="home" class="hero-section panel">
+                <div class="hero-content">
+                    <h1 class="glow-title">SILFORD<span>.ai</span></h1>
+                    <h2 class="subtitle">HERBAL IDENTIFICATION MADE EASY</h2>
+                    
+                    <p class="hero-description">
+                        Nature is full of plants that look remarkably alike, but some harmless herbs have dangerous toxic counterparts. 
+                        <span class="highlight-green">Our AI-powered plant identification tool helps you quickly distinguish between safe and potentially toxic plants from a simple photo.</span>
+                    </p>
 
-        <footer class="main-footer">
-            <div class="footer-brand">
-                <h2 class="footer-logo">SILFORD<span>.ai</span></h2>
-            </div>
-            
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4>DISCLAIMER:</h4>
-                    <p>AI identifications are estimates and may not always be accurate. Never consume a plant based solely on AI identification. Always verify with a qualified botanist or trusted field guide before using any plant for medicinal or culinary purposes.</p>
+                    <div class="cta-container">
+                        <button class="btn btn-light-green">
+                            <i class="fa-solid fa-camera"></i> Take a picture
+                        </button>
+                        <button class="btn btn-dark-green">
+                            <i class="fa-regular fa-file-lines"></i> Upload from local files
+                        </button>
+                    </div>
                 </div>
+                <div class="leaf-overlay"></div> 
+            </section>
+
+            <section id="about" class="about-section panel">
+                <div class="split-content-left">
+                    <div class="text-block">
+                        <h2>About Us</h2>
+                        <p>Silford arose from a vision. We envisioned a tool that could help people confidently identify plants, reducing the risk of confusing harmless species with toxic lookalikes and making outdoor exploration a little safer.</p>
+                        <p>Driven by that vision, we built an AI-powered platform that combines modern machine learning with botanical knowledge to identify plants from a single photograph.</p>
+                    </div>
+                    <div class="text-block">
+                        <h2>Our Mission</h2>
+                        <p>Our mission is to empower hikers, gardeners, foragers, students, and nature enthusiasts with accessible technology that supports informed decisions.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="model" class="working-section panel">
+                <h2 class="section-title-center">Our Model & Its Working</h2>
                 
-                <div class="footer-col">
-                    <h4>CONTACT US:</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Email</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">LinkedIn</a></li>
-                        <li><a href="#">X/Twitter</a></li>
+                <div class="cards-grid">
+                    <div class="card c-1">
+                        <h3>01. Image Capture</h3>
+                        <p>Upload an existing image or take a live photo of the plant.</p>
+                    </div>
+                    <div class="card c-2">
+                        <h3>02. AI Feature Analysis</h3>
+                        <p>A Convolutional Neural Network (CNN) with Localized Attention focuses on key visual regions such as leaf shape & stem texture.</p>
+                    </div>
+                    <div class="card c-3">
+                        <h3>03. Safety Assessment</h3>
+                        <p>The identified plant is compared with visually similar toxic and non-toxic relatives, helping users avoid dangerous misidentifications.</p>
+                    </div>
+                    <div class="card c-4">
+                        <h3>04. Detailed Results</h3>
+                        <p>Each prediction shows a detailed result with plant name, close toxic relatives, key features, & more.</p>
+                    </div>
+                </div>
+                <div class="neuron-overlay"></div> 
+            </section>
+
+            <section id="journey" class="journey-section panel">
+                <div class="journey-content">
+                    <h2>No matter who you are,</h2>
+                    <p class="subheading">Find tailored herbal insights for your field.</p>
+                    
+                    <div class="timeline-container">
+                        <div class="timeline-line"></div>
+                        <div class="circle-node"><span>Student</span></div>
+                        <div class="circle-node"><span>Botanist</span></div>
+                        <div class="circle-node"><span>Researcher</span></div>
+                        <div class="circle-node"><span>Herbalist</span></div>
+                        <div class="circle-node"><span>Explorer</span></div>
+                    </div>
+
+                    <div class="journey-footer-text">
+                        <h3>Start your worry-free herbal journey today.</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer-section panel">
+                <div class="pre-footer-cta">
+                    <p>Every staircase is climbed by taking that first step. Let us be that first step.</p>
+                    <h3>Start at Silford.</h3>
+                    
+                    <div class="cta-container central">
+                        <button class="btn btn-light-green">
+                            <i class="fa-solid fa-camera"></i> Take a picture
+                        </button>
+                        <button class="btn btn-dark-green">
+                            <i class="fa-regular fa-file-lines"></i> Upload from local files
+                        </button>
+                    </div>
+                </div>
+
+                <footer class="main-footer">
+                    <div class="footer-brand">
+                        <h2 class="footer-logo">SILFORD<span>.ai</span></h2>
+                    </div>
+                    
+                    <div class="footer-grid">
+                        <div class="footer-col">
+                            <h4>DISCLAIMER:</h4>
+                            <p>AI identifications are estimates and may not always be accurate. Never consume a plant based solely on AI identification. Always verify with a qualified botanist or trusted field guide before using any plant for medicinal or culinary purposes.</p>
+                        </div>
+                        
+                        <div class="footer-col">
+                            <h4>CONTACT US:</h4>
+                            <ul class="footer-links">
+                                <li><a href="#">Email</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">LinkedIn</a></li>
+                                <li><a href="#">X/Twitter</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col">
+                            <h4>ABOUT THE SITE:</h4>
+                            <p>This website is owned and operated by Silford. We are dedicated to combining AI technology with botanical knowledge to help users identify herbs and learn about their traditional uses. Our platform is intended for educational and informational purposes.</p>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </div>
+
+        <div id="prediction-view" class="tox-high">
+
+            <section class="panel predict-hero">
+                <div class="predict-bg-hero" style="background-image: linear-gradient(to bottom, rgba(5,5,5,0.2), #050505), url('https://images.unsplash.com/photo-1508747703725-719777637510?q=80&w=1200&auto=format&fit=crop');"></div>
+                
+                <div class="predict-header-content">
+                    <h1 class="plant-name-title">FOXGLOVE</h1>
+                    
+                    <div class="meta-pills-row">
+                        <div class="meta-pill">
+                            <span class="pill-label">Scientific name:</span>
+                            <div class="pill-value plant-scientific">Digitalis Purpurea</div>
+                        </div>
+                        <div class="meta-pill">
+                            <span class="pill-label">Family name:</span>
+                            <div class="pill-value plant-family">Plantaginaceae</div>
+                        </div>
+                    </div>
+
+                    <div class="toxicity-alert-box">
+                        <div class="alert-left">
+                            <i class="fa-solid fa-triangle-exclamation warning-icon"></i>
+                            <span class="toxicity-keyword">TOXICITY:</span>
+                        </div>
+                        <div class="alert-center">
+                            <h2 class="toxicity-level-text">Highly Toxic.</h2>
+                            <p class="toxicity-subtext">Potentially fatal</p>
+                        </div>
+                        <div class="alert-right">
+                            <h3>SYSTEMS AFFECTED:</h3>
+                            <ul class="affected-systems-list">
+                                <li>Cardiovascular/ Circulatory system</li>
+                                <li>Nervous system</li>
+                                <li>Digestive system</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="summary-disclaimer-text">Not to be ingested or touched; all parts are highly toxic and can lead to severe poisoning.</p>
+                </div>
+            </section>
+
+            <section class="panel predict-details">
+                <div class="details-split-layout">
+                    
+                    <div class="left-side-cards">
+                        <div class="detail-card info-card-box">
+                            <h3>Key Constituents:</h3>
+                            <ul class="constituents-list">
+                                <li>Digoxin (Cardiac glycoside)</li>
+                                <li>Digitoxin (Cardiac glycoside)</li>
+                                <li>Digitalin</li>
+                                <li>Gitoxin (Glycoside)</li>
+                                <li>Gitaloxin (Glycoside)</li>
+                                <li>Flavonoids</li>
+                                <li>Saponins</li>
+                                <li>Anthraquinones</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-card info-card-box">
+                            <h3>Effects on body:</h3>
+                            <div class="effects-scrollable">
+                                <h4 class="effect-heading">Gastrointestinal Effects</h4>
+                                <ul class="effects-list">
+                                    <li><strong>Severe Nausea</strong> and intense feeling of sickness.</li>
+                                    <li><strong>Violent Vomiting</strong> that resists standard medication.</li>
+                                    <li><strong>Abdominal Pain</strong> and severe cramping.</li>
+                                </ul>
+                                <h4 class="effect-heading">Cardiovascular Effects</h4>
+                                <ul class="effects-list">
+                                    <li><strong>Extreme Bradycardia</strong> where pulse drops dangerously low.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-side-main info-card-box large-box">
+                        <h2>Toxic Parts:</h2>
+                        <div class="toxic-parts-wrapper">
+                            <div class="part-entry">
+                                <h3 class="part-title">Leaves</h3>
+                                <p>Contain the highest concentration of toxins, primarily <strong>digitoxin, digoxin</strong>, and <strong>gitaloxin</strong>.</p>
+                            </div>
+                            <div class="part-entry">
+                                <h3 class="part-title">Seeds</h3>
+                                <p>Highly concentrated with <strong>digitalin</strong> and other active glycosides, can be absorbed through skin.</p>
+                            </div>
+                            <div class="part-entry">
+                                <h3 class="part-title">Flowers & Buds</h3>
+                                <p>Contain significant amounts of <strong>gitoxin</strong> and <strong>digitoxin</strong>, along with toxic saponins.</p>
+                            </div>
+                        </div>
+
+                        <div class="danger-banner-note">
+                            All parts of the foxglove plant <em>(Digitalis purpurea)</em> are <span class="danger-text-highlight">highly toxic</span> and potentially fatal if ingested or handled improperly.
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="panel safety-panel">
+                <div class="safety-card-box info-card-box">
+                    <h2>Handling safety:</h2>
+                    <ul class="safety-steps-list">
+                        <li><strong>Wear protective clothing</strong> to avoid skin contact with sap.</li>
+                        <li>Use <strong>thick rubber</strong> or gardening gloves that are <strong>waterproof</strong>.</li>
+                        <li>Protect face, nose, and mouth while handling the plant. <strong>Do not touch face.</strong></li>
+                        <li><strong>Always wash hands, forearms</strong> thoroughly with soap after handling.</li>
+                        <li><strong>Do not burn</strong> any part of the plant. Can lead to respiratory poisoning.</li>
                     </ul>
                 </div>
+            </section>
 
-                <div class="footer-col">
-                    <h4>ABOUT THE SITE:</h4>
-                    <p>This website is owned and operated by Silford. We are dedicated to combining AI technology with botanical knowledge to help users identify herbs and learn about their traditional uses. Our platform is intended for educational and informational purposes.</p>
+            <section class="panel mistakes-panel">
+                <h2 class="center-section-title">Commonly mistaken for:</h2>
+                
+                <div class="carousel-cards-container">
+                    <button class="carousel-arrow left-arrow"><i class="fa-solid fa-chevron-left"></i></button>
+                    
+                    <div class="mistake-grid-wrapper">
+                        <div class="mistake-thumb-card">
+                            <div class="thumb-img-wrapper" style="background-image: url('https://images.unsplash.com/photo-1560717789-0ac7c58ac90a?q=80&w=400&auto=format&fit=crop');">
+                                <span class="badge badge-high">Highly Toxic</span>
+                            </div>
+                            <h3>Delphinium</h3>
+                            <p>Spurred, five-petaled flowers instead of foxglove's specked bells.</p>
+                        </div>
+                        <div class="mistake-thumb-card">
+                            <div class="thumb-img-wrapper" style="background-image: url('https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=400&auto=format&fit=crop');">
+                                <span class="badge badge-low">Not Toxic</span>
+                            </div>
+                            <h3>Penstemon</h3>
+                            <p>Has smaller, narrower open-mouthed tubes in airy clusters.</p>
+                        </div>
+                        <div class="mistake-thumb-card">
+                            <div class="thumb-img-wrapper" style="background-image: url('https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=400&auto=format&fit=crop');">
+                                <span class="badge badge-mid">Mildly Toxic</span>
+                            </div>
+                            <h3>Lupine</h3>
+                            <p>Winged, pea-like flowers forming a stiff, pointed cone.</p>
+                        </div>
+                    </div>
+
+                    <button class="carousel-arrow right-arrow"><i class="fa-solid fa-chevron-right"></i></button>
                 </div>
-            </div>
-        </footer>
-    </section>
+            </section>
 
-</body>
-<script src="functions.js"></script>
+            <section class="panel medicinal-panel">
+                <div class="medicinal-card info-card-box">
+                    <h2>Medicinal uses:</h2>
+                    <p class="medicinal-intro">In modern medicine, raw plant is <strong>never used directly</strong> due to its extreme toxicity. Instead, pharmaceutical companies extract specific chemicals from the plant for use.</p>
+                    
+                    <div class="uses-columns">
+                        <div class="use-block">
+                            <h3>Congestive Heart Failure (CHF)</h3>
+                            <p><strong>Digoxin</strong> is prescribed to manage symptoms in patients with mild-to-moderate heart failure.</p>
+                        </div>
+                        <div class="use-block">
+                            <h3>Atrial Fibrillation and Flutter</h3>
+                            <p>It is used for ventricular rate control in patients with chronic atrial fibrillation. It stabilizes the heart.</p>
+                        </div>
+                    </div>
+
+                    <div class="narrow-margin-pill">
+                        Note: There is a very narrow difference between medicinal doses and toxic doses.
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel feature-analysis-panel">
+                <h2 class="panel-section-headline">Model's working</h2>
+                
+                <div class="analysis-card-box info-card-box">
+                    <h3 class="analysis-subtitle">Features identified by the model</h3>
+                    
+                    <div class="features-text-grid">
+                        <div>
+                            <h4 class="feature-accent-heading">Shape</h4>
+                            <p>Tubular, elongated bells or "thimbles" that dangle downward.</p>
+                        </div>
+                        <div>
+                            <h4 class="feature-accent-heading">Color</h4>
+                            <p>Most commonly vibrant pink, lavender, or purple variants.</p>
+                        </div>
+                        <div>
+                            <h4 class="feature-accent-heading">Stem and Stature</h4>
+                            <p>The flower stalk is tall, reaching anywhere from 3 to 6 feet.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-images-row">
+                        <div class="img-square-card">
+                            <div class="img-holder" style="background-image: url('https://images.unsplash.com/photo-1516211697506-8360bd7934b0?q=80&w=300');"></div>
+                            <p>Hairy, erect and sturdy stem</p>
+                        </div>
+                        <div class="img-square-card">
+                            <div class="img-holder" style="background-image: url('https://images.unsplash.com/photo-1508747703725-719777637510?q=80&w=300');"></div>
+                            <p>Spotted bell like flowers in several colors</p>
+                        </div>
+                        <div class="img-square-card">
+                            <div class="img-holder" style="background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=300');"></div>
+                            <p>Downward bended flowers in clusters</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel emergency-panel">
+                <h2 class="panel-section-headline">In case of contact</h2>
+                
+                <div class="emergency-card-box info-card-box">
+                    <h3 class="center-box-sub-title">In case of contact with plant</h3>
+                    
+                    <div class="emergency-three-col-layout">
+                        <div class="emergency-col">
+                            <h4>If Ingested</h4>
+                            <ul>
+                                <li><strong>Call emergency services immediately.</strong></li>
+                                <li>Do not induce vomiting unless instructed.</li>
+                                <li>Wipe the mouth clean with a wet cloth.</li>
+                            </ul>
+                        </div>
+                        <div class="emergency-col">
+                            <h4>If touched</h4>
+                            <ul>
+                                <li><strong>Wash skin immediately</strong> with plenty of soap.</li>
+                                <li>Scrub under fingernails to remove residue.</li>
+                                <li>Lunder all clothing that contacted plant.</li>
+                            </ul>
+                        </div>
+                        <div class="emergency-col">
+                            <h4>If Ingested by pets</h4>
+                            <ul>
+                                <li><strong>Call a vet immediately</strong> or contact emergency.</li>
+                                <li>Do not induce vomiting unless verified.</li>
+                                <li>Remove plant pieces gently from mouth.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="narrow-margin-pill center-text">
+                        If contact is suspected or symptoms appear, seek medical care immediately.
+                    </div>
+                </div>
+            </section>
+
+            <footer class="main-footer">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">SILFORD<span>.ai</span></h2>
+                </div>
+                
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h4>DISCLAIMER:</h4>
+                        <p>AI identifications are estimates and may not always be accurate. Never consume a plant based solely on AI identification. Always verify with a qualified botanist or trusted field guide before using any plant for medicinal or culinary purposes.</p>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>CONTACT US:</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">X/Twitter</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>ABOUT THE SITE:</h4>
+                        <p>This website is owned and operated by Silford. We are dedicated to combining AI technology with botanical knowledge to help users identify herbs and learn about their traditional uses. Our platform is intended for educational and informational purposes.</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+
+
+
+    </body>
+    <script src="functions.js"></script>
 </html>
