@@ -902,7 +902,7 @@ html {
 .carousel-arrow:hover { opacity: 1; }
 
 .mistake-grid-wrapper {
-    overflow:scroll; /*MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN*/
+    overflow:hidden; /*MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN MAKE THIS HIDDEN*/
     width: 100%;
     max-width: 1500px;
     padding-left: 0.5rem;
@@ -942,11 +942,19 @@ html {
     border-radius: 20px;
     padding: 20px;
     border: 0.5px solid #5e5e5e;
-    
+
     background-size: cover;
     background-position: center;
     height: 370px;
     /* background-image: linear-gradient(to bottom, rgba(5,5,5,0.3)); */
+
+    transition:
+        box-shadow 0.3s ease,
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+.mistake-thumb-card:hover{
+    box-shadow: 0 0px 20px rgba(179, 179, 179, 0.5);
 }
 
 
