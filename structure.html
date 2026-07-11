@@ -14,21 +14,22 @@
     </head>
     <body>
 
-        <header class="global-header">
-            <div class="logo">
-                <span class="asterisk">✳</span> SILFORD.ai
-            </div>
-
-            <nav class="nav-links">
-                <!--USES ANCHOR LINKS FOR CLICK-SCROLLING TO RIGHT PANEL-->
-                <a href="#home">Home</a>
-                <a href="#about">About Us</a>
-                <a href="#model">Our Model</a>
-                <a href="#journey">Start Now</a>
-            </nav>
-        </header>
 
         <div id="landing-view" style="display: none;">
+            <header class="global-header">
+                <div class="logo">
+                    <span class="asterisk">✳</span> SILFORD.ai
+                </div>
+
+                <nav class="nav-links">
+                    <!--USES ANCHOR LINKS FOR CLICK-SCROLLING TO RIGHT PANEL-->
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#model">Our Model</a>
+                    <a href="#journey">Start Now</a>
+                </nav>
+            </header>
+
             <section id="home" class="hero-section panel">
                 <div class="hero-content">
                     <h1 class="glow-title">SILFORD<span>.ai</span></h1>
@@ -155,9 +156,24 @@
         </div>
 
         <div id="prediction-view" class="tox-high">
+            <header class="global-header">
+                <div class="logo">
+                    <span class="asterisk">✳</span> SILFORD.ai
+                </div>
 
-            <section class="panel predict-hero">
-                <div class="predict-bg-hero"></div>
+                <nav class="nav-links">
+                    <!--USES ANCHOR LINKS FOR CLICK-SCROLLING TO RIGHT PANEL-->
+                    <a href="#predict-hero">Prediction</a>
+                    <a href="#predict-details">About the Plant</a>
+                    <a href="#mistakes-panel">Common Mistakes</a>
+                    <a href="#medicinal-panel">Medicinal Uses</a>
+                    <a href="#feature-analysis-panel">Features Detected</a>
+                    <a href="#emergency-panel">Emergency</a>
+                </nav>
+            </header>
+
+            <section class="panel predict-hero" id="predict-hero">
+                <div class="predict-bg-hero" ></div>
                 
                 <div class="predict-header-content">
                     <h1 class="plant-name-title">FOXGLOVE</h1>
@@ -196,7 +212,7 @@
                 </div>
             </section>
 
-            <section class="panel predict-details">
+            <section class="panel predict-details" id="predict-details">
                 <div class="details-split-layout">
                     
                     <div class="left-side-cards">
@@ -273,7 +289,7 @@
             </section>
 
 
-            <section class="panel mistakes-panel">
+            <section class="panel mistakes-panel" id="mistakes-panel">
                 <h2 class="center-section-title">Commonly mistaken for:</h2>
                 
                 <div class="carousel-cards-container">
@@ -316,7 +332,7 @@
                 </div>
             </section>
 
-            <section class="panel medicinal-panel">
+            <section class="panel medicinal-panel" id="medicinal-panel">
                 <div class="medicinal-card info-card-box">
                     <h2>Medicinal uses:</h2>
                     <p class="medicinal-intro">In modern medicine, raw plant is <strong>never used directly</strong> due to its extreme toxicity. Instead, pharmaceutical companies extract specific chemicals from the plant for use.</p>
@@ -338,7 +354,7 @@
                 </div>
             </section>
 
-            <section class="panel feature-analysis-panel">
+            <section class="panel feature-analysis-panel" id="feature-analysis-panel">
                 <h2 class="panel-section-headline">Model's working</h2>
                 
                 <div class="analysis-card-box info-card-box">
@@ -376,7 +392,7 @@
                 </div>
             </section>
 
-            <section class="panel emergency-panel">
+            <section class="panel emergency-panel" id="emergency-panel">
                 <h2 class="panel-section-headline">In case of contact</h2>
                 
                 <div class="emergency-card-box info-card-box">
