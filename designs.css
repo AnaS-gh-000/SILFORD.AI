@@ -1054,26 +1054,34 @@ html {
 
 .analysis-card-box, .emergency-card-box {
     width: 100%;
+    min-height: 40vh;
+    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .analysis-subtitle, .center-box-sub-title {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
     text-align: center;
-    color: #888;
-    margin-bottom: 45px !important;
+    color: #ababab;
+    margin-bottom: 40px !important;
 }
 
 .features-text-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 40px;
-    margin-bottom: 50px;
 }
 
 .feature-accent-heading {
     color: var(--theme-text) !important;
     font-size: 1.3rem !important;
     margin-bottom: 12px !important;
+    font-weight: 400;
+}
+
+.feature-box{
+    flex: 1;
+    min-width: 300px;
 }
 
 .features-text-grid p {
@@ -1082,13 +1090,18 @@ html {
 }
 
 .feature-images-row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content:space-evenly;
     gap: 30px;
+    margin-bottom: 30px;
+}
+
+.img-square-card{
+    width: 200px;
 }
 
 .img-square-card .img-holder {
-    width: 100%;
+    width: 200px;
     height: 200px;
     border-radius: 16px;
     background-size: cover;
@@ -1104,9 +1117,14 @@ html {
 
 /* Emergency Grid configurations layout rules */
 .emergency-three-col-layout {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 40px;
+}
+
+.emergency-col{
+    flex: 1;
+    min-width: 300px;
 }
 
 .emergency-col h4 {
@@ -1117,8 +1135,8 @@ html {
 }
 
 .emergency-col ul {
-    list-style-position: inside;
-    line-height: 1.8;
+    list-style-position: outside;
+    line-height: 1.9;
     color: #ccc;
 }
 
