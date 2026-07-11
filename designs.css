@@ -993,8 +993,9 @@ html {
    ========================================================================== */
 .medicinal-card {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
+    min-height: 65vh;
 }
 
 .medicinal-intro {
@@ -1005,10 +1006,15 @@ html {
 }
 
 .uses-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     margin-bottom: 40px;
+}
+
+.use-block{
+    flex:1;
+    min-width: 300px;
 }
 
 .use-block h3 {
@@ -1036,6 +1042,8 @@ html {
     text-align: center;
     margin-top: 40px;
 }
+
+
 
 /* AI Image Feature Attentions Grid Component Section */
 .panel-section-headline {
