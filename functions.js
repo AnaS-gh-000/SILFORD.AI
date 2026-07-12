@@ -11,7 +11,7 @@ document.querySelectorAll(".mistake-thumb-card").forEach(card => {
     `;
 });
 
-//FOR APPLYING BACKGROUND IMAGE DYNAMICALLY TO ALL CARDS IN `COMMONLY MISTAKEN FOR` SECTION
+//FOR APPLYING BACKGROUND IMAGE DYNAMICALLY TO ALL CARDS IN `FEATURES IDENTIFIED BY MODEL` SECTION
 document.querySelectorAll(".img-holder").forEach(card => {
     card.style.backgroundImage = `
         url('${card.dataset.image}')
