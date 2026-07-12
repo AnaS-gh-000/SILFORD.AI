@@ -470,6 +470,15 @@ html {
 /* Green Blocks base Container wrapper */
 .main-footer {
     background-color: #081c0e;
+    border-top: 1px solid #14331c;
+    width: 100vw;
+    margin-left: -9.6%;
+    padding: 60px 8% 50px 8%;
+    scroll-snap-align: end;
+}
+
+.main-footer2{
+    background-color: #081c0e;
     width: 100%;
     margin-left: 0;
     padding: 60px 8% 50px;
