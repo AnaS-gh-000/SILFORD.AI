@@ -1156,3 +1156,42 @@ html {
     margin-top: 80px;
 }
 
+
+/* ==========================================================================
+   14. Not a plant section display
+   ========================================================================== */
+
+.not-a-plant::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.107) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.089) 1px, transparent 1px);
+
+    background-size: 40px 40px;
+
+    opacity: .5;
+}
+
+.not-a-plant{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.not-plant-title{
+    margin: 30px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.not-a-plant-box p{
+    margin: 30px;
+    text-align: center;
+}
