@@ -200,9 +200,8 @@ imageInput.addEventListener("change", () => {
 
         formData.append("image", file);
 
-        // const API_URL = "https://your-backend-url.com";
-        // fetch(`${API_URL}/predict`, {-------------------------------------------------------------------------------------------------
-        fetch("http://127.0.0.1:5000/predict", {
+        const API_URL = "https://anas-gh-000.github.io/SILFORD.AI/";
+        fetch(`${API_URL}/predict`, {
 
             method: "POST",
 
