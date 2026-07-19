@@ -34,7 +34,16 @@ imageInput.addEventListener("change", () => {
     const file = imageInput.files[0];
 
     if(file){
-        console.log("Selected:", file.name);
+        const formData = new FormData();
+
+        formData.append("image", file);
+
+        fetch("http://127.0.0.1:5000/predict", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {console.log(data);});
     }
 });
 
