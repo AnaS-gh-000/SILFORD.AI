@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SILFORD.ai - Herbal Identification Made Easy</title>
         <link rel="stylesheet" href="designs.css">
-        
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -40,11 +40,15 @@
                     </p>
 
                     <div class="cta-container">
-                        <button class="btn btn-light-green">
+                        <button type="button" class="btn btn-light-green">
                             <i class="fa-solid fa-camera"></i> Take a picture
                         </button>
-                        <button class="btn btn-dark-green upload-btn">
-                            <i class="fa-regular fa-file-lines"></i> Upload from local files
+                        <button 
+                            type="button" 
+                            class="btn btn-dark-green upload-btn">
+
+                            <i class="fa-regular fa-file-lines"></i>
+                            Upload from local files
                         </button>
                         
                     </div>
@@ -116,12 +120,16 @@
                     <h3>Start at Silford.</h3>
                     
                     <div class="cta-container central">
-                        <button class="btn btn-light-green">
+                        <button type="button"  class="btn btn-light-green">
                             <i class="fa-solid fa-camera"></i> Take a picture
                         </button>
-                        <button class="btn btn-dark-green">
-                            <i class="fa-regular fa-file-lines  upload-btn"></i> Upload from local files
-                        </button>
+                        <button 
+                            type="button" 
+                            class="btn btn-dark-green upload-btn">
+
+                            <i class="fa-regular fa-file-lines"></i>
+                            Upload from local files
+                        </button>                       
                     </div>
                 </div>
 
@@ -293,7 +301,7 @@
                 <h2 class="center-section-title">Commonly mistaken for:</h2>
                 
                 <div class="carousel-cards-container">
-                    <button class="carousel-arrow left-arrow"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button type="button"  class="carousel-arrow left-arrow"><i class="fa-solid fa-chevron-left"></i></button>
                     
                     <div class="mistake-grid-wrapper">
                         <div class="mistake-track">
@@ -328,7 +336,7 @@
                         </div>
                     </div>
 
-                    <button class="carousel-arrow right-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+                    <button type="button"  class="carousel-arrow right-arrow"><i class="fa-solid fa-chevron-right"></i></button>
                 </div>
             </section>
 
@@ -487,11 +495,15 @@
                 <p>Please upload the image of a plant again.</p>
 
                 <div class="cta-container central">
-                    <button class="btn btn-light-green">
+                    <button type="button"  class="btn btn-light-green">
                         <i class="fa-solid fa-camera"></i> Take a picture
                     </button>
-                    <button class="btn btn-dark-green">
-                        <i class="fa-regular fa-file-lines upload-btn"></i> Upload from local files
+                    <button 
+                        type="button" 
+                        class="btn btn-dark-green upload-btn">
+
+                        <i class="fa-regular fa-file-lines"></i>
+                        Upload from local files
                     </button>
                 </div>
             </div>
@@ -499,8 +511,14 @@
 
 
 
-
+        <input 
+        type="file" 
+        id="image-upload" 
+        accept="image/*"
+        style="display:none;">
+        
+        <script src="functions.js"></script>
     </body>
-    <input type="file" id="image-upload" accept="image/*" hidden>
-    <script src="functions.js"></script>
+    
+    
 </html>
