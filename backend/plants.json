@@ -1,5 +1,6 @@
 {
-    "foxglove": {
+    "Foxglove": {
+        "hero_image":"foxglove-pic.jpg",
         "common_name": "Foxglove",
         "scientific_name": "Digitalis purpurea",
         "family_name": "Plantaginaceae",
@@ -27,7 +28,7 @@
         ],
 
         "effects": {
-            "gastrointestinal": [
+            "Gastrointestinal": [
                 {
                     "name": "Severe Nausea",
                     "description": "Intense feeling of sickness."
@@ -42,7 +43,7 @@
                 }
             ],
 
-            "cardiovascular": [
+            "Cardiovascular": [
                 {
                     "name": "Extreme Bradycardia",
                     "description": "Pulse may drop dangerously low."
@@ -86,11 +87,11 @@
                 "name": "Delphinium",
                 "toxicity": "Highly Toxic",
                 "description": "Has spurred flowers rather than foxglove's spotted bell-shaped flowers.",
-                "image": "delphinium-1.jpg"
+                "image": "delphidium-1.jpg"
             },
             {
                 "name": "Penstemon",
-                "toxicity": "Not Toxic",
+                "toxicity": "Low Toxicity",
                 "description": "Has smaller tubular flowers arranged in airy clusters.",
                 "image": "penstemon-1.jpg"
             },
@@ -120,12 +121,12 @@
         ],
 
         "features_detected": {
-            "shape": "Tubular, elongated bell-shaped flowers hanging downward.",
-            "color": "Pink, lavender, purple, white, cream, or peach flowers.",
-            "stem": "Tall erect hairy stem reaching approximately 3 to 6 feet.",
-            "arrangement": "Flowers arranged on one side of a tall unbranched spike.",
-            "interior_speckles": "Dark purple or burgundy spotted patterns inside flowers.",
-            "leaves": "Crinkled, textured leaves covered with soft hairs and serrated edges."
+            "Shape": "Tubular, elongated bell-shaped flowers hanging downward.",
+            "Color": "Pink, lavender, purple, white, cream, or peach flowers.",
+            "Stem": "Tall erect hairy stem reaching approximately 3 to 6 feet.",
+            "Arrangement": "Flowers arranged on one side of a tall unbranched spike.",
+            "Interior_speckles": "Dark purple or burgundy spotted patterns inside flowers.",
+            "Leaves": "Crinkled, textured leaves covered with soft hairs and serrated edges."
         },
 
         "feature_images": [
@@ -165,13 +166,14 @@
         }
     },
     
-    "wolfsbane": {
+    "Wolfsbane": {
+        "hero_image":"wolfsbane-1.jpg",
         "common_name": "Wolfsbane",
         "scientific_name": "Aconitum napellus",
         "family_name": "Ranunculaceae",
 
         "toxicity": {
-            "level": "Extremely Toxic",
+            "level": "Highly Toxic",
             "severity": "Potentially fatal",
             "systems_affected": [
                 "Nervous system",
@@ -179,7 +181,7 @@
                 "Digestive system",
                 "Respiratory system"
             ],
-            "summary_warning": "All parts of the plant are highly poisonous. Even small amounts can cause severe poisoning, dangerous heart rhythm disturbances, paralysis, and death."
+            "summary_warning": "All parts of the plant are highly poisonous. Even small amounts can cause severe poisoning, dangerous heart rhythm, paralysis, and death."
         },
 
         "key_constituents": [
@@ -193,7 +195,7 @@
         ],
 
         "effects": {
-            "neurological": [
+            "Neurological": [
                 {
                     "name": "Tingling and Numbness",
                     "description": "Early symptoms often include burning, tingling, or loss of sensation around the mouth, face, and limbs."
@@ -208,7 +210,7 @@
                 }
             ],
 
-            "cardiovascular": [
+            "Cardiovascular": [
                 {
                     "name": "Dangerous Arrhythmias",
                     "description": "Aconitine can disrupt electrical signaling in the heart, causing irregular and potentially fatal rhythms."
@@ -223,7 +225,7 @@
                 }
             ],
 
-            "gastrointestinal": [
+            "Gastrointestinal": [
                 {
                     "name": "Nausea and Vomiting",
                     "description": "Common early signs following ingestion."
@@ -269,13 +271,13 @@
         "commonly_mistaken_for": [
             {
                 "name": "Delphinium",
-                "toxicity": "Toxic",
-                "description": "Similar tall flower spikes, but delphinium flowers usually have more open arrangements and longer spurs.",
-                "image": "delphinium-1.jpg"
+                "toxicity": "Highly Toxic",
+                "description": "Similar tall flower spikes, but flowers often have more open arrangements and longer spurs.",
+                "image": "delphidium-1.jpg"
             },
             {
                 "name": "Larkspur",
-                "toxicity": "Toxic",
+                "toxicity": "Highly Toxic",
                 "description": "Has similar blue-purple flowers and tall spikes but generally differs in flower structure and leaf shape.",
                 "image": "larkspur-1.jpg"
             },
@@ -299,29 +301,29 @@
         ],
 
         "features_detected": {
-            "shape": "Tall upright plant with distinctive helmet-shaped or hooded flowers.",
-            "color": "Usually deep blue or violet, but can also appear white, pink, or yellow.",
-            "stem": "Tall rigid flowering stem often reaching approximately 2 to 6 feet.",
-            "arrangement": "Flowers arranged along tall spikes or clusters.",
-            "flower_structure": "Upper petal forms a curved hood resembling a monk's cowl or helmet.",
-            "leaves": "Deeply divided, palmate leaves resembling maple leaves with narrow lobes."
+            "Shape": "Tall upright plant with distinctive helmet-shaped or hooded flowers.",
+            "Color": "Usually deep blue or violet, but can also appear white, pink, or yellow.",
+            "Stem": "Tall rigid flowering stem often reaching approximately 2 to 6 feet.",
+            "Arrangement": "Flowers arranged along tall spikes or clusters.",
+            "Flower_structure": "Upper petal forms a curved hood resembling a monk's cowl or helmet.",
+            "Leaves": "Deeply divided, palmate leaves resembling maple leaves with narrow lobes."
         },
 
         "feature_images": [
             {
-                "image": "wolfsbane-stem.jpg",
+                "image": "wolfsbane-stem-1.jpg",
                 "caption": "Tall upright flowering stem"
             },
             {
-                "image": "wolfsbane-flower.jpg",
+                "image": "wolfsbane-flower-1.jpg",
                 "caption": "Helmet-shaped blue-purple flowers"
             },
             {
-                "image": "wolfsbane-leaves.jpg",
+                "image": "wolfsbane-leaves-1.jpg",
                 "caption": "Deeply divided palmate leaves"
             },
             {
-                "image": "wolfsbane-cluster.jpg",
+                "image": "wolfsbane-cluster-1.jpg",
                 "caption": "Flower spikes with clustered blooms"
             }
         ],
@@ -344,19 +346,20 @@
         }
     },
     
-    "herb_robert": {
+    "Herb_robert": {
+        "hero_image":"herb-robert-1.jpg",
         "common_name": "Herb Robert",
         "scientific_name": "Geranium robertianum",
         "family_name": "Geraniaceae",
 
         "toxicity": {
             "level": "Low Toxicity",
-            "severity": "Generally non-fatal; may cause irritation or mild reactions",
+            "severity": "Generally non-fatal",
             "systems_affected": [
                 "Digestive system",
                 "Skin"
             ],
-            "summary_warning": "Herb Robert is not considered highly poisonous, but ingestion in large amounts may cause digestive discomfort, and contact with the plant may irritate sensitive skin."
+            "summary_warning": "Herb Robert is not considered highly poisonous, but ingestion in large amounts may cause digestive discomfort."
         },
 
         "key_constituents": [
@@ -371,7 +374,7 @@
         ],
 
         "effects": {
-            "gastrointestinal": [
+            "Gastrointestinal": [
                 {
                     "name": "Mild Stomach Upset",
                     "description": "Large amounts may cause nausea, stomach discomfort, or digestive irritation."
@@ -382,7 +385,7 @@
                 }
             ],
 
-            "skin": [
+            "Skin": [
                 {
                     "name": "Skin Irritation",
                     "description": "Some people may experience redness, itching, or irritation after handling the plant."
@@ -425,19 +428,19 @@
                 "name": "Red Campion",
                 "toxicity": "Low Toxicity",
                 "description": "Has pink flowers but lacks Herb Robert's strongly divided leaves and reddish stems.",
-                "image": "red-campion-1.jpg"
+                "image": "red-champion-1.jpg"
             },
             {
                 "name": "Cranesbill Geranium",
-                "toxicity": "Generally Non-toxic",
+                "toxicity": "Low Toxicity",
                 "description": "Similar leaf and flower structure but usually has larger flowers and different growth habits.",
                 "image": "cranesbill-geranium-1.jpg"
             },
             {
                 "name": "Poison Hemlock Seedlings",
                 "toxicity": "Highly Toxic",
-                "description": "Young plants can have similar divided leaves, but poison hemlock lacks Herb Robert's hairy reddish stems and geranium-like flowers.",
-                "image": "poison-hemlock-seedling-1.jpg"
+                "description": "Young plants can have similar divided leaves, but poison hemlock lacks Herb Robert's hairy reddish stems.",
+                "image": "poison-hemlock-seedlings-1.jpg"
             }
         ],
 
@@ -457,13 +460,13 @@
         ],
 
         "features_detected": {
-            "shape": "Small bushy herbaceous plant with delicate divided leaves and tiny five-petaled flowers.",
-            "color": "Pink to magenta flowers with reddish stems and green leaves that may develop red coloration.",
-            "stem": "Hairy stems that often become reddish or purple, especially in sunlight.",
-            "arrangement": "Low-growing plant with branching stems spreading close to the ground.",
-            "flowers": "Small five-petaled flowers, usually pink with darker veins.",
-            "leaves": "Deeply divided fern-like leaves with a strong aromatic smell when crushed.",
-            "fruit": "Long pointed seed capsules resembling a crane's bill."
+            "Shape": "Small bushy herbaceous plant with delicate divided leaves and tiny five-petaled flowers.",
+            "Color": "Pink to magenta flowers with reddish stems and green leaves that may develop red coloration.",
+            "Stem": "Hairy stems that often become reddish or purple, especially in sunlight.",
+            "Arrangement": "Low-growing plant with branching stems spreading close to the ground.",
+            "Flowers": "Small five-petaled flowers, usually pink with darker veins.",
+            "Leaves": "Deeply divided fern-like leaves with a strong aromatic smell when crushed.",
+            "Fruit": "Long pointed seed capsules resembling a crane's bill."
         },
 
         "feature_images": [
@@ -503,14 +506,15 @@
         }
     },
 
-    "wild_carrot": {
+    "Wild_carrot": {
+        "hero_image":"wild-carrot.jpg",
         "common_name": "Wild Carrot",
         "scientific_name": "Daucus carota",
         "family_name": "Apiaceae",
 
         "toxicity": {
             "level": "Low Toxicity",
-            "severity": "Generally non-fatal; possible skin irritation and digestive effects",
+            "severity": "Generally non-fatal",
             "systems_affected": [
                 "Skin",
                 "Digestive system"
@@ -529,7 +533,7 @@
         ],
 
         "effects": {
-            "skin": [
+            "Skin": [
                 {
                     "name": "Photosensitivity",
                     "description": "Contact with the plant may increase skin sensitivity to sunlight and cause irritation in some individuals."
@@ -540,7 +544,7 @@
                 }
             ],
 
-            "gastrointestinal": [
+            "Gastrointestinal": [
                 {
                     "name": "Stomach Discomfort",
                     "description": "Large amounts or incorrect preparation may cause nausea or digestive upset."
@@ -582,19 +586,19 @@
         "commonly_mistaken_for": [
             {
                 "name": "Poison Hemlock",
-                "toxicity": "Extremely Toxic",
-                "description": "Highly dangerous look-alike with smooth hollow stems often marked with purple spots; can cause fatal poisoning.",
-                "image": "poison-hemlock-1.jpg"
+                "toxicity": "Highly Toxic",
+                "description": "Highly dangerous look-alike with smooth stems often marked with purple spots.",
+                "image": "poison-hemlock.jpg"
             },
             {
                 "name": "Water Hemlock",
-                "toxicity": "Extremely Toxic",
+                "toxicity": "Highly Toxic",
                 "description": "One of the most poisonous North American plants; has similar umbrella-shaped white flower clusters.",
-                "image": "water-hemlock-1.jpg"
+                "image": "water-hemlock.jpg"
             },
             {
                 "name": "Cow Parsley",
-                "toxicity": "Potentially Toxic",
+                "toxicity": "Mildly Toxic",
                 "description": "Similar white umbrella-shaped flowers but usually differs in stem, leaf, and growth characteristics.",
                 "image": "cow-parsley-1.jpg"
             }
@@ -612,13 +616,13 @@
         ],
 
         "features_detected": {
-            "shape": "Tall flowering plant with umbrella-shaped clusters of small white flowers.",
-            "color": "White flowers, green fern-like leaves, and occasionally a dark purple central flower.",
-            "stem": "Slender hairy green stems, usually solid rather than hollow.",
-            "arrangement": "Flat-topped umbrella-shaped flower clusters called umbels.",
-            "flowers": "Many tiny white flowers forming a circular umbrella structure.",
-            "leaves": "Fine, feathery, carrot-like leaves with a strong carrot scent when crushed.",
-            "root": "Long pale taproot resembling a thin carrot."
+            "Shape": "Tall flowering plant with umbrella-shaped clusters of small white flowers.",
+            "Color": "White flowers, green fern-like leaves, and occasionally a dark purple central flower.",
+            "Stem": "Slender hairy green stems, usually solid rather than hollow.",
+            "Arrangement": "Flat-topped umbrella-shaped flower clusters called umbels.",
+            "Flowers": "Many tiny white flowers forming a circular umbrella structure.",
+            "Leaves": "Fine, feathery, carrot-like leaves with a strong carrot scent when crushed.",
+            "Root": "Long pale taproot resembling a thin carrot."
         },
 
         "feature_images": [
@@ -658,21 +662,22 @@
         }
     },
 
-    "water_hemlock": {
+    "Water_hemlock": {
+        "hero_image":"water-hemlock.jpg",
         "common_name": "Water Hemlock",
         "scientific_name": "Cicuta douglasii",
         "family_name": "Apiaceae",
 
         "toxicity": {
-            "level": "Extremely Toxic",
-            "severity": "Potentially fatal; among the most poisonous plants in North America",
+            "level": "Highly Toxic",
+            "severity": "Potentially fatal",
             "systems_affected": [
                 "Nervous system",
                 "Cardiovascular system",
                 "Respiratory system",
                 "Digestive system"
             ],
-            "summary_warning": "All parts of water hemlock are highly poisonous, especially the roots. Ingestion can cause rapid neurological symptoms, severe seizures, respiratory failure, and death."
+            "summary_warning": "All parts of water hemlock are highly poisonous, especially the roots. Ingestion can cause neurological symptoms, severe seizures, respiratory failure, and death."
         },
 
         "key_constituents": [
@@ -685,7 +690,7 @@
         ],
 
         "effects": {
-            "neurological": [
+            "Neurological": [
                 {
                     "name": "Seizures",
                     "description": "Violent and potentially continuous seizures are the primary life-threatening effect of cicutoxin poisoning."
@@ -700,7 +705,7 @@
                 }
             ],
 
-            "cardiovascular": [
+            "Cardiovascular": [
                 {
                     "name": "Abnormal Heart Rhythm",
                     "description": "Severe poisoning can disrupt normal cardiovascular function."
@@ -711,14 +716,14 @@
                 }
             ],
 
-            "respiratory": [
+            "Respiratory": [
                 {
                     "name": "Respiratory Failure",
                     "description": "Seizures and nervous system disruption may impair breathing."
                 }
             ],
 
-            "gastrointestinal": [
+            "Gastrointestinal": [
                 {
                     "name": "Nausea and Vomiting",
                     "description": "Digestive symptoms may occur after ingestion."
@@ -762,23 +767,23 @@
                 "name": "Wild Carrot",
                 "toxicity": "Low Toxicity",
                 "description": "Has similar white umbrella-shaped flower clusters, but wild carrot has hairy stems and a carrot-like scent.",
-                "image": "wild-carrot-1.jpg"
+                "image": "wild-carrot.jpg"
             },
             {
                 "name": "Queen Anne's Lace",
                 "toxicity": "Low Toxicity",
                 "description": "Similar flower structure but generally has different stem characteristics and a smaller growth habit.",
-                "image": "queen-annes-lace-1.jpg"
+                "image": "queen-anne's-lace-1.jpg"
             },
             {
                 "name": "Cow Parsley",
-                "toxicity": "Potentially Toxic",
+                "toxicity": "Mildly Toxic",
                 "description": "Another Apiaceae species with similar white flower clusters but different stem and leaf characteristics.",
                 "image": "cow-parsley-1.jpg"
             },
             {
                 "name": "Water Parsnip",
-                "toxicity": "Potentially Toxic",
+                "toxicity": "Mildly Toxic",
                 "description": "Grows in wet habitats and can resemble water hemlock.",
                 "image": "water-parsnip-1.jpg"
             }
@@ -792,13 +797,13 @@
         ],
 
         "features_detected": {
-            "shape": "Tall wetland plant with umbrella-shaped clusters of small white flowers.",
-            "color": "White flowers with green foliage and sometimes reddish or purple markings near the base.",
-            "stem": "Smooth, hollow, branching stems that may contain poisonous sap.",
-            "arrangement": "Large umbrella-shaped flower clusters (compound umbels).",
-            "flowers": "Many small white flowers grouped into rounded umbrella-like clusters.",
-            "leaves": "Large divided leaves with toothed leaflets arranged along stalks.",
-            "roots": "Thick chambered roots containing highly toxic compounds."
+            "Shape": "Tall wetland plant with umbrella-shaped clusters of small white flowers.",
+            "Color": "White flowers with green foliage and sometimes reddish or purple markings near the base.",
+            "Stem": "Smooth, hollow, branching stems that may contain poisonous sap.",
+            "Arrangement": "Large umbrella-shaped flower clusters (compound umbels).",
+            "Flowers": "Many small white flowers grouped into rounded umbrella-like clusters.",
+            "Leaves": "Large divided leaves with toothed leaflets arranged along stalks.",
+            "Roots": "Thick chambered roots containing highly toxic compounds."
         },
 
         "feature_images": [
@@ -839,13 +844,14 @@
         }
     },
 
-    "poison_hemlock": {
+    "Poison_hemlock": {
+        "hero_image":"poison-hemlock.jpg",
         "common_name": "Poison Hemlock",
         "scientific_name": "Conium maculatum",
         "family_name": "Apiaceae",
 
         "toxicity": {
-            "level": "Extremely Toxic",
+            "level": "Highly Toxic",
             "severity": "Potentially fatal",
             "systems_affected": [
                 "Nervous system",
@@ -853,7 +859,7 @@
                 "Muscular system",
                 "Cardiovascular system"
             ],
-            "summary_warning": "All parts of poison hemlock are poisonous. Ingestion can cause progressive paralysis, respiratory failure, and death. It is frequently mistaken for edible members of the carrot family."
+            "summary_warning": "All parts of poison hemlock are poisonous. Ingestion can cause progressive paralysis, respiratory failure, and death."
         },
 
         "key_constituents": [
@@ -866,7 +872,7 @@
         ],
 
         "effects": {
-            "neurological": [
+            "Neurological": [
                 {
                     "name": "Tingling and Burning Sensations",
                     "description": "Early symptoms may include abnormal sensations in the mouth, throat, or limbs."
@@ -881,7 +887,7 @@
                 }
             ],
 
-            "muscular": [
+            "Muscular": [
                 {
                     "name": "Ascending Paralysis",
                     "description": "Weakness may progress from the limbs upward toward muscles needed for breathing."
@@ -892,7 +898,7 @@
                 }
             ],
 
-            "gastrointestinal": [
+            "Gastrointestinal": [
                 {
                     "name": "Nausea and Vomiting",
                     "description": "Digestive symptoms may occur after ingestion."
@@ -903,7 +909,7 @@
                 }
             ],
 
-            "cardiovascular": [
+            "Cardiovascular": [
                 {
                     "name": "Heart Rate Changes",
                     "description": "Severe poisoning may affect normal cardiovascular function."
@@ -951,23 +957,23 @@
                 "name": "Wild Carrot",
                 "toxicity": "Low Toxicity",
                 "description": "Similar white umbrella-shaped flowers, but wild carrot usually has hairy stems and a carrot-like smell when crushed.",
-                "image": "wild-carrot-1.jpg"
+                "image": "wild-carrot.jpg"
             },
             {
                 "name": "Queen Anne's Lace",
                 "toxicity": "Low Toxicity",
                 "description": "Similar flower clusters but generally has different stem markings and growth characteristics.",
-                "image": "queen-annes-lace-1.jpg"
+                "image": "queen-anne's-lace-1.jpg"
             },
             {
                 "name": "Cow Parsley",
-                "toxicity": "Potentially Toxic",
+                "toxicity": "Mildly Toxic",
                 "description": "Another Apiaceae plant with similar flowers but different leaf and stem features.",
                 "image": "cow-parsley-1.jpg"
             },
             {
                 "name": "Wild Parsnip",
-                "toxicity": "Moderately Toxic",
+                "toxicity": "Mildly Toxic",
                 "description": "Can overlap in habitat and appearance but has different flower and leaf characteristics.",
                 "image": "wild-parsnip-1.jpg"
             }
@@ -985,14 +991,14 @@
         ],
 
         "features_detected": {
-            "shape": "Tall biennial plant with branching stems and large umbrella-shaped flower clusters.",
-            "color": "White flowers, green leaves, and distinctive purple-red blotches on stems.",
-            "stem": "Smooth, hollow, hairless stem often marked with purple spots.",
-            "arrangement": "Large flat-topped compound umbels of tiny white flowers.",
-            "flowers": "Small white flowers arranged in umbrella-like clusters.",
-            "leaves": "Large fern-like leaves that resemble parsley or carrot leaves.",
-            "odor": "Leaves often produce a strong unpleasant odor when crushed.",
-            "roots": "White taproot that may resemble edible root vegetables."
+            "Shape": "Tall biennial plant with branching stems and large umbrella-shaped flower clusters.",
+            "Color": "White flowers, green leaves, and distinctive purple-red blotches on stems.",
+            "Stem": "Smooth, hollow, hairless stem often marked with purple spots.",
+            "Arrangement": "Large flat-topped compound umbels of tiny white flowers.",
+            "Flowers": "Small white flowers arranged in umbrella-like clusters.",
+            "Leaves": "Large fern-like leaves that resemble parsley or carrot leaves.",
+            "Odor": "Leaves often produce a strong unpleasant odor when crushed.",
+            "Roots": "White taproot that may resemble edible root vegetables."
         },
 
         "feature_images": [
@@ -1033,14 +1039,15 @@
         }
     },
 
-    "cow_parsnip": {
+    "Cow_parsnip": {
+        "hero_image":"cow-parsnip-habitat.jpg",
         "common_name": "Cow Parsnip",
         "scientific_name": "Heracleum maximum",
         "family_name": "Apiaceae",
 
         "toxicity": {
-            "level": "Moderate Toxicity",
-            "severity": "Usually non-fatal; may cause severe skin irritation",
+            "level": "Mild Toxicity",
+            "severity": "Usually non-fatal",
             "systems_affected": [
                 "Skin",
                 "Digestive system"
@@ -1059,7 +1066,7 @@
         ],
 
         "effects": {
-            "skin": [
+            "Skin": [
                 {
                     "name": "Photosensitive Dermatitis",
                     "description": "Plant sap can make skin extremely sensitive to sunlight, causing redness, pain, and inflammation."
@@ -1074,7 +1081,7 @@
                 }
             ],
 
-            "gastrointestinal": [
+            "Gastrointestinal": [
                 {
                     "name": "Digestive Irritation",
                     "description": "Large amounts of raw plant material may cause stomach discomfort."
@@ -1121,18 +1128,18 @@
             {
                 "name": "Giant Hogweed",
                 "toxicity": "Highly Toxic",
-                "description": "A much larger related species with stronger phototoxic effects. Has larger flower clusters and often purple-spotted stems.",
-                "image": "giant-hogweed-1.jpg"
+                "description": "A larger species with stronger phototoxic effects. Has larger flower clusters and often purple-spotted stems.",
+                "image": "giantHogweed.jpeg"
             },
             {
                 "name": "Poison Hemlock",
-                "toxicity": "Extremely Toxic",
-                "description": "Has similar umbrella-shaped flowers but typically has smooth stems with purple blotches and a different leaf structure.",
-                "image": "poison-hemlock-1.jpg"
+                "toxicity": "Highly Toxic",
+                "description": "Has similar umbrella-shaped flowers, has smooth stems with purple blotches.",
+                "image": "poison-hemlock.jpg"
             },
             {
                 "name": "Wild Parsnip",
-                "toxicity": "Moderate Toxicity",
+                "toxicity": "Mildly Toxic",
                 "description": "Contains similar photosensitizing compounds but is generally smaller with yellow flowers.",
                 "image": "wild-parsnip-1.jpg"
             },
@@ -1140,7 +1147,7 @@
                 "name": "Wild Carrot",
                 "toxicity": "Low Toxicity",
                 "description": "Shares the Apiaceae flower structure but is much smaller and has finer leaves.",
-                "image": "wild-carrot-1.jpg"
+                "image": "wild-carrot.jpg"
             }
         ],
 
@@ -1156,14 +1163,14 @@
         ],
 
         "features_detected": {
-            "shape": "Large perennial herb with tall stems and broad umbrella-shaped flower clusters.",
-            "color": "White flowers, green foliage, and sometimes reddish-purple markings near the stem base.",
-            "stem": "Large hollow stems that may have fine hairs and green coloration.",
-            "arrangement": "Large flat-topped compound umbels containing many small flowers.",
-            "flowers": "Large white umbrella-shaped clusters, often wider than those of wild carrot.",
-            "leaves": "Very large deeply lobed leaves with broad leaflets.",
-            "height": "Can reach approximately 4 to 10 feet tall.",
-            "habitat": "Common in moist meadows, stream banks, forests, and roadsides."
+            "Shape": "Large perennial herb with tall stems and broad umbrella-shaped flower clusters.",
+            "Color": "White flowers, green foliage, and sometimes reddish-purple markings near the stem base.",
+            "Stem": "Large hollow stems that may have fine hairs and green coloration.",
+            "Arrangement": "Large flat-topped compound umbels containing many small flowers.",
+            "Flowers": "Large white umbrella-shaped clusters, often wider than those of wild carrot.",
+            "Leaves": "Very large deeply lobed leaves with broad leaflets.",
+            "Height": "Can reach approximately 4 to 10 feet tall.",
+            "Habitat": "Common in moist meadows, stream banks, forests, and roadsides."
         },
 
         "feature_images": [
@@ -1204,14 +1211,15 @@
         }
     },
 
-    "giant_hogweed": {
+    "Giant_hogweed": {
+        "hero_image":"giantHogweed.jpeg",
         "common_name": "Giant Hogweed",
         "scientific_name": "Heracleum mantegazzianum",
         "family_name": "Apiaceae",
 
         "toxicity": {
-            "level": "Highly Toxic",
-            "severity": "Potentially severe; can cause serious skin injuries and eye damage",
+            "level": "Mild Toxicity",
+            "severity": "Potentially severe",
             "systems_affected": [
                 "Skin",
                 "Eyes",
@@ -1231,7 +1239,7 @@
         ],
 
         "effects": {
-            "skin": [
+            "Skin": [
                 {
                     "name": "Severe Phototoxic Burns",
                     "description": "Sap exposure followed by sunlight can cause painful burn-like skin reactions."
@@ -1250,7 +1258,7 @@
                 }
             ],
 
-            "eyes": [
+            "Eyes": [
                 {
                     "name": "Eye Irritation",
                     "description": "Sap entering the eyes can cause severe irritation and may result in serious eye injury."
@@ -1297,25 +1305,25 @@
         "commonly_mistaken_for": [
             {
                 "name": "Cow Parsnip",
-                "toxicity": "Moderate Toxicity",
-                "description": "A close relative with similar large white flower clusters, but usually smaller with different stem and leaf characteristics.",
-                "image": "cow-parsnip-1.jpg"
+                "toxicity": "Mildly Toxic",
+                "description": "A crelative with large white flower clusters, but usually smaller with different stem and leaf.",
+                "image": "cow-parsnip.jpg"
             },
             {
                 "name": "Wild Parsnip",
-                "toxicity": "Moderate Toxicity",
+                "toxicity": "Mildly Toxic",
                 "description": "Also contains photosensitizing compounds but is much smaller and has yellow flowers.",
                 "image": "wild-parsnip-1.jpg"
             },
             {
                 "name": "Poison Hemlock",
-                "toxicity": "Extremely Toxic",
+                "toxicity": "Highly Toxic",
                 "description": "Has similar umbrella-shaped flowers but lacks giant hogweed's enormous leaves and characteristic stem features.",
-                "image": "poison-hemlock-1.jpg"
+                "image": "poison-hemlock.jpg"
             },
             {
                 "name": "Angelica",
-                "toxicity": "Variable",
+                "toxicity": "Mildly Toxic",
                 "description": "Large Apiaceae plants with similar flower clusters but different leaf and stem structures.",
                 "image": "angelica-1.jpg"
             }
@@ -1329,14 +1337,13 @@
         ],
 
         "features_detected": {
-            "shape": "Very large perennial herb with towering stems and enormous umbrella-shaped flower clusters.",
-            "color": "White flowers, green leaves, and stems often showing purple-red blotches.",
-            "stem": "Thick hollow stem covered with coarse hairs and purple mottling.",
-            "arrangement": "Large flat-topped compound umbels containing many small white flowers.",
-            "flowers": "Very large white umbrella-shaped clusters that may exceed 1 foot in diameter.",
-            "leaves": "Huge deeply lobed leaves that can spread several feet wide.",
-            "height": "Typically 6 to 14 feet tall.",
-            "habitat": "Found along roadsides, riverbanks, fields, and disturbed areas."
+            "Shape": "Very large perennial herb with towering stems and enormous umbrella-shaped flower clusters.",
+            "Color": "White flowers, green leaves, and stems often showing purple-red blotches.",
+            "Stem": "Thick hollow stem covered with coarse hairs and purple mottling.",
+            "Arrangement": "Large flat-topped compound umbels containing many small white flowers.",
+            "Flowers": "Very large white umbrella-shaped clusters that may exceed 1 foot in diameter.",
+            "Leaves": "Huge deeply lobed leaves that can spread several feet wide.",
+            "Height": "Typically 6 to 14 feet tall."
         },
 
         "feature_images": [
