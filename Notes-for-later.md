@@ -15,6 +15,40 @@
 output: This plant does not match any toxic species in the current database with high confidence. This is not a guarantee that the plant is non-toxic or safe to eat.
 
 
+### Structure for JavaScript
+
+                User
+                 |
+                 |
+        Uploads plant image
+                 |
+                 ↓
+          Frontend (JS)
+                 |
+                 |
+        sends image using API
+                 |
+                 ↓
+        Backend (Python)
+                 |
+                 |
+        ResNet-50 model
+                 |
+                 |
+     prediction + confidence
+                 |
+                 ↓
+          Frontend JS
+                 |
+                 |
+        reads plants.json
+                 |
+                 |
+        fills your page
+
+
+
+
 
 
 
