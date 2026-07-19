@@ -1,0 +1,167 @@
+{
+    "foxglove": {
+        "common_name": "Foxglove",
+        "scientific_name": "Digitalis purpurea",
+        "family_name": "Plantaginaceae",
+
+        "toxicity": {
+            "level": "Highly Toxic",
+            "severity": "Potentially fatal",
+            "systems_affected": [
+                "Cardiovascular / Circulatory system",
+                "Nervous system",
+                "Digestive system"
+            ],
+            "summary_warning": "Not to be ingested or touched; all parts are highly toxic and can lead to severe poisoning."
+        },
+
+        "key_constituents": [
+            "Digoxin (Cardiac glycoside)",
+            "Digitoxin (Cardiac glycoside)",
+            "Digitalin",
+            "Gitoxin (Glycoside)",
+            "Gitaloxin (Glycoside)",
+            "Flavonoids",
+            "Saponins",
+            "Anthraquinones"
+        ],
+
+        "effects": {
+            "gastrointestinal": [
+                {
+                    "name": "Severe Nausea",
+                    "description": "Intense feeling of sickness."
+                },
+                {
+                    "name": "Violent Vomiting",
+                    "description": "Vomiting that can persist after ingestion."
+                },
+                {
+                    "name": "Abdominal Pain",
+                    "description": "Severe stomach pain and cramping."
+                }
+            ],
+
+            "cardiovascular": [
+                {
+                    "name": "Extreme Bradycardia",
+                    "description": "Pulse may drop dangerously low."
+                },
+                {
+                    "name": "Irregular Pulse",
+                    "description": "Heart rhythm abnormalities or fluttering sensations."
+                },
+                {
+                    "name": "Hypotension",
+                    "description": "Dangerously low blood pressure causing fainting."
+                }
+            ]
+        },
+
+        "toxic_parts": [
+            {
+                "part": "Leaves",
+                "description": "Contain high concentrations of digitoxin, digoxin, and gitaloxin."
+            },
+            {
+                "part": "Seeds",
+                "description": "Contain concentrated digitalin and other active glycosides."
+            },
+            {
+                "part": "Flowers & Buds",
+                "description": "Contain significant amounts of gitoxin, digitoxin, and toxic saponins."
+            }
+        ],
+
+        "handling_safety": [
+            "Wear protective clothing to avoid skin contact.",
+            "Use thick waterproof gardening gloves.",
+            "Avoid touching face while handling the plant.",
+            "Wash hands and forearms thoroughly after contact.",
+            "Do not burn any part of the plant."
+        ],
+
+        "commonly_mistaken_for": [
+            {
+                "name": "Delphinium",
+                "toxicity": "Highly Toxic",
+                "description": "Has spurred flowers rather than foxglove's spotted bell-shaped flowers.",
+                "image": "delphinium-1.jpg"
+            },
+            {
+                "name": "Penstemon",
+                "toxicity": "Not Toxic",
+                "description": "Has smaller tubular flowers arranged in airy clusters.",
+                "image": "penstemon-1.jpg"
+            },
+            {
+                "name": "Lupine",
+                "toxicity": "Mildly Toxic",
+                "description": "Has pea-like flowers forming a pointed cone.",
+                "image": "lupine-1.jpg"
+            },
+            {
+                "name": "Comfrey",
+                "toxicity": "Mildly Toxic",
+                "description": "Has small bell-shaped flowers but lacks foxglove's tall spike.",
+                "image": "comfrey-1.jpg"
+            }
+        ],
+
+        "medicinal_uses": [
+            {
+                "condition": "Congestive Heart Failure (CHF)",
+                "description": "Digoxin derived from foxglove may be prescribed for certain heart failure patients."
+            },
+            {
+                "condition": "Atrial Fibrillation and Flutter",
+                "description": "Used medically for controlling heart rate in some patients."
+            }
+        ],
+
+        "features_detected": {
+            "shape": "Tubular, elongated bell-shaped flowers hanging downward.",
+            "color": "Pink, lavender, purple, white, cream, or peach flowers.",
+            "stem": "Tall erect hairy stem reaching approximately 3 to 6 feet.",
+            "arrangement": "Flowers arranged on one side of a tall unbranched spike.",
+            "interior_speckles": "Dark purple or burgundy spotted patterns inside flowers.",
+            "leaves": "Crinkled, textured leaves covered with soft hairs and serrated edges."
+        },
+
+        "feature_images": [
+            {
+                "image": "foxglove-stem.jpg",
+                "caption": "Hairy, erect and sturdy stem"
+            },
+            {
+                "image": "foxglove-zoomFlower.jpg",
+                "caption": "Spotted bell-like flowers"
+            },
+            {
+                "image": "foxglove-wiltedFlowers.jpg",
+                "caption": "Downward bending flowers in clusters"
+            },
+            {
+                "image": "foxglove-leaves.jpg",
+                "caption": "Crinkled, velvety leaves with serrated edges"
+            }
+        ],
+
+        "emergency": {
+            "contact": [
+                "Wash skin immediately with soap and water.",
+                "Remove contaminated clothing.",
+                "Avoid touching face after handling."
+            ],
+            "ingestion": [
+                "Call emergency services immediately.",
+                "Do not induce vomiting unless instructed.",
+                "Clean mouth with a wet cloth."
+            ],
+            "pets": [
+                "Contact a veterinarian immediately.",
+                "Remove plant pieces carefully if possible."
+            ]
+        }
+    }
+}
