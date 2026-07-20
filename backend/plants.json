@@ -1218,7 +1218,7 @@
         "family_name": "Apiaceae",
 
         "toxicity": {
-            "level": "Mild Toxicity",
+            "level": "High Toxicity",
             "severity": "Potentially severe",
             "systems_affected": [
                 "Skin",
@@ -1360,7 +1360,7 @@
                 "caption": "Massive deeply divided leaves"
             },
             {
-                "image": "giant-hogweed-size.jpg",
+                "image": "giant-hogweed-size.png",
                 "caption": "Towering height compared with a person"
             }
         ],

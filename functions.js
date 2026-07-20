@@ -1,4 +1,18 @@
 
+// ================================================
+// API CONFIGURATION
+// ================================================
+
+const LOCAL_SERVER_URL = "http://127.0.0.1:5000";
+
+const LIVE_SERVER_URL = "https://your-production-backend-url.com";
+
+// Change this when deploying
+const USE_LIVE_SERVER = false;
+
+const API_URL = USE_LIVE_SERVER
+    ? LIVE_SERVER_URL
+    : LOCAL_SERVER_URL;
 
 // ================================================
 // FUNCTIONS TO OPEN ONE VIEW WHILE CLOSING OTHERS
@@ -110,6 +124,10 @@ const scrollAmount = 300;
 
 // Returns the maximum distance the track can scroll
 function getMaxScroll(){
+    if(!track){
+        return 0;
+    }
+
     return track.scrollWidth - track.parentElement.clientWidth;
 }
 
@@ -129,44 +147,48 @@ function updateButtons(){
 
 
 // Right arrow
-rightBtn.addEventListener("click", ()=>{
+if (rightBtn){
+    rightBtn.addEventListener("click", ()=>{
 
-    const maxScroll = getMaxScroll();
+        const maxScroll = getMaxScroll();
 
-    currentPosition += scrollAmount;
+        currentPosition += scrollAmount;
 
-    if(currentPosition > maxScroll){
-        currentPosition = maxScroll;
-    }
+        if(currentPosition > maxScroll){
+            currentPosition = maxScroll;
+        }
 
-    track.style.transform =
-        `translateX(-${currentPosition}px)`;
+        track.style.transform =
+            `translateX(-${currentPosition}px)`;
 
-    updateButtons();
+        updateButtons();
 
-});
-
+    });
+}
 
 // Left arrow
-leftBtn.addEventListener("click", ()=>{
+if (leftBtn){
+    leftBtn.addEventListener("click", ()=>{
 
-    currentPosition -= scrollAmount;
+        currentPosition -= scrollAmount;
 
-    if(currentPosition < 0){
-        currentPosition = 0;
-    }
+        if(currentPosition < 0){
+            currentPosition = 0;
+        }
 
-    track.style.transform =
-        `translateX(-${currentPosition}px)`;
+        track.style.transform =
+            `translateX(-${currentPosition}px)`;
 
-    updateButtons();
+        updateButtons();
 
-});
+    });
+}
 
 
 // Initial button state
-updateButtons();
-
+if(track && leftBtn && rightBtn){
+    updateButtons();
+}
 
 
 // ================================================
@@ -197,14 +219,12 @@ imageInput.addEventListener("change", () => {
     if(file){
 
         const formData = new FormData();
-
         formData.append("image", file);
 
-        const API_URL = "https://anas-gh-000.github.io/SILFORD.AI/";
+
         fetch(`${API_URL}/predict`, {
 
             method: "POST",
-
             body: formData
 
         })
@@ -592,9 +612,14 @@ function showPrediction(data){
 
 }
 
-document.getElementById("back-home").addEventListener("click", () => {
-    showLanding();
-});
+//BACK HOME BUTTON
+const backHome = document.getElementById("back-home");
+
+if (backHome){
+    backHome.addEventListener("click", ()=>{
+        showLanding();
+    });
+}
 
 
 

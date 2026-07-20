@@ -42,7 +42,7 @@ model = models.resnet50(weights=None)
 # Replace classifier
 model.fc = nn.Linear(
     in_features=2048,
-    out_features=9
+    out_features=len(class_to_idx)
 )
 
 
@@ -127,6 +127,7 @@ def predict(image_file):
             dim=1
         )
 
+        
 
 
     class_id = predicted.item()
@@ -134,8 +135,14 @@ def predict(image_file):
     class_name = idx_to_class[class_id]
 
 
-
-    return {
-        "plant": class_name,
-        "confidence": round(confidence.item(), 4)
-    }
+#IF MODEL IS CONFIDENT ABOUT ITS PREDICTION THEN SHOW RESULTS, ELSE SHOW UNKNOWN
+    if confidence.item() < 0.70:
+            return {
+                "plant":"unknown",
+                "confidence":round(confidence.item(), 4)
+            }
+    else:
+        return {
+            "plant": class_name,
+            "confidence": round(confidence.item(), 4)
+        }

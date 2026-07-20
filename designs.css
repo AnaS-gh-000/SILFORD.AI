@@ -1198,23 +1198,70 @@ html {
 
 
 /* back home buttom */
-#back-home{
+/* Back Home Glass Button */
+#back-home {
+
     width: 100%;
     height: 5rem;
-    background-color: rgba(0, 117, 27, 0.503);
-    opacity: 0.70;
-    font-family: 'Montserrat';
-    color: rgb(240, 240, 240);
+
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
-    font-weight: 400;
-    border: 1px solid wheat;
+    font-weight: 500;
+
+    color: #eaf6ff;
+
+    /* Glass effect */
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 2px solid rgba(90, 190, 255, 0.7);
     border-radius: 5rem;
-    margin-bottom: 10px;
+
+    cursor: pointer;
+
     margin-top: 40px;
-    transition:all 0.3s ease;
+    margin-bottom: 10px;
+
+    transition:
+        transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1),
+        border-color 0.35s ease,
+        box-shadow 0.35s ease,
+        background 0.35s ease;
+
+
+    /* Blue outer glow */
+    box-shadow:
+        0 0 15px rgba(90, 190, 255, 0.45),
+        0 0 35px rgba(0, 140, 255, 0.35),
+        inset 0 0 15px rgba(255,255,255,0.08);
 }
 
-#back-home:hover{
-    transform: translateY(-4px);
-    border-color: var(--theme-border);
+
+/* Hover */
+#back-home:hover {
+
+    transform: translateY(-5px);
+
+    color: #ffffff;
+
+    background: rgba(120, 210, 255, 0.12);
+
+    border-color: #8bd8ff;
+
+    box-shadow:
+        0 0 20px rgba(139, 216, 255, 0.75),
+        0 0 50px rgba(0, 150, 255, 0.55),
+        inset 0 0 20px rgba(255,255,255,0.15);
+}
+
+
+/* Click */
+#back-home:active {
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 0 15px rgba(90,190,255,0.5),
+        inset 0 0 15px rgba(255,255,255,0.1);
 }
