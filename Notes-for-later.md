@@ -8,6 +8,60 @@
 * Freeze epoch **(10^-3 lr)**, normal epoch **(10^-4 lr)**
 * Also turn on **mixed precision** from the start.
 
+#### What else needs to be done in the site?
+1. Expand the plant dataset to 15–30 plants
+* Your model can't learn classes that aren't in the dataset.
+* This also means updating plants.json with the corresponding plant information.
+* Once the dataset is finalized, you can retrain instead of retraining repeatedly.
+2. Train and improve the model
+* Follow the training plan you've outlined (freeze → unfreeze, mixed precision).
+* Add the four output states (not plant, known toxic, known non-toxic, unknown).
+* Tune the confidence threshold for "Unknown / Low confidence."
+3. Make the model attention localized (Grad-CAM or similar)
+* Once the model is reasonably accurate, add localized attention so users can see what part of the image influenced the prediction.
+4. Make the site mobile responsive
+5. Add the `My botanical journey/ Saved plants` feature
+* Since it's a prototype, storing up to 10 scans in localStorage is likely sufficient and avoids needing a database.
+6. Deploy the backend to Railway
+
+### NOTE: REMOVE `unknown` class and make it dependent on prediction confidence. Rather add a class `not a plant`- containing not plant images.
+Image Upload
+      |
+      ↓
+ResNet-50
+      |
+      ↓
+Class probabilities
+      |
+      ├── Highest class = Not Plant
+      |        ↓
+      |   "Please upload a clear photo containing a plant."
+      |
+      ├── Confidence < threshold
+      |        ↓
+      |   "This plant could not be confidently identified."
+      |
+      └── Confidence ≥ threshold
+               ↓
+          Predicted species
+               ↓
+          plants.json lookup
+               ↓
+       Toxic / Non-toxic information page
+
+
+##### Must complete
+### These are your non-negotiables:
+
+* Expand the dataset (15–20 plants is sufficient if 30 is too ambitious).
+* Retrain the ResNet-50 model.
+* Implement the four output states (plant, non-toxic, not plant, unknown).
+* Implement model attention localization (Grad-CAM or your required attention method).
+* Make the website mobile responsive.
+* Deploy the backend to Railway.
+* Test and fix bugs.
+
+
 
 
 ##### if the plant is not in toxic plant database
