@@ -1383,12 +1383,2968 @@
                 "Monitor for skin irritation or unusual behavior."
             ]
         }
+    },
+
+    "Castor_bean": {
+        "hero_image": "castor-bean-1.jpg",
+        "common_name": "Castor Bean",
+        "scientific_name": "Ricinus communis",
+        "family_name": "Euphorbiaceae",
+
+        "toxicity": {
+        "level": "Highly Toxic",
+        "severity": "Potentially fatal",
+        "systems_affected": [
+            "Digestive system",
+            "Liver",
+            "Kidneys",
+            "Circulatory system"
+        ],
+        "summary_warning": "The seeds are highly poisonous if chewed or crushed. Even a small number of damaged seeds can cause severe poisoning. Keep away from children and pets."
+        },
+
+        "key_constituents": [
+        "Ricin (Toxalbumin)",
+        "Ricinine (Alkaloid)",
+        "Ricinus agglutinin (RCA)",
+        "Ricinoleic acid",
+        "Oleic acid",
+        "Linoleic acid",
+        "Flavonoids",
+        "Phenolic compounds"
+        ],
+
+        "effects": {
+        "Gastrointestinal": [
+            {
+            "name": "Severe Vomiting",
+            "description": "Persistent vomiting usually develops several hours after ingestion."
+            },
+            {
+            "name": "Profuse Diarrhea",
+            "description": "Severe diarrhea that may become bloody and cause rapid dehydration."
+            },
+            {
+            "name": "Abdominal Pain",
+            "description": "Intense stomach cramps and digestive discomfort."
+            }
+        ],
+
+        "Systemic": [
+            {
+            "name": "Severe Dehydration",
+            "description": "Fluid loss from vomiting and diarrhea may lead to dehydration and shock."
+            },
+            {
+            "name": "Extreme Weakness",
+            "description": "Marked fatigue, weakness, and collapse may occur as poisoning progresses."
+            },
+            {
+            "name": "Multi-organ Failure",
+            "description": "Severe poisoning can damage several organs and become life-threatening."
+            }
+        ],
+
+        "Hepatic/Renal": [
+            {
+            "name": "Liver Injury",
+            "description": "Ricin may damage liver cells, resulting in impaired liver function."
+            },
+            {
+            "name": "Kidney Damage",
+            "description": "Kidney function may decline due to severe toxicity and dehydration."
+            }
+        ],
+
+        "Cardiovascular": [
+            {
+            "name": "Low Blood Pressure",
+            "description": "Fluid loss and severe poisoning can cause dangerously low blood pressure."
+            },
+            {
+            "name": "Circulatory Collapse",
+            "description": "Advanced poisoning may result in shock requiring emergency treatment."
+            }
+        ]
+        },
+
+        "toxic_parts": [
+        {
+            "part": "Seeds",
+            "description": "Contain the highest concentration of ricin and are extremely poisonous when chewed or crushed."
+        },
+        {
+            "part": "Seed Hulls",
+            "description": "Damaged seed coats expose the ricin-containing material inside."
+        },
+        {
+            "part": "Seed Cake",
+            "description": "Residue remaining after oil extraction may contain highly concentrated ricin if not properly detoxified."
+        },
+        {
+            "part": "Leaves and Stems",
+            "description": "Contain ricinine and other compounds but are considerably less toxic than the seeds."
+        }
+        ],
+
+        "handling_safety": [
+        "Wear gloves when handling seeds or pruning the plant.",
+        "Avoid crushing or breaking the seeds.",
+        "Keep seeds away from children and pets.",
+        "Wash hands thoroughly after handling any part of the plant.",
+        "Do not burn plant material or inhale smoke from burned debris."
+        ],
+
+        "commonly_mistaken_for": [
+        {
+            "name": "Japanese Aralia",
+            "toxicity": "Low Toxicity",
+            "description": "Has similar large palmate leaves but lacks the spiny seed capsules.",
+            "image": "japanese-aralia-1.jpg"
+        },
+        {
+            "name": "Fatsia",
+            "toxicity": "Low Toxicity",
+            "description": "Produces glossy lobed leaves but grows as a woody shrub with rounded flower clusters.",
+            "image": "fatsia-1.jpg"
+        },
+        {
+            "name": "Cassava",
+            "toxicity": "Mildly Toxic",
+            "description": "Leaf shape is somewhat similar but has narrower lobes and edible roots after proper processing.",
+            "image": "cassava-1.jpg"
+        },
+        {
+            "name": "Okra",
+            "toxicity": "Non-Toxic",
+            "description": "Young leaves may resemble castor bean but the plant produces edible pods instead of spiny seed capsules.",
+            "image": "okra-1.jpg"
+        }
+        ],
+
+        "medicinal_uses": [
+        {
+            "condition": "Constipation",
+            "description": "Purified castor oil is widely used as a stimulant laxative under medical supervision."
+        },
+        {
+            "condition": "Topical Skin Care",
+            "description": "Purified castor oil is used in pharmaceutical and cosmetic products for moisturizing skin."
+        },
+        {
+            "condition": "Industrial and Pharmaceutical Applications",
+            "description": "Castor oil is used in the manufacture of medicines, ointments, and drug formulations. Properly processed oil does not contain ricin."
+        }
+        ],
+
+        "features_detected": {
+        "Shape": "Large tropical plant with broad star-shaped leaves.",
+        "Color": "Leaves range from bright green to reddish-purple or bronze; flowers are greenish-red with spiny fruits.",
+        "Stem": "Smooth, thick, upright stems often green, red, or purplish, reaching approximately 5 to 15 feet.",
+        "Arrangement": "Large alternate leaves with upright flower clusters near stem tips.",
+        "Fruit": "Round spiny capsules that split open when mature.",
+        "Seeds": "Large glossy seeds with distinctive brown, black, and cream marbled patterns.",
+        "Leaves": "Deeply lobed palmate leaves with 5 to 11 pointed lobes and prominent veins."
+        },
+
+        "feature_images": [
+        {
+            "image": "castor-bean-stem.jpg",
+            "caption": "Smooth thick stem supporting large leaves"
+        },
+        {
+            "image": "castor-bean-leaf.jpg",
+            "caption": "Large star-shaped palmate leaf"
+        },
+        {
+            "image": "castor-bean-fruit.jpg",
+            "caption": "Spiny fruit capsule before splitting open"
+        },
+        {
+            "image": "castor-bean-seeds.jpg",
+            "caption": "Distinctive marbled toxic seeds"
+        },
+        {
+            "image": "castor-bean-flowers.jpg",
+            "caption": "Upright flower cluster developing into seed capsules"
+        }
+        ],
+
+        "emergency": {
+        "contact": [
+            "Wash exposed skin thoroughly with soap and water.",
+            "Remove contaminated clothing if necessary.",
+            "Wash hands immediately after handling damaged seeds."
+        ],
+        "ingestion": [
+            "Call emergency medical services or a poison center immediately.",
+            "Do not induce vomiting unless instructed by medical professionals.",
+            "Keep any remaining seeds or plant material for identification if possible."
+        ],
+        "pets": [
+            "Contact a veterinarian immediately.",
+            "Prevent further access to the plant and remove remaining seeds if safe to do so."
+        ]
+        }
+    },
+
+  "Dandelion": {
+    "hero_image": "dandelion-1.jpg",
+    "common_name": "Dandelion",
+    "scientific_name": "Taraxacum officinale",
+    "family_name": "Asteraceae",
+
+    "toxicity": {
+      "level": "Low Toxicity",
+      "severity": "Generally non-toxic",
+      "systems_affected": [
+        "Digestive system",
+        "Skin (sensitive individuals)"
+      ],
+      "summary_warning": "Dandelion is generally considered safe for humans. Some individuals may experience mild digestive upset or skin irritation from the milky sap, and pets may develop minor gastrointestinal symptoms after consuming large amounts."
+    },
+
+    "key_constituents": [
+      "Taraxacin (Sesquiterpene lactone)",
+      "Taraxasterol (Triterpene)",
+      "Inulin",
+      "Chlorogenic acid",
+      "Luteolin (Flavonoid)",
+      "Potassium",
+      "Carotenoids",
+      "Phenolic compounds"
+    ],
+
+    "effects": {
+      "Gastrointestinal": [
+        {
+          "name": "Mild Stomach Upset",
+          "description": "Large quantities may cause mild nausea or stomach discomfort."
+        },
+        {
+          "name": "Loose Stools",
+          "description": "Excessive consumption may have a mild laxative effect."
+        }
+      ],
+
+      "Dermatological": [
+        {
+          "name": "Skin Irritation",
+          "description": "The milky latex may cause redness or irritation in sensitive individuals."
+        },
+        {
+          "name": "Allergic Contact Dermatitis",
+          "description": "People allergic to plants in the daisy family may develop an itchy skin rash."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Milky Sap (Latex)",
+        "description": "Mostly safe. May cause mild skin irritation or allergic reactions in sensitive individuals."
+      },
+      {
+        "part": "Leaves",
+        "description": "Mostly safe. Generally edible but may cause mild digestive upset if consumed in very large amounts."
+      },
+      {
+        "part": "Flowers",
+        "description": "Non-toxic and commonly used in foods and herbal preparations."
+      },
+      {
+        "part": "Roots",
+        "description": "Widely consumed after preparation and generally considered safe."
+      }
+    ],
+
+    "handling_safety": [
+      "Wash hands after handling the milky sap if you have sensitive skin.",
+      "Wear gloves if pruning large quantities and prone to plant allergies.",
+      "Avoid rubbing your eyes after handling the plant.",
+      "Wash harvested plants thoroughly before consumption.",
+      "Do not consume plants collected from roadsides or areas treated with pesticides."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Cat's Ear",
+        "toxicity": "Low Toxicity",
+        "description": "Produces similar yellow flowers but has hairy leaves and branched flowering stems.",
+        "image": "cats-ear-1.jpg"
+      },
+      {
+        "name": "Hawkweed",
+        "toxicity": "Low Toxicity",
+        "description": "Has yellow flower heads resembling dandelions but usually bears hairy stems with multiple flowers.",
+        "image": "hawkweed-1.jpg"
+      },
+      {
+        "name": "Sow Thistle",
+        "toxicity": "Low Toxicity",
+        "description": "Features yellow flowers similar to dandelions but grows on taller branching stems.",
+        "image": "sow-thistle-1.jpg"
+      },
+      {
+        "name": "Coltsfoot",
+        "toxicity": "Mildly Toxic",
+        "description": "Produces yellow flowers before its leaves emerge and contains compounds that may affect the liver.",
+        "image": "coltsfoot-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Digestive Support",
+        "description": "Traditionally used to stimulate appetite and support digestion."
+      },
+      {
+        "condition": "Mild Diuretic",
+        "description": "Leaves have traditionally been used to promote urine production."
+      },
+      {
+        "condition": "Herbal Nutrition",
+        "description": "Leaves and roots are used in herbal preparations and provide vitamins and minerals."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Low-growing rosette with bright yellow composite flowers.",
+      "Color": "Bright yellow flowers with green leaves and white milky sap.",
+      "Stem": "Leafless hollow flowering stems containing white latex.",
+      "Arrangement": "Single flower head produced at the end of each unbranched stem.",
+      "Seed_head": "Round white puffball made of parachute-like seeds after flowering.",
+      "Leaves": "Deeply toothed leaves forming a basal rosette close to the ground.",
+      "Roots": "Long, thick taproot extending deep into the soil."
+    },
+
+    "feature_images": [
+      {
+        "image": "dandelion-flower.jpg",
+        "caption": "Bright yellow composite flower"
+      },
+      {
+        "image": "dandelion-leaves.jpg",
+        "caption": "Deeply toothed basal leaves"
+      },
+      {
+        "image": "dandelion-seedhead.jpg",
+        "caption": "White spherical seed head"
+      },
+      {
+        "image": "dandelion-root.jpg",
+        "caption": "Long thick taproot"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash exposed skin with soap and water if irritation develops.",
+        "Remove contaminated clothing if sap is present.",
+        "Seek medical advice if a severe allergic reaction occurs."
+      ],
+      "ingestion": [
+        "Drink water if mild stomach discomfort occurs.",
+        "Seek medical advice if severe vomiting, persistent diarrhea, or an allergic reaction develops.",
+        "Retain plant material for identification if symptoms are unexpected."
+      ],
+      "pets": [
+        "Monitor for mild vomiting or diarrhea after excessive consumption.",
+        "Contact a veterinarian if symptoms become severe or persist."
+      ]
     }
+  },
 
+  
+  "Giant_milkweed": {
+    "hero_image": "giant-milkweed-1.jpg",
+    "common_name": "Giant Milkweed",
+    "scientific_name": "Calotropis gigantea",
+    "family_name": "Apocynaceae",
 
+    "toxicity": {
+      "level": "Highly Toxic",
+      "severity": "Potentially severe poisoning",
+      "systems_affected": [
+        "Skin",
+        "Eyes",
+        "Digestive system",
+        "Cardiovascular / Circulatory system"
+      ],
+      "summary_warning": "The milky latex is poisonous and can irritate the skin and eyes. Ingestion of any part may cause gastrointestinal illness and, in larger amounts, serious cardiac effects due to toxic cardiac glycosides."
+    },
 
+    "key_constituents": [
+      "Calotropin (Cardiac glycoside)",
+      "Calotoxin (Cardiac glycoside)",
+      "Uscharin (Cardiac glycoside)",
+      "Calactin (Cardiac glycoside)",
+      "Proteolytic enzymes",
+      "Flavonoids",
+      "Triterpenoids",
+      "Saponins"
+    ],
+
+    "effects": {
+      "Dermatological": [
+        {
+          "name": "Skin Irritation",
+          "description": "Milky latex may cause redness, burning, and irritation after contact."
+        },
+        {
+          "name": "Blistering",
+          "description": "Prolonged exposure to the sap can produce painful blisters in sensitive individuals."
+        }
+      ],
+
+      "Ocular": [
+        {
+          "name": "Eye Irritation",
+          "description": "Sap can cause severe pain, redness, and excessive tearing."
+        },
+        {
+          "name": "Temporary Vision Impairment",
+          "description": "Direct contact with the latex may result in blurred vision and temporary corneal injury."
+        }
+      ],
+
+      "Gastrointestinal": [
+        {
+          "name": "Nausea and Vomiting",
+          "description": "Common symptoms following ingestion of plant material."
+        },
+        {
+          "name": "Abdominal Pain",
+          "description": "Stomach cramps and digestive discomfort may occur."
+        },
+        {
+          "name": "Diarrhea",
+          "description": "Digestive irritation may lead to loose stools and dehydration."
+        }
+      ],
+
+      "Cardiovascular": [
+        {
+          "name": "Irregular Heart Rhythm",
+          "description": "Cardiac glycosides may interfere with normal heart function."
+        },
+        {
+          "name": "Slow Heart Rate",
+          "description": "Large exposures can produce potentially dangerous bradycardia."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Milky Latex (Sap)",
+        "description": "Highly irritating and contains concentrated toxic cardiac glycosides."
+      },
+      {
+        "part": "Leaves",
+        "description": "Contain cardiac glycosides and toxic latex throughout the tissue."
+      },
+      {
+        "part": "Flowers",
+        "description": "Contain toxic compounds and should not be consumed."
+      },
+      {
+        "part": "Roots and Stems",
+        "description": "Contain latex and cardiac glycosides capable of causing poisoning."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves when handling or pruning the plant.",
+      "Avoid contact of the milky sap with the eyes or mouth.",
+      "Wash hands and exposed skin thoroughly after handling.",
+      "Keep children and pets away from broken stems and leaves.",
+      "Do not burn plant material or inhale the smoke."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Crown Flower",
+        "toxicity": "Highly Toxic",
+        "description": "A closely related species with similar waxy flowers and milky latex.",
+        "image": "crown-flower-1.jpg"
+      },
+      {
+        "name": "Oleander",
+        "toxicity": "Highly Toxic",
+        "description": "Has similar leathery leaves and toxic cardiac glycosides but grows as a woody shrub.",
+        "image": "oleander-1.jpg"
+      },
+      {
+        "name": "Desert Rose",
+        "toxicity": "Highly Toxic",
+        "description": "Produces attractive flowers and milky sap but has a swollen succulent stem.",
+        "image": "desert-rose-1.jpg"
+      },
+      {
+        "name": "Milkweed",
+        "toxicity": "Moderately Toxic",
+        "description": "Shares milky sap and similar seed pods but usually has narrower leaves and smaller flowers.",
+        "image": "milkweed-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Traditional Skin Remedies",
+        "description": "Latex has been used in traditional medicine for certain skin conditions, although it can itself be irritating and should not be self-applied."
+      },
+      {
+        "condition": "Traditional Digestive and Respiratory Remedies",
+        "description": "Various plant parts have been used in traditional medicine, but toxicity limits safe use without professional guidance."
+      },
+      {
+        "condition": "Historical Herbal Applications",
+        "description": "Used in several traditional medical systems, though modern use is restricted because of its toxic cardiac glycosides."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Large upright shrub with thick branches and clusters of waxy star-shaped flowers.",
+      "Color": "Gray-green leaves with white, lavender, or pale purple flowers.",
+      "Stem": "Thick, fleshy stems that release abundant white milky latex when damaged.",
+      "Arrangement": "Leaves occur in opposite pairs with flower clusters near branch tips.",
+      "Fruit": "Large inflated green seed pods that split open at maturity.",
+      "Leaves": "Broad oval leaves with a thick, velvety surface and smooth margins.",
+      "Latex": "Sticky white sap released immediately when any part of the plant is broken."
+    },
+
+    "feature_images": [
+      {
+        "image": "giant-milkweed-flower.jpg",
+        "caption": "Waxy star-shaped flower cluster"
+      },
+      {
+        "image": "giant-milkweed-leaves.jpg",
+        "caption": "Large gray-green opposite leaves"
+      },
+      {
+        "image": "giant-milkweed-seedpod.jpg",
+        "caption": "Inflated seed pod before splitting"
+      },
+      {
+        "image": "giant-milkweed-latex.jpg",
+        "caption": "White milky latex released from broken stem"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash exposed skin immediately with soap and plenty of water.",
+        "If sap enters the eyes, rinse continuously with clean water for at least 15 minutes. Seek urgent medical care if prolonged contact occurs.",
+        "Remove contaminated clothing and seek medical attention if irritation persists."
+      ],
+      "ingestion": [
+        "Seek immediate medical advice or contact a poison center.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep plant material available for identification if possible."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if ingestion is suspected.",
+        "Prevent further access to the plant and remove any remaining plant material."
+      ]
+    }
+  },
+
+  
+  "Jimsonweed": {
+    "hero_image": "jimsonweed-1.jpg",
+    "common_name": "Jimsonweed",
+    "scientific_name": "Datura stramonium",
+    "family_name": "Solanaceae",
+
+    "toxicity": {
+      "level": "Highly Toxic",
+      "severity": "Potentially fatal",
+      "systems_affected": [
+        "Nervous system",
+        "Cardiovascular / Circulatory system",
+        "Digestive system",
+        "Eyes"
+      ],
+      "summary_warning": "All parts of the plant are highly poisonous, especially the seeds. Ingestion can cause severe anticholinergic poisoning, hallucinations, dangerous heart rate changes, seizures, coma, and death."
+    },
+
+    "key_constituents": [
+      "Atropine (Tropane alkaloid)",
+      "Scopolamine (Tropane alkaloid)",
+      "Hyoscyamine (Tropane alkaloid)",
+      "Apoatropine",
+      "Tropine",
+      "Flavonoids",
+      "Withanolides",
+      "Phenolic compounds"
+    ],
+
+    "effects": {
+      "Neurological": [
+        {
+          "name": "Hallucinations",
+          "description": "Vivid visual and auditory hallucinations with loss of awareness."
+        },
+        {
+          "name": "Confusion and Delirium",
+          "description": "Disorientation, agitation, and inability to recognize surroundings."
+        },
+        {
+          "name": "Seizures",
+          "description": "Severe poisoning may trigger convulsions and loss of consciousness."
+        }
+      ],
+
+      "Cardiovascular": [
+        {
+          "name": "Rapid Heart Rate",
+          "description": "Marked increase in heart rate due to anticholinergic effects."
+        },
+        {
+          "name": "Irregular Heart Rhythm",
+          "description": "Severe poisoning may produce abnormal cardiac rhythms."
+        }
+      ],
+
+      "Gastrointestinal": [
+        {
+          "name": "Dry Mouth",
+          "description": "A pronounced reduction in saliva causing intense thirst."
+        },
+        {
+          "name": "Difficulty Swallowing",
+          "description": "Dryness of the throat may make swallowing uncomfortable."
+        },
+        {
+          "name": "Reduced Bowel Activity",
+          "description": "Digestive movement slows, leading to constipation and abdominal discomfort."
+        }
+      ],
+
+      "Ocular": [
+        {
+          "name": "Dilated Pupils",
+          "description": "Pupils become markedly enlarged and respond poorly to light."
+        },
+        {
+          "name": "Blurred Vision",
+          "description": "Difficulty focusing with increased sensitivity to bright light."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Seeds",
+        "description": "Contain the highest concentrations of toxic tropane alkaloids and are extremely poisonous."
+      },
+      {
+        "part": "Leaves",
+        "description": "Rich in atropine, scopolamine, and hyoscyamine, making them highly toxic."
+      },
+      {
+        "part": "Flowers",
+        "description": "Contain potent alkaloids capable of causing severe poisoning."
+      },
+      {
+        "part": "Roots and Stems",
+        "description": "Contain toxic alkaloids and should never be ingested."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves when handling the plant or collecting specimens.",
+      "Avoid touching your eyes, nose, or mouth after contact.",
+      "Wash hands thoroughly after handling any part of the plant.",
+      "Keep children and pets away from the plant and its seed capsules.",
+      "Do not burn plant material or inhale smoke."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Angel's Trumpet",
+        "toxicity": "Highly Toxic",
+        "description": "Produces similar trumpet-shaped flowers but they hang downward from a woody shrub.",
+        "image": "angels-trumpet-1.jpg"
+      },
+      {
+        "name": "Eggplant",
+        "toxicity": "Low Toxicity",
+        "description": "Leaves may appear somewhat similar, but eggplant produces edible purple fruits without spiny seed capsules.",
+        "image": "eggplant-1.jpg"
+      },
+      {
+        "name": "Black Nightshade",
+        "toxicity": "Moderately Toxic",
+        "description": "Belongs to the same family but produces small berries instead of large spiny capsules.",
+        "image": "black-nightshade-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Historical Asthma Treatment",
+        "description": "Leaves were historically smoked or processed for asthma relief, but this practice is no longer recommended due to toxicity."
+      },
+      {
+        "condition": "Source of Anticholinergic Drugs",
+        "description": "Compounds such as atropine and scopolamine have important medical uses when purified and administered in controlled doses."
+      },
+      {
+        "condition": "Historical Pain and Muscle Spasm Relief",
+        "description": "Traditional preparations were used for pain and muscle spasms, though the narrow safety margin makes self-use extremely dangerous."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Bushy annual plant with large upright trumpet-shaped flowers.",
+      "Color": "Flowers are white, cream, or pale violet with bright green foliage.",
+      "Stem": "Smooth green to purplish branching stems reaching approximately 2 to 5 feet.",
+      "Arrangement": "Large solitary flowers arise from branch forks, followed by spiny seed capsules.",
+      "Fruit": "Round green capsules covered with sharp spines that split open when mature.",
+      "Leaves": "Large irregularly toothed leaves with a strong unpleasant odor when crushed.",
+      "Flowers": "Long funnel-shaped flowers that stand upright or slightly angled."
+    },
+
+    "feature_images": [
+      {
+        "image": "jimsonweed-flower.jpg",
+        "caption": "Large upright trumpet-shaped flower"
+      },
+      {
+        "image": "jimsonweed-seedpod.jpg",
+        "caption": "Spiny seed capsule containing highly toxic seeds"
+      },
+      {
+        "image": "jimsonweed-leaves.jpg",
+        "caption": "Large irregularly toothed leaves"
+      },
+      {
+        "image": "jimsonweed-stem.jpg",
+        "caption": "Smooth branching green to purplish stem"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash exposed skin thoroughly with soap and water.",
+        "Remove contaminated clothing if necessary.",
+        "Wash hands immediately after handling the plant."
+      ],
+      "ingestion": [
+        "Call emergency medical services or a poison center immediately.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep plant material available for identification if possible."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if ingestion is suspected.",
+        "Prevent further access to the plant and remove any remaining plant material."
+      ]
+    }
+  },
+
+  "Deadly_nightshade": {
+    "hero_image": "deadly-nightshade-1.jpg",
+    "common_name": "Deadly Nightshade",
+    "scientific_name": "Atropa belladonna",
+    "family_name": "Solanaceae",
+
+    "toxicity": {
+      "level": "Highly Toxic",
+      "severity": "Potentially fatal",
+      "systems_affected": [
+        "Nervous system",
+        "Cardiovascular / Circulatory system",
+        "Digestive system",
+        "Eyes"
+      ],
+      "summary_warning": "All parts of the plant are highly poisonous, especially the berries and roots. Even small amounts can cause severe anticholinergic poisoning, coma, and death."
+    },
+
+    "key_constituents": [
+      "Atropine (Tropane alkaloid)",
+      "Scopolamine (Tropane alkaloid)",
+      "Hyoscyamine (Tropane alkaloid)",
+      "Belladonnine",
+      "Apoatropine",
+      "Flavonoids",
+      "Coumarins",
+      "Phenolic compounds"
+    ],
+
+    "effects": {
+      "Neurological": [
+        {
+          "name": "Confusion and Delirium",
+          "description": "Severe disorientation, agitation, and inability to recognize surroundings."
+        },
+        {
+          "name": "Hallucinations",
+          "description": "Visual and auditory hallucinations may occur during poisoning."
+        },
+        {
+          "name": "Seizures",
+          "description": "Large doses may trigger convulsions and loss of consciousness."
+        }
+      ],
+
+      "Cardiovascular": [
+        {
+          "name": "Rapid Heart Rate",
+          "description": "Heart rate may increase significantly due to anticholinergic effects."
+        },
+        {
+          "name": "Irregular Heart Rhythm",
+          "description": "Severe poisoning can disrupt normal cardiac rhythm."
+        }
+      ],
+
+      "Gastrointestinal": [
+        {
+          "name": "Dry Mouth",
+          "description": "Reduced saliva production causes intense dryness and thirst."
+        },
+        {
+          "name": "Difficulty Swallowing",
+          "description": "Dryness of the throat can make swallowing uncomfortable."
+        },
+        {
+          "name": "Constipation",
+          "description": "Digestive movement slows due to the plant's toxic alkaloids."
+        }
+      ],
+
+      "Ocular": [
+        {
+          "name": "Dilated Pupils",
+          "description": "Marked pupil enlargement with poor response to light."
+        },
+        {
+          "name": "Blurred Vision",
+          "description": "Difficulty focusing accompanied by increased sensitivity to light."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Berries",
+        "description": "Sweet-tasting black berries contain dangerous concentrations of tropane alkaloids."
+      },
+      {
+        "part": "Roots",
+        "description": "Among the most toxic parts, containing high levels of atropine and hyoscyamine."
+      },
+      {
+        "part": "Leaves",
+        "description": "Contain potent alkaloids capable of causing severe poisoning."
+      },
+      {
+        "part": "Flowers and Stems",
+        "description": "Contain toxic compounds and should never be consumed."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves when handling the plant.",
+      "Avoid touching your eyes, nose, or mouth after contact.",
+      "Wash hands thoroughly after handling any part of the plant.",
+      "Keep berries away from children and pets.",
+      "Do not use the plant in homemade herbal remedies."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Black Nightshade",
+        "toxicity": "Moderately Toxic",
+        "description": "Produces similar dark berries but is generally smaller with clustered fruits and white flowers.",
+        "image": "black-nightshade-1.jpg"
+      },
+      {
+        "name": "Blueberry",
+        "toxicity": "Non-Toxic",
+        "description": "Dark berries may appear similar, but blueberries grow on woody shrubs and lack bell-shaped purple flowers.",
+        "image": "blueberry-1.jpg"
+      },
+      {
+        "name": "Goji Berry",
+        "toxicity": "Non-Toxic",
+        "description": "Belongs to the same family but bears bright red edible fruits instead of shiny black berries.",
+        "image": "goji-berry-1.jpg"
+      },
+      {
+        "name": "Bittersweet Nightshade",
+        "toxicity": "Moderately Toxic",
+        "description": "Has purple star-shaped flowers and bright red berries rather than solitary black fruits.",
+        "image": "bittersweet-nightshade-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Pupil Dilation During Eye Examinations",
+        "description": "Purified atropine (constituent, not the plant) is widely used by ophthalmologists to dilate the pupils. "
+      },
+      {
+        "condition": "Bradycardia",
+        "description": "Atropine (constituent, not the plant) is administered medically to treat dangerously slow heart rates."
+      },
+      {
+        "condition": "Antidote for Certain Poisonings",
+        "description": "Atropine (constituent, not the plant) is used in emergency medicine to treat organophosphate and nerve-agent poisoning."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Bushy perennial with bell-shaped flowers and glossy black berries.",
+      "Color": "Purple-brown flowers followed by shiny black berries and green foliage.",
+      "Stem": "Smooth green to purplish branching stems reaching approximately 2 to 5 feet.",
+      "Arrangement": "Single drooping flowers develop into solitary berries along the stems.",
+      "Fruit": "Glossy black berries surrounded by a persistent green calyx.",
+      "Leaves": "Large oval leaves with smooth edges arranged alternately, often appearing in unequal pairs.",
+      "Flowers": "Pendulous bell-shaped flowers with greenish-purple to brownish coloration."
+    },
+
+    "feature_images": [
+      {
+        "image": "deadly-nightshade-flower.jpg",
+        "caption": "Drooping purple bell-shaped flower"
+      },
+      {
+        "image": "deadly-nightshade-berries.jpg",
+        "caption": "Glossy black poisonous berries"
+      },
+      {
+        "image": "deadly-nightshade-leaves.jpg",
+        "caption": "Large oval green leaves"
+      },
+      {
+        "image": "deadly-nightshade-stem.jpg",
+        "caption": "Branching stem with flowers and berries"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash exposed skin thoroughly with soap and water.",
+        "Remove contaminated clothing if necessary.",
+        "Wash hands immediately after handling the plant."
+      ],
+      "ingestion": [
+        "Call emergency medical services or a poison center immediately.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep berries or plant material available for identification if possible."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if ingestion is suspected.",
+        "Prevent further access to the plant and remove remaining berries if safe to do so."
+      ]
+    }
+  },
+
+  
+  "Lily_of_the_valley": {
+    "hero_image": "lily-of-the-valley-1.jpg",
+    "common_name": "Lily of the Valley",
+    "scientific_name": "Convallaria majalis",
+    "family_name": "Asparagaceae",
+
+    "toxicity": {
+      "level": "Highly Toxic",
+      "severity": "Potentially fatal",
+      "systems_affected": [
+        "Cardiovascular / Circulatory system",
+        "Digestive system",
+        "Nervous system"
+      ],
+      "summary_warning": "All parts of the plant are poisonous, especially the berries. Ingestion can cause cardiac glycoside poisoning, leading to dangerous heart rhythm disturbances and potentially life-threatening complications."
+    },
+
+    "key_constituents": [
+      "Convallatoxin (Cardiac glycoside)",
+      "Convallarin (Cardiac glycoside)",
+      "Convallamarin (Cardiac glycoside)",
+      "Saponins",
+      "Flavonoids",
+      "Phenolic compounds"
+    ],
+
+    "effects": {
+      "Cardiovascular": [
+        {
+          "name": "Irregular Heart Rhythm",
+          "description": "Cardiac glycosides may interfere with normal electrical activity of the heart."
+        },
+        {
+          "name": "Slow Heart Rate",
+          "description": "Severe poisoning can cause dangerous bradycardia."
+        },
+        {
+          "name": "Low Blood Pressure",
+          "description": "Reduced cardiac function may lead to weakness, dizziness, or collapse."
+        }
+      ],
+
+      "Gastrointestinal": [
+        {
+          "name": "Nausea and Vomiting",
+          "description": "Common early symptoms after ingestion of plant material."
+        },
+        {
+          "name": "Abdominal Pain",
+          "description": "Stomach cramps and digestive discomfort may occur."
+        },
+        {
+          "name": "Diarrhea",
+          "description": "Digestive irritation may cause loose stools."
+        }
+      ],
+
+      "Neurological": [
+        {
+          "name": "Dizziness and Confusion",
+          "description": "Toxic effects may affect awareness and coordination."
+        },
+        {
+          "name": "Weakness",
+          "description": "General weakness may occur as cardiovascular effects progress."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Berries",
+        "description": "Bright red berries contain concentrated cardiac glycosides and are highly poisonous."
+      },
+      {
+        "part": "Leaves",
+        "description": "Contain toxic cardiac glycosides and can cause poisoning if eaten."
+      },
+      {
+        "part": "Flowers",
+        "description": "Contain toxic compounds despite their small size and pleasant fragrance."
+      },
+      {
+        "part": "Roots and Rhizomes",
+        "description": "Underground parts contain cardiac glycosides and should not be consumed."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves when handling the plant, especially during removal.",
+      "Avoid touching your mouth or face after contact.",
+      "Wash hands thoroughly after handling.",
+      "Keep berries away from children and pets.",
+      "Do not use the plant in homemade herbal preparations."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Wild Garlic",
+        "toxicity": "Low Toxicity",
+        "description": "Leaves may resemble lily of the valley but have a strong garlic smell and different flower clusters.",
+        "image": "wild-garlic-1.jpg"
+      },
+      {
+        "name": "Solomon's Seal",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar arching stems and hanging flowers but produces different berry structures.",
+        "image": "solomons-seal-1.jpg"
+      },
+      {
+        "name": "Snowdrop",
+        "toxicity": "Moderately Toxic",
+        "description": "Has white hanging flowers but grows from bulbs and has narrower leaves.",
+        "image": "snowdrop-1.jpg"
+      },
+      {
+        "name": "Bluebell",
+        "toxicity": "Moderately Toxic",
+        "description": "Produces drooping bell-shaped flowers but has taller flower spikes and different leaves.",
+        "image": "bluebell-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Historical Heart Treatments",
+        "description": "Cardiac glycosides from lily of the valley have been studied historically for heart effects, but the plant is not used as a safe home remedy."
+      },
+      {
+        "condition": "Traditional Herbal Preparations",
+        "description": "Historically used in some traditional systems, but toxicity limits modern medical application."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Low-growing woodland plant forming dense colonies with arching flower stalks.",
+      "Color": "White bell-shaped flowers with green leaves and red berries after flowering.",
+      "Stem": "Thin upright flowering stalk emerging from underground rhizomes.",
+      "Arrangement": "Multiple flowers hang along one side of a curved flower stem.",
+      "Fruit": "Small round bright red berries appearing after flowering.",
+      "Leaves": "Broad smooth green leaves growing in pairs from the base.",
+      "Flowers": "Fragrant white bell-shaped flowers with six fused petal lobes."
+    },
+
+    "feature_images": [
+      {
+        "image": "lily-of-the-valley-flower.jpg",
+        "caption": "White bell-shaped fragrant flowers"
+      },
+      {
+        "image": "lily-of-the-valley-leaves.jpg",
+        "caption": "Broad smooth green leaves"
+      },
+      {
+        "image": "lily-of-the-valley-berries.jpg",
+        "caption": "Red poisonous berries after flowering"
+      },
+      {
+        "image": "lily-of-the-valley-cluster.jpg",
+        "caption": "Arching flower stalk with clustered blooms"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash exposed skin after handling the plant.",
+        "Remove contaminated clothing if plant material is present.",
+        "Wash hands thoroughly before touching food or face."
+      ],
+      "ingestion": [
+        "Call emergency medical services or a poison center immediately.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep plant material available for identification if possible."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if ingestion is suspected.",
+        "Remove remaining plant material from the pet's access area."
+      ]
+    }
+  },
+
+  
+  "Poison_ivy": {
+    "hero_image": "poison-ivy-1.jpg",
+    "common_name": "Poison Ivy",
+    "scientific_name": "Toxicodendron radicans",
+    "family_name": "Anacardiaceae",
+
+    "toxicity": {
+      "level": "Mild Toxicity",
+      "severity": "Potentially severe skin reaction",
+      "systems_affected": [
+        "Skin",
+        "Eyes",
+        "Respiratory system"
+      ],
+      "summary_warning": "Poison ivy is not usually poisonous through ingestion like highly toxic plants, but its oily resin can cause severe allergic skin reactions. All parts of the plant can trigger irritation, even when the plant is dead."
+    },
+
+    "key_constituents": [
+      "Urushiol (Oleoresin)",
+      "Catechols",
+      "Flavonoids",
+      "Triterpenes",
+      "Phenolic compounds",
+      "Tannins"
+    ],
+
+    "effects": {
+      "Dermatological": [
+        {
+          "name": "Itchy Rash",
+          "description": "Exposure causes intense itching and an allergic skin reaction."
+        },
+        {
+          "name": "Redness and Swelling",
+          "description": "Affected areas may become inflamed, swollen, and irritated."
+        },
+        {
+          "name": "Blisters",
+          "description": "Fluid-filled blisters may develop in areas with stronger exposure."
+        }
+      ],
+
+      "Ocular": [
+        {
+          "name": "Eye Irritation",
+          "description": "Transfer of urushiol to the eyes can cause redness, swelling, and discomfort."
+        },
+        {
+          "name": "Swelling Around Eyes",
+          "description": "Severe exposure may result in inflammation around the eyelids."
+        }
+      ],
+
+      "Respiratory": [
+        {
+          "name": "Airway Irritation",
+          "description": "Burning poison ivy plants can release irritating smoke containing urushiol particles."
+        },
+        {
+          "name": "Breathing Difficulty",
+          "description": "Smoke exposure may trigger serious respiratory reactions in sensitive individuals."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Leaves",
+        "description": "Contain urushiol oil responsible for allergic skin reactions."
+      },
+      {
+        "part": "Stems and Vines",
+        "description": "Contain concentrated urushiol and can cause reactions even without leaves."
+      },
+      {
+        "part": "Roots",
+        "description": "Contain irritating oils and may trigger allergic reactions when disturbed."
+      },
+      {
+        "part": "Berries",
+        "description": "Can contain urushiol and should not be handled or consumed."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves and protective clothing when removing the plant.",
+      "Avoid touching your face after possible contact.",
+      "Wash exposed skin with soap and water as soon as possible.",
+      "Wash contaminated clothing separately.",
+      "Do not burn poison ivy because smoke can carry irritating oils."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Virginia Creeper",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar climbing growth but usually has five leaflets instead of poison ivy's three.",
+        "image": "virginia-creeper-1.jpg"
+      },
+      {
+        "name": "Boxelder Seedling",
+        "toxicity": "Non-Toxic",
+        "description": "Young leaves may resemble poison ivy but grow as part of a tree species.",
+        "image": "boxelder-1.jpg"
+      },
+      {
+        "name": "Blackberry",
+        "toxicity": "Non-Toxic",
+        "description": "Leaves may appear similar but blackberry plants have thorny stems and edible fruits.",
+        "image": "blackberry-1.jpg"
+      },
+      {
+        "name": "Poison Oak",
+        "toxicity": "Low Toxicity",
+        "description": "Causes similar urushiol reactions but has more oak-like rounded leaflets.",
+        "image": "poison-oak-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Historical Skin Remedies",
+        "description": "Poison ivy has been studied in traditional practices, but it is not recommended for direct medicinal use due to its irritating resin."
+      },
+      {
+        "condition": "No Proper Modern Medical Use",
+        "description": "Poison ivy's uses are researched but clear uses are not defined."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Climbing or trailing vine with groups of three leaflets.",
+      "Color": "Leaves are green in warmer months and may turn red, orange, or yellow in autumn.",
+      "Stem": "Woody vine that may climb trees or spread along the ground.",
+      "Arrangement": "Leaves typically grow in groups of three leaflets from a single stem.",
+      "Fruit": "Small pale green to white berries appearing after flowering.",
+      "Leaves": "Three-leaflet structure with variable edges ranging from smooth to slightly toothed.",
+      "Surface_texture": "Leaves may appear glossy or slightly hairy depending on growth stage."
+    },
+
+    "feature_images": [
+      {
+        "image": "poison-ivy-leaves.jpg",
+        "caption": "Three-leaflet leaf pattern"
+      },
+      {
+        "image": "poison-ivy-vine.jpg",
+        "caption": "Woody climbing vine structure"
+      },
+      {
+        "image": "poison-ivy-autumn.jpg",
+        "caption": "Red autumn-colored leaves"
+      },
+      {
+        "image": "poison-ivy-berries.jpg",
+        "caption": "Small pale berries after flowering"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash exposed skin immediately with soap and water.",
+        "Remove contaminated clothing and wash separately.",
+        "Avoid spreading oil to other body areas."
+      ],
+      "ingestion": [
+        "Seek medical advice if plant material is swallowed.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Contact emergency services if severe symptoms develop."
+      ],
+      "pets": [
+        "Wash pets that contacted the plant using appropriate pet-safe products.",
+        "Contact a veterinarian if severe irritation or unusual symptoms occur."
+      ]
+    }
+  },
+
+  "Oleander": {
+    "hero_image": "oleander-1.jpg",
+    "common_name": "Oleander",
+    "scientific_name": "Nerium oleander",
+    "family_name": "Apocynaceae",
+
+    "toxicity": {
+      "level": "Highly Toxic",
+      "severity": "Potentially fatal",
+      "systems_affected": [
+        "Cardiovascular / Circulatory system",
+        "Digestive system",
+        "Nervous system"
+      ],
+      "summary_warning": "All parts of the plant are highly poisonous, especially the leaves and sap. Ingestion can cause severe cardiac glycoside poisoning, dangerous heart rhythm changes, and potentially fatal complications."
+    },
+
+    "key_constituents": [
+      "Oleandrin (Cardiac glycoside)",
+      "Neriin (Cardiac glycoside)",
+      "Digitoxigenin",
+      "Oleandrigenin",
+      "Flavonoids",
+      "Saponins",
+      "Triterpenoids",
+      "Phenolic compounds"
+    ],
+
+    "effects": {
+      "Cardiovascular": [
+        {
+          "name": "Irregular Heart Rhythm",
+          "description": "Cardiac glycosides interfere with heart electrical activity and may cause dangerous arrhythmias."
+        },
+        {
+          "name": "Slow Heart Rate",
+          "description": "Severe poisoning may result in bradycardia and reduced cardiac function."
+        },
+        {
+          "name": "Low Blood Pressure",
+          "description": "Reduced heart performance can lead to dizziness, fainting, and collapse."
+        }
+      ],
+
+      "Gastrointestinal": [
+        {
+          "name": "Nausea and Vomiting",
+          "description": "Common early symptoms after ingestion of leaves or plant material."
+        },
+        {
+          "name": "Abdominal Pain",
+          "description": "Stomach cramps and digestive discomfort may occur."
+        },
+        {
+          "name": "Diarrhea",
+          "description": "Toxic compounds may irritate the digestive tract."
+        }
+      ],
+
+      "Neurological": [
+        {
+          "name": "Dizziness and Weakness",
+          "description": "Reduced circulation and toxin effects may cause weakness and lightheadedness."
+        },
+        {
+          "name": "Confusion",
+          "description": "Severe poisoning may affect mental awareness and coordination."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Leaves",
+        "description": "Contain high concentrations of oleandrin and other cardiac glycosides."
+      },
+      {
+        "part": "Flowers",
+        "description": "Contain toxic compounds despite their attractive appearance."
+      },
+      {
+        "part": "Sap / Latex",
+        "description": "Milky sap can irritate skin and contains poisonous cardiac glycosides."
+      },
+      {
+        "part": "Seeds and Fruits",
+        "description": "Contain concentrated toxins and may cause severe poisoning if consumed."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves when pruning or handling plant material.",
+      "Avoid contact between sap and eyes, mouth, or broken skin.",
+      "Wash hands thoroughly after handling the plant.",
+      "Keep fallen leaves and flowers away from children and pets.",
+      "Do not burn oleander because smoke may contain irritating toxic compounds."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Rosemary",
+        "toxicity": "Low Toxicity",
+        "description": "Narrow leaves may look similar, but rosemary has a different aroma and smaller flowers.",
+        "image": "rosemary-1.jpg"
+      },
+      {
+        "name": "Periwinkle",
+        "toxicity": "Moderately Toxic",
+        "description": "Has similar five-petaled flowers but grows lower with smaller leaves.",
+        "image": "periwinkle-1.jpg"
+      },
+      {
+        "name": "Desert Rose",
+        "toxicity": "Highly Toxic",
+        "description": "Produces similar flowers and toxic milky sap but has a swollen succulent trunk.",
+        "image": "desert-rose-1.jpg"
+      },
+      {
+        "name": "Milkweed",
+        "toxicity": "Moderately Toxic",
+        "description": "Contains milky latex and similar leaf shapes but usually has different flower clusters.",
+        "image": "milkweed-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Historical Heart Research",
+        "description": "Oleander cardiac glycosides have been studied for heart effects, but the plant itself is not used safely as a home remedy."
+      },
+      {
+        "condition": "Cardiac Glycoside Research",
+        "description": "Compounds from oleander have been investigated scientifically due to their effects on heart muscle."
+      },
+      {
+        "condition": "Cardiac Glycoside Research",
+        "description": "Compounds from oleander have been investigated scientifically due to their effects on heart muscle."
+      },
+      {
+        "condition": "No Proper Modern Medical Use",
+        "description": "Giant milkweed's uses are researched but clear uses are not defined."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Evergreen shrub with long narrow leaves and clusters of colorful flowers.",
+      "Color": "Flowers may be pink, white, red, or yellow with dark green foliage.",
+      "Stem": "Woody branching stems containing poisonous milky sap.",
+      "Arrangement": "Leaves usually grow in pairs or groups of three along upright branches.",
+      "Fruit": "Long narrow seed pods that split open to release hairy seeds.",
+      "Leaves": "Leathery, lance-shaped leaves with smooth edges and prominent central veins.",
+      "Flowers": "Five-petaled flowers growing in dense clusters at branch tips."
+    },
+
+    "feature_images": [
+      {
+        "image": "oleander-flower.jpg",
+        "caption": "Clustered five-petaled flowers"
+      },
+      {
+        "image": "oleander-leaves.jpg",
+        "caption": "Long narrow leathery leaves"
+      },
+      {
+        "image": "oleander-seedpod.jpg",
+        "caption": "Long seed pods after flowering"
+      },
+      {
+        "image": "oleander-stem.jpg",
+        "caption": "Woody stem releasing milky sap"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash skin immediately with soap and water if sap contacts the body.",
+        "Rinse eyes with clean water if exposed.",
+        "Remove contaminated clothing and wash separately."
+      ],
+      "ingestion": [
+        "Call emergency medical services or a poison center immediately.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep plant material available for identification if possible."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if ingestion is suspected.",
+        "Remove plant material from the pet's access area."
+      ]
+    }
+  },
+
+  "Yellow_oleander": {
+    "hero_image": "yellow-oleander-1.jpg",
+    "common_name": "Yellow Oleander",
+    "scientific_name": "Cascabela thevetia",
+    "family_name": "Apocynaceae",
+
+    "toxicity": {
+      "level": "Highly Toxic",
+      "severity": "Potentially fatal",
+      "systems_affected": [
+        "Cardiovascular / Circulatory system",
+        "Digestive system",
+        "Nervous system"
+      ],
+      "summary_warning": "All parts of the plant are highly poisonous, especially the seeds. Cardiac glycosides can cause severe heart rhythm disturbances, gastrointestinal illness, and potentially fatal poisoning."
+    },
+
+    "key_constituents": [
+      "Thevetin A (Cardiac glycoside)",
+      "Thevetin B (Cardiac glycoside)",
+      "Peruvoside (Cardiac glycoside)",
+      "Neriifolin (Cardiac glycoside)",
+      "Ruvoside",
+      "Flavonoids",
+      "Saponins",
+      "Triterpenoids"
+    ],
+
+    "effects": {
+      "Cardiovascular": [
+        {
+          "name": "Dangerous Arrhythmias",
+          "description": "Cardiac glycosides may disrupt electrical activity of the heart and cause irregular rhythms."
+        },
+        {
+          "name": "Slow Heart Rate",
+          "description": "Severe poisoning can result in bradycardia and reduced heart function."
+        },
+        {
+          "name": "Low Blood Pressure",
+          "description": "Reduced cardiac output may lead to dizziness, fainting, and collapse."
+        }
+      ],
+
+      "Gastrointestinal": [
+        {
+          "name": "Nausea and Vomiting",
+          "description": "Common early symptoms following ingestion of seeds or plant material."
+        },
+        {
+          "name": "Abdominal Pain",
+          "description": "Toxic compounds may cause stomach cramps and digestive discomfort."
+        },
+        {
+          "name": "Diarrhea",
+          "description": "Irritation of the digestive system may cause loose stools."
+        }
+      ],
+
+      "Neurological": [
+        {
+          "name": "Dizziness and Weakness",
+          "description": "Poisoning may affect circulation and cause weakness or lightheadedness."
+        },
+        {
+          "name": "Confusion",
+          "description": "Severe cardiac toxicity may result in altered mental awareness."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Seeds",
+        "description": "The most dangerous part of the plant, containing concentrated cardiac glycosides."
+      },
+      {
+        "part": "Leaves",
+        "description": "Contain thevetin and related toxins capable of causing severe poisoning."
+      },
+      {
+        "part": "Flowers",
+        "description": "Contain cardiac glycosides and should not be consumed."
+      },
+      {
+        "part": "Sap and Stems",
+        "description": "Milky sap contains toxic compounds and may irritate skin."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves when pruning or handling plant material.",
+      "Avoid contact of sap with eyes, mouth, or broken skin.",
+      "Wash hands thoroughly after handling.",
+      "Keep seeds away from children and pets.",
+      "Do not burn plant material because smoke may contain irritating compounds."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Oleander",
+        "toxicity": "Highly Toxic",
+        "description": "Closely related plant with similar narrow leaves and toxic cardiac glycosides, but usually has pink or white flowers.",
+        "image": "oleander-1.jpg"
+      },
+      {
+        "name": "Allamanda",
+        "toxicity": "Moderately Toxic",
+        "description": "Has similar yellow trumpet-shaped flowers but grows as a vine or sprawling shrub.",
+        "image": "allamanda-1.jpg"
+      },
+      {
+        "name": "Frangipani",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar tropical flowers and milky sap but has thicker succulent branches and broader leaves.",
+        "image": "frangipani-1.jpg"
+      },
+      {
+        "name": "Desert Rose",
+        "toxicity": "Highly Toxic",
+        "description": "Produces similar flowers and toxic latex but has a swollen water-storing trunk.",
+        "image": "desert-rose-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Historical Cardiac Research",
+        "description": "Yellow oleander cardiac glycosides have been studied for their effects on heart muscle, but the plant is not safe for self-medication."
+      },
+      {
+        "condition": "Traditional Medicine",
+        "description": "Various traditional systems used parts of the plant historically, but toxicity greatly limits safe application."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Evergreen shrub or small tree with narrow leaves and bright yellow flowers.",
+      "Color": "Yellow funnel-shaped flowers with dark green glossy foliage.",
+      "Stem": "Woody branching stems containing toxic milky sap.",
+      "Arrangement": "Leaves grow along branches in clusters or spirals.",
+      "Fruit": "Green to black rounded fruits containing highly toxic seeds.",
+      "Leaves": "Long narrow leathery leaves with smooth edges and pointed tips.",
+      "Flowers": "Large yellow trumpet-shaped flowers with five overlapping petals."
+    },
+
+    "feature_images": [
+      {
+        "image": "yellow-oleander-flower.jpg",
+        "caption": "Bright yellow trumpet-shaped flowers"
+      },
+      {
+        "image": "yellow-oleander-leaves.jpg",
+        "caption": "Long narrow glossy leaves"
+      },
+      {
+        "image": "yellow-oleander-fruit.jpg",
+        "caption": "Rounded toxic fruit containing seeds"
+      },
+      {
+        "image": "yellow-oleander-stem.jpg",
+        "caption": "Woody stem with toxic milky sap"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash skin immediately with soap and water after sap contact.",
+        "Rinse eyes with clean water if exposed.",
+        "Remove contaminated clothing and wash separately."
+      ],
+      "ingestion": [
+        "Call emergency medical services or a poison center immediately.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep seeds or plant material available for identification."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if ingestion is suspected.",
+        "Remove remaining plant material from the pet's access area."
+      ]
+    }
+  },
+
+  "Tomato": {
+    "hero_image": "tomato-1.jpg",
+    "common_name": "Tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family_name": "Solanaceae",
+
+    "toxicity": {
+      "level": "Low Toxicity",
+      "severity": "Mildly toxic when unripe or consumed in large amounts",
+      "systems_affected": [
+        "Digestive system",
+        "Nervous system",
+        "Skin (sensitive individuals)"
+      ],
+      "summary_warning": "Ripe tomato fruits are generally safe to eat. Green unripe fruits, leaves, and stems contain higher levels of toxic glycoalkaloids that may cause illness if consumed in large quantities."
+    },
+
+    "key_constituents": [
+      "Tomatine (Glycoalkaloid)",
+      "Solanine (Glycoalkaloid)",
+      "Lycopene (Carotenoid)",
+      "Beta-carotene",
+      "Flavonoids",
+      "Vitamin C",
+      "Phenolic compounds",
+      "Potassium"
+    ],
+
+    "effects": {
+      "Gastrointestinal": [
+        {
+          "name": "Nausea and Vomiting",
+          "description": "Large amounts of unripe tomato parts may irritate the digestive system."
+        },
+        {
+          "name": "Abdominal Discomfort",
+          "description": "Excessive consumption of green fruits, leaves, or stems may cause stomach cramps."
+        },
+        {
+          "name": "Diarrhea",
+          "description": "Toxic glycoalkaloids may disturb digestion when consumed in significant amounts."
+        }
+      ],
+
+      "Neurological": [
+        {
+          "name": "Headache and Dizziness",
+          "description": "High exposure to glycoalkaloids may affect the nervous system."
+        },
+        {
+          "name": "Weakness",
+          "description": "Large amounts of toxic plant material may cause fatigue and general weakness."
+        }
+      ],
+
+      "Dermatological": [
+        {
+          "name": "Skin Irritation",
+          "description": "Contact with tomato leaves may cause irritation or allergic reactions in sensitive individuals."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Leaves",
+        "description": "Contain higher concentrations of tomatine and other glycoalkaloids and generally should not be eaten."
+      },
+      {
+        "part": "Stems",
+        "description": "Contain toxic compounds and are not suitable for consumption."
+      },
+      {
+        "part": "Unripe Green Fruits",
+        "description": "Contain higher levels of tomatine compared with ripe tomatoes."
+      },
+      {
+        "part": "Roots",
+        "description": "Contain plant defense compounds and should not be consumed."
+      }
+    ],
+
+    "handling_safety": [
+      "Wash hands after handling large amounts of leaves or stems.",
+      "Avoid eating tomato leaves or stems.",
+      "Do not consume large quantities of unripe green tomatoes.",
+      "Wash ripe tomatoes before eating.",
+      "Keep garden chemicals and treated plants away from food use."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Deadly Nightshade",
+        "toxicity": "Highly Toxic",
+        "description": "Belongs to the same family and may resemble tomato plants, but produces poisonous black berries.",
+        "image": "deadly-nightshade-1.jpg"
+      },
+      {
+        "name": "Black Nightshade",
+        "toxicity": "Moderately Toxic",
+        "description": "Has similar leaves and flowers but produces small dark berries instead of large tomato fruits.",
+        "image": "black-nightshade-1.jpg"
+      },
+      {
+        "name": "Jimsonweed",
+        "toxicity": "Highly Toxic",
+        "description": "Shares the same plant family but has trumpet-shaped flowers and spiny seed capsules.",
+        "image": "jimsonweed-1.jpg"
+      },
+      {
+        "name": "Potato Plant",
+        "toxicity": "Low Toxicity",
+        "description": "Closely related with similar foliage but produces underground tubers instead of tomato fruits.",
+        "image": "potato-plant-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Antioxidant Support",
+        "description": "Tomatoes provide lycopene and other antioxidants that are studied for their nutritional benefits."
+      },
+      {
+        "condition": "Cardiovascular Nutrition",
+        "description": "Regular consumption of tomatoes contributes nutrients associated with heart-healthy diets."
+      },
+      {
+        "condition": "Skin Health",
+        "description": "Lycopene and other compounds from tomatoes are studied for their protective antioxidant properties."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Herbaceous plant with branching stems, compound leaves, and fleshy fruits.",
+      "Color": "Fruits range from green when unripe to red, yellow, orange, or purple when mature.",
+      "Stem": "Soft hairy stems that release a strong tomato scent when crushed.",
+      "Arrangement": "Leaves and flower clusters grow alternately along branching stems.",
+      "Fruit": "Round or elongated fleshy berries containing multiple seeds.",
+      "Leaves": "Compound leaves with irregular lobes and fine hairs.",
+      "Flowers": "Small yellow star-shaped flowers with five pointed petals."
+    },
+
+    "feature_images": [
+      {
+        "image": "tomato-flower.jpg",
+        "caption": "Small yellow star-shaped flowers"
+      },
+      {
+        "image": "tomato-leaves.jpg",
+        "caption": "Hairy compound leaves"
+      },
+      {
+        "image": "tomato-fruit.jpg",
+        "caption": "Ripe red tomato fruit"
+      },
+      {
+        "image": "tomato-stem.jpg",
+        "caption": "Branching hairy tomato stem"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash skin with soap and water if irritation occurs.",
+        "Remove contaminated plant material from contact areas.",
+        "Seek medical advice if allergic reactions become severe."
+      ],
+      "ingestion": [
+        "Seek medical advice if large amounts of leaves, stems, or unripe fruits are consumed.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep plant material available for identification if symptoms develop."
+      ],
+      "pets": [
+        "Contact a veterinarian if pets consume large amounts of tomato leaves or stems.",
+        "Remove access to the plant and monitor for vomiting or weakness."
+      ]
+    }
+  },
+
+  
+  "Wild_garlic": {
+    "hero_image": "wild-garlic-1.jpg",
+    "common_name": "Wild Garlic",
+    "scientific_name": "Allium ursinum",
+    "family_name": "Amaryllidaceae",
+
+    "toxicity": {
+      "level": "Low Toxicity",
+      "severity": "Generally non-toxic",
+      "systems_affected": [
+        "Digestive system",
+        "Skin (sensitive individuals)"
+      ],
+      "summary_warning": "Wild garlic is generally considered edible and safe when correctly identified. However, it can be dangerous if confused with toxic plants such as lily of the valley or autumn crocus, which may look similar."
+    },
+
+    "key_constituents": [
+      "Allicin (Sulfur compound)",
+      "Sulfur-containing compounds",
+      "Flavonoids",
+      "Phenolic acids",
+      "Saponins",
+      "Vitamin C",
+      "Essential oils"
+    ],
+
+    "effects": {
+      "Gastrointestinal": [
+        {
+          "name": "Mild Stomach Upset",
+          "description": "Large amounts may cause nausea, bloating, or digestive discomfort."
+        },
+        {
+          "name": "Loose Stools",
+          "description": "Excessive consumption may mildly irritate the digestive tract."
+        }
+      ],
+
+      "Dermatological": [
+        {
+          "name": "Skin Irritation",
+          "description": "Contact with crushed leaves may irritate sensitive skin in some individuals."
+        },
+        {
+          "name": "Allergic Reaction",
+          "description": "Rare reactions may include itching or redness after handling."
+        }
+      ]
+
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Leaves",
+        "description": "Edible when correctly identified but can be dangerous if confused with toxic look-alike plants."
+      },
+      {
+        "part": "Bulbs",
+        "description": "Edible but strongly flavored and should only be harvested from correctly identified plants."
+      },
+      {
+        "part": "Flowers",
+        "description": "Edible and contain aromatic sulfur compounds."
+      },
+      {
+        "part": "Seeds",
+        "description": "Not considered poisonous but are rarely used as food."
+      }
+    ],
+
+    "handling_safety": [
+      "Confirm identification before consuming because toxic look-alikes exist.",
+      "Wash leaves thoroughly before eating.",
+      "Avoid harvesting near polluted roadsides or treated areas.",
+      "Wear gloves if handling large quantities and prone to skin sensitivity.",
+      "Do not consume unknown plants based only on smell."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Lily of the Valley",
+        "toxicity": "Highly Toxic",
+        "description": "Has similar broad leaves but produces white bell-shaped flowers and contains dangerous cardiac glycosides.",
+        "image": "lily-of-the-valley-1.jpg"
+      },
+      {
+        "name": "Autumn Crocus",
+        "toxicity": "Highly Toxic",
+        "description": "Leaves may resemble wild garlic but contain colchicine and can cause severe poisoning.",
+        "image": "autumn-crocus-1.jpg"
+      },
+      {
+        "name": "Lords-and-Ladies",
+        "toxicity": "Moderately Toxic",
+        "description": "Young leaves may resemble wild garlic but the plant develops distinctive berries.",
+        "image": "lords-and-ladies-1.jpg"
+      },
+      {
+        "name": "Broadleaf Garlic",
+        "toxicity": "Low Toxicity",
+        "description": "Similar edible Allium species with comparable leaves and garlic scent.",
+        "image": "broadleaf-garlic-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Traditional Cardiovascular Support",
+        "description": "Traditionally used as an herb due to sulfur compounds similar to those found in cultivated garlic."
+      },
+      {
+        "condition": "Antioxidant Support",
+        "description": "Contains plant compounds studied for antioxidant activity."
+      },
+      {
+        "condition": "Traditional Digestive Uses",
+        "description": "Historically used as a culinary herb to support digestion."
+      },
+      {
+        "condition": "Food condiment",
+        "description": "Used as spice and main ingredient for a few dishes."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Low-growing woodland plant forming dense patches with broad leaves.",
+      "Color": "Bright green leaves with white star-shaped flowers.",
+      "Stem": "Soft upright flowering stems emerging from underground bulbs.",
+      "Arrangement": "Leaves grow individually from the base with flowers held above foliage.",
+      "Flower_structure": "Small white flowers arranged in rounded clusters at the top of stems.",
+      "Leaves": "Broad elliptical leaves with a smooth surface and strong garlic smell when crushed.",
+      "Bulbs": "Small underground bulbs producing a strong garlic-like aroma."
+    },
+
+    "feature_images": [
+      {
+        "image": "wild-garlic-flower.jpg",
+        "caption": "White star-shaped flower cluster"
+      },
+      {
+        "image": "wild-garlic-leaves.jpg",
+        "caption": "Broad green garlic-scented leaves"
+      },
+      {
+        "image": "wild-garlic-patch.jpg",
+        "caption": "Dense woodland growth"
+      },
+      {
+        "image": "wild-garlic-bulb.jpg",
+        "caption": "Underground bulb structure"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash skin with soap and water if irritation occurs.",
+        "Remove plant material from contact areas.",
+        "Seek medical advice if an allergic reaction develops."
+      ],
+      "ingestion": [
+        "Seek medical advice if the plant was misidentified and a toxic look-alike may have been consumed.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep a sample of the plant for identification if symptoms occur."
+      ],
+      "pets": [
+        "Monitor pets for vomiting, drooling, or digestive upset after large consumption.",
+        "Contact a veterinarian if symptoms persist or large amounts were eaten."
+      ]
+    }
+  },
+
+  "Grape_vine": {
+    "hero_image": "grape-vine-1.jpg",
+    "common_name": "Grape Vine",
+    "scientific_name": "Vitis vinifera",
+    "family_name": "Vitaceae",
+
+    "toxicity": {
+      "level": "Low Toxicity",
+      "severity": "Non-toxic for humans",
+      "systems_affected": [
+        "Digestive system",
+        "Kidneys (pets, especially dogs)"
+      ],
+      "summary_warning": "Grapes are safe for humans, but grape fruits can be highly dangerous for dogs and may cause sudden kidney failure. Leaves, stems, and unripe fruits may cause mild digestive irritation when consumed in very large quantities."
+    },
+
+    "key_constituents": [
+      "Resveratrol (Polyphenol)",
+      "Tannins",
+      "Flavonoids",
+      "Anthocyanins",
+      "Tartaric acid",
+      "Catechins",
+      "Sugars",
+      "Potassium"
+    ],
+
+    "effects": {
+      "Gastrointestinal": [
+        {
+          "name": "Mild Stomach Upset",
+          "description": "Very Large amounts of leaves, stems, or unripe fruits may cause nausea or digestive discomfort."
+        },
+        {
+          "name": "Vomiting",
+          "description": "Excessive consumption of plant material may irritate the digestive system."
+        },
+        {
+          "name": "Diarrhea",
+          "description": "High intake of grape plant parts may lead to loose stools."
+        }
+      ],
+
+      "Renal": [
+        {
+          "name": "Kidney Injury in Dogs",
+          "description": "Grapes and raisins can cause acute kidney failure in some dogs, even in small amounts."
+        },
+        {
+          "name": "Reduced Urination in Dogs",
+          "description": "Severe grape toxicity in dogs may result in decreased urine production."
+        }
+      ],
+
+      "Dermatological": [
+        {
+          "name": "Skin Irritation (rare)",
+          "description": "Contact with grape leaves or plant sap may rarely irritate sensitive skin."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Grapes (for dogs)",
+        "description": "Fresh grapes and dried raisins can cause severe kidney toxicity in dogs."
+      },
+      {
+        "part": "Seeds",
+        "description": "Contain concentrated plant compounds and may cause digestive discomfort if consumed excessively."
+      },
+      {
+        "part": "Leaves",
+        "description": "Edible when prepared properly but may cause digestive upset in large quantities."
+      },
+      {
+        "part": "Stems and Vines",
+        "description": "Not commonly eaten and may irritate the digestive system if consumed in large amounts."
+      }
+    ],
+
+    "handling_safety": [
+      "Wash grapes thoroughly before eating.",
+      "Keep grapes and raisins away from dogs and pets.",
+      "Avoid consuming unknown wild grape species without identification.",
+      "Wash hands after handling treated vines or garden chemicals.",
+      "Do not consume leaves or plant parts exposed to pesticides."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Virginia Creeper",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar climbing growth and leaves but usually has five leaflets instead of grape vine's broad single leaves.",
+        "image": "virginia-creeper-1.jpg"
+      },
+      {
+        "name": "Poison Ivy",
+        "toxicity": "Mildly Toxic",
+        "description": "Can resemble young grape leaves but typically has three leaflets and causes skin reactions.",
+        "image": "poison-ivy-1.jpg"
+      },
+      {
+        "name": "Moonseed",
+        "toxicity": "Highly Toxic",
+        "description": "Produces climbing vines with grape-like berries that can be poisonous if mistaken for grapes.",
+        "image": "moonseed-1.jpg"
+      },
+      {
+        "name": "Wild Cucumber",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar climbing habits but different leaves, flowers, and fruits.",
+        "image": "wild-cucumber-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Antioxidant Support",
+        "description": "Grapes contain polyphenols such as resveratrol and flavonoids studied for antioxidant properties."
+      },
+      {
+        "condition": "Cardiovascular Nutrition",
+        "description": "Grape compounds are studied for their potential role in supporting heart health as part of a balanced diet."
+      },
+      {
+        "condition": "Traditional Skin Applications",
+        "description": "Grape-derived compounds have been investigated in cosmetic and skincare products."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Woody climbing vine with tendrils and broad lobed leaves.",
+      "Color": "Green leaves with grape clusters ranging from green to red, purple, or black.",
+      "Stem": "Woody flexible stems that climb using coiled tendrils.",
+      "Arrangement": "Leaves grow alternately along the vine with grape clusters opposite leaf nodes.",
+      "Fruit": "Clusters of round berries containing seeds or seedless varieties.",
+      "Leaves": "Large heart-shaped leaves with toothed edges and shallow to deep lobes.",
+      "Tendrils": "Thin curling structures used for climbing and support."
+    },
+
+    "feature_images": [
+      {
+        "image": "grape-vine-fruit.jpg",
+        "caption": "Clusters of ripe grapes"
+      },
+      {
+        "image": "grape-vine-leaves.jpg",
+        "caption": "Large lobed grape leaves"
+      },
+      {
+        "image": "grape-vine-tendrils.jpg",
+        "caption": "Curling climbing tendrils"
+      },
+      {
+        "image": "grape-vine-stem.jpg",
+        "caption": "Woody vine structure"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash skin if irritation occurs after handling treated vines.",
+        "Remove contaminated clothing if exposed to pesticides.",
+        "Seek medical advice if allergic symptoms develop."
+      ],
+      "ingestion": [
+        "Seek medical advice if large amounts of leaves, stems, or unknown grape-like berries are consumed.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep plant material available for identification if needed."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if a dog consumes grapes or raisins.",
+        "Monitor for vomiting, weakness, or reduced urination.",
+        "Remove remaining grapes from the pet's access area."
+      ]
+    }
+  },
+
+  "Rosary_pea": {
+    "hero_image": "rosary-pea-1.jpg",
+    "common_name": "Rosary Pea",
+    "scientific_name": "Abrus precatorius",
+    "family_name": "Fabaceae",
+
+    "toxicity": {
+      "level": "Highly Toxic",
+      "severity": "Potentially fatal",
+      "systems_affected": [
+        "Digestive system",
+        "Circulatory system",
+        "Nervous system",
+        "Liver and kidneys"
+      ],
+      "summary_warning": "The seeds are extremely poisonous because they contain abrin, a potent toxin. A single chewed seed can cause severe poisoning and may be fatal. Intact seeds are less dangerous if swallowed whole because the outer coating may prevent toxin release."
+    },
+
+    "key_constituents": [
+      "Abrin (Ribosome-inactivating protein)",
+      "Abrine (Amino acid derivative)",
+      "Lectins",
+      "Flavonoids",
+      "Triterpenoids",
+      "Sterols",
+      "Saponins"
+    ],
+
+    "effects": {
+      "Gastrointestinal": [
+        {
+          "name": "Severe Nausea and Vomiting",
+          "description": "Common early symptoms after ingestion of damaged or chewed seeds."
+        },
+        {
+          "name": "Abdominal Pain",
+          "description": "Toxin exposure may cause severe stomach cramps and irritation."
+        },
+        {
+          "name": "Bloody Diarrhea",
+          "description": "Severe poisoning may damage the digestive tract and cause bleeding."
+        }
+      ],
+
+      "Neurological": [
+        {
+          "name": "Weakness",
+          "description": "Progressive weakness may occur as toxin effects spread through the body."
+        },
+        {
+          "name": "Confusion and Dizziness",
+          "description": "Severe poisoning may affect mental awareness and coordination."
+        },
+        {
+          "name": "Seizures",
+          "description": "Advanced poisoning may cause nervous system complications."
+        }
+      ],
+
+      "Circulatory": [
+        {
+          "name": "Low Blood Pressure",
+          "description": "Severe toxin exposure may cause circulatory collapse."
+        },
+        {
+          "name": "Organ Failure",
+          "description": "Abrin poisoning can damage multiple organs and may become life-threatening."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Seeds",
+        "description": "Extremely toxic due to high concentrations of abrin, especially when seeds are chewed or crushed."
+      },
+      {
+        "part": "Seed Coating",
+        "description": "Contains protective compounds and toxins that become dangerous when broken."
+      },
+      {
+        "part": "Leaves",
+        "description": "Contain toxic compounds but are less dangerous than the seeds."
+      },
+      {
+        "part": "Roots and Stems",
+        "description": "Contain plant defense compounds and should not be consumed."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves when handling seeds or plant material.",
+      "Avoid crushing or opening the seeds.",
+      "Keep seeds away from children and pets.",
+      "Wash hands thoroughly after handling.",
+      "Do not use seeds for crafts unless they are properly sealed and handled safely."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Black-eyed Susan Vine",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar climbing growth and colorful seeds but lacks the highly toxic rosary-like seeds.",
+        "image": "black-eyed-susan-vine-1.jpg"
+      },
+      {
+        "name": "Pea Plant",
+        "toxicity": "Non-Toxic",
+        "description": "Belongs to the same family but has edible pea-like pods and different seed appearance.",
+        "image": "pea-plant-1.jpg"
+      },
+      {
+        "name": "Coral Tree",
+        "toxicity": "Moderately Toxic",
+        "description": "Produces bright seeds but grows as a tree with different leaf structures.",
+        "image": "coral-tree-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Historical Traditional Medicine",
+        "description": "Used historically in some traditional systems, but its narrow safety margin makes uncontrolled use dangerous."
+      },
+      {
+        "condition": "Research Applications",
+        "description": "Abrin has been studied scientifically because of its biological activity, but it has no safe therapeutic use in raw plant form."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Climbing vine with delicate compound leaves and colorful hard seeds.",
+      "Color": "Green foliage with pink, purple, or white flowers and bright red seeds with black markings.",
+      "Stem": "Thin twining stems that climb over nearby vegetation.",
+      "Arrangement": "Small leaflets arranged in pairs along feather-like compound leaves.",
+      "Fruit": "Flat seed pods containing several hard, brightly colored seeds.",
+      "Seeds": "Small glossy red seeds with a distinctive black spot near one end.",
+      "Flowers": "Small pea-like flowers arranged in clusters."
+    },
+
+    "feature_images": [
+      {
+        "image": "rosary-pea-seeds.jpg",
+        "caption": "Bright red and black poisonous seeds"
+      },
+      {
+        "image": "rosary-pea-flower.jpg",
+        "caption": "Small pea-like flower clusters"
+      },
+      {
+        "image": "rosary-pea-leaves.jpg",
+        "caption": "Feathery compound leaves"
+      },
+      {
+        "image": "rosary-pea-vine.jpg",
+        "caption": "Climbing vine growth habit"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash hands and exposed skin after handling seeds.",
+        "Remove contaminated clothing if plant material is present.",
+        "Seek medical advice if irritation or exposure occurs."
+      ],
+      "ingestion": [
+        "Seek emergency medical assistance immediately if seeds are eaten.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep seeds or plant material available for identification."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if seeds are ingested.",
+        "Remove remaining seeds from the pet's access area.",
+        "Monitor for vomiting, weakness, or unusual behavior."
+      ]
+    }
+  },
+
+  "Red_clover": {
+    "hero_image": "red-clover-1.jpg",
+    "common_name": "Red Clover",
+    "scientific_name": "Trifolium pratense",
+    "family_name": "Fabaceae",
+
+    "toxicity": {
+      "level": "Low Toxicity",
+      "severity": "Generally non-toxic",
+      "systems_affected": [
+        "Digestive system",
+        "Hormonal system",
+        "Skin (sensitive individuals)"
+      ],
+      "summary_warning": "Red clover is generally considered safe in normal food amounts. Large quantities or concentrated extracts may cause digestive discomfort or interact with hormone-sensitive conditions due to its phytoestrogen compounds."
+    },
+
+    "key_constituents": [
+      "Genistein (Isoflavone)",
+      "Daidzein (Isoflavone)",
+      "Formononetin (Isoflavone)",
+      "Biochanin A (Isoflavone)",
+      "Coumarins",
+      "Flavonoids",
+      "Phenolic compounds",
+      "Tannins"
+    ],
+
+    "effects": {
+      "Gastrointestinal": [
+        {
+          "name": "Mild Stomach Upset",
+          "description": "Large amounts may cause nausea, bloating, or digestive discomfort."
+        },
+        {
+          "name": "Loose Stools",
+          "description": "Excessive consumption may mildly affect digestion."
+        }
+      ],
+
+      "Hormonal": [
+        {
+          "name": "Hormonal Effects",
+          "description": "Isoflavones may have estrogen-like activity and can influence hormone-sensitive conditions."
+        },
+        {
+          "name": "Medication Interaction",
+          "description": "Concentrated extracts may interact with hormone-related or blood-thinning medications."
+        }
+      ],
+
+      "Dermatological": [
+        {
+          "name": "Skin Sensitivity",
+          "description": "Rare individuals may experience itching or irritation after contact or consumption."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Flowers",
+        "description": "Commonly used as food or herbal material but may affect hormones when consumed in concentrated amounts."
+      },
+      {
+        "part": "Leaves",
+        "description": "Generally edible but large amounts may cause digestive discomfort."
+      },
+      {
+        "part": "Seeds",
+        "description": "Contain plant compounds that are not considered dangerous in normal amounts."
+      },
+      {
+        "part": "Stems",
+        "description": "Not considered poisonous but are less commonly consumed."
+      }
+    ],
+
+    "handling_safety": [
+      "Wash harvested plants thoroughly before consumption.",
+      "Avoid consuming large amounts of concentrated extracts without professional guidance.",
+      "Use caution if taking hormone-related medications.",
+      "Avoid collecting from areas treated with pesticides.",
+      "Wear gloves if prolonged handling causes skin irritation."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Crimson Clover",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar trifoliate leaves and flower heads but produces more elongated deep red blooms.",
+        "image": "crimson-clover-1.jpg"
+      },
+      {
+        "name": "Alsike Clover",
+        "toxicity": "Low Toxicity",
+        "description": "Similar clover appearance but has paler flower heads and different leaf markings.",
+        "image": "alsike-clover-1.jpg"
+      },
+      {
+        "name": "Clover Look-alikes",
+        "toxicity": "Variable Toxicity",
+        "description": "Some unrelated plants have similar three-leaf structures and should not be eaten without identification.",
+        "image": "clover-lookalike-1.jpg"
+      },
+      {
+        "name": "Wood Sorrel",
+        "toxicity": "Low Toxicity",
+        "description": "Has three-part leaves but leaflets are heart-shaped rather than rounded clover leaves.",
+        "image": "wood-sorrel-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Menopausal Symptoms",
+        "description": "Red clover is traditionally used because its isoflavones may have mild estrogen-like effects."
+      },
+      {
+        "condition": "Bone Health Research",
+        "description": "Isoflavones from red clover have been studied for possible effects on bone health."
+      },
+      {
+        "condition": "Cardiovascular Research",
+        "description": "Plant compounds from red clover have been investigated for their potential effects on cholesterol and circulation."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Low-growing herbaceous plant with three-part leaves and rounded flower heads.",
+      "Color": "Pink to reddish-purple flower clusters with green leaves.",
+      "Stem": "Soft hairy stems growing upright or slightly spreading along the ground.",
+      "Arrangement": "Leaves grow in groups of three leaflets along branching stems.",
+      "Flower_structure": "Dense rounded flower heads made of many small pea-like flowers.",
+      "Leaves": "Three oval leaflets often marked with a pale crescent pattern.",
+      "Roots": "Fibrous root system capable of supporting nitrogen-fixing bacteria."
+    },
+
+    "feature_images": [
+      {
+        "image": "red-clover-flower.jpg",
+        "caption": "Rounded pink-purple flower head"
+      },
+      {
+        "image": "red-clover-leaves.jpg",
+        "caption": "Three-part leaves with pale markings"
+      },
+      {
+        "image": "red-clover-field.jpg",
+        "caption": "Low-growing clover patch"
+      },
+      {
+        "image": "red-clover-stem.jpg",
+        "caption": "Hairy green flowering stem"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash skin with soap and water if irritation occurs.",
+        "Remove contaminated plant material from contact areas.",
+        "Seek medical advice if allergic symptoms develop."
+      ],
+      "ingestion": [
+        "Seek medical advice if large amounts or concentrated extracts are consumed.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep plant material available for identification if symptoms occur."
+      ],
+      "pets": [
+        "Monitor pets for digestive upset after large consumption.",
+        "Contact a veterinarian if unusual symptoms develop."
+      ]
+    }
+  },
+
+  "Poppy": {
+    "hero_image": "poppy-1.jpg",
+    "common_name": "Poppy",
+    "scientific_name": "Papaver somniferum",
+    "family_name": "Papaveraceae",
+
+    "toxicity": {
+      "level": "Highly Toxic",
+      "severity": "Potentially fatal",
+      "systems_affected": [
+        "Nervous system",
+        "Respiratory system",
+        "Cardiovascular / Circulatory system",
+        "Digestive system"
+      ],
+      "summary_warning": "Latex and immature seed capsules contain opioid alkaloids and can cause poisoning, breathing problems, loss of consciousness, and potentially be fatal. Mature processed seeds used as food contain very low levels of these compounds."
+    },
+
+    "key_constituents": [
+      "Morphine (Opioid alkaloid)",
+      "Codeine (Opioid alkaloid)",
+      "Thebaine (Opioid alkaloid)",
+      "Papaverine (Alkaloid)",
+      "Noscapine (Alkaloid)",
+      "Flavonoids",
+      "Latex compounds"
+    ],
+
+    "effects": {
+      "Neurological": [
+        {
+          "name": "Drowsiness and Sedation",
+          "description": "Opioid alkaloids may depress brain activity and cause extreme sleepiness."
+        },
+        {
+          "name": "Confusion",
+          "description": "Toxic exposure may impair awareness and coordination."
+        },
+        {
+          "name": "Loss of Consciousness",
+          "description": "Severe poisoning can lead to coma."
+        }
+      ],
+
+      "Respiratory": [
+        {
+          "name": "Slow Breathing",
+          "description": "Opioid compounds can suppress the respiratory system and reduce breathing rate."
+        },
+        {
+          "name": "Respiratory Failure",
+          "description": "Large exposures may cause life-threatening breathing problems."
+        }
+      ],
+
+      "Cardiovascular": [
+        {
+          "name": "Low Blood Pressure",
+          "description": "Severe poisoning may reduce circulation and cause weakness or collapse."
+        },
+        {
+          "name": "Slow Heart Rate",
+          "description": "Opioid effects may contribute to reduced heart rate in serious cases."
+        }
+      ],
+
+      "Gastrointestinal": [
+        {
+          "name": "Nausea and Vomiting",
+          "description": "Ingestion may irritate the digestive system."
+        },
+        {
+          "name": "Abdominal Discomfort",
+          "description": "Plant compounds may cause stomach pain or digestive upset."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Latex (Sap)",
+        "description": "Contains concentrated opioid alkaloids and is the most pharmacologically active part of the plant."
+      },
+      {
+        "part": "Seed Capsules",
+        "description": "Contain latex residues and may contain significant alkaloid levels before maturity. However, mature food-grade seeds generally contain minimal alkaloids when properly processed."
+      },
+      {
+        "part": "Leaves",
+        "description": "Contain lower amounts of alkaloids but may still be toxic if consumed."
+      },
+      {
+        "part": "Stems and Roots",
+        "description": "Contain plant alkaloids and should not be eaten."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves when handling unknown poppy plants or latex.",
+      "Avoid contact of sap with eyes, mouth, or broken skin.",
+      "Wash hands thoroughly after handling.",
+      "Do not consume plant parts unless legally and safely prepared.",
+      "Keep plant material away from children and pets."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "California Poppy",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar flowers but belongs to a different genus and does not contain opium alkaloids.",
+        "image": "california-poppy-1.jpg"
+      },
+      {
+        "name": "Corn Poppy",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar red flowers but contains different compounds and lacks the same opioid profile.",
+        "image": "corn-poppy-1.jpg"
+      },
+      {
+        "name": "Oriental Poppy",
+        "toxicity": "Moderately Toxic",
+        "description": "Produces large colorful flowers and contains related alkaloid compounds.",
+        "image": "oriental-poppy-1.jpg"
+      },
+      {
+        "name": "Tulip",
+        "toxicity": "Low Toxicity",
+        "description": "May resemble poppy flowers from a distance but has bulb growth and different leaf structure.",
+        "image": "tulip-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Pain Relief",
+        "description": "Purified opioid compounds derived from poppy, such as morphine, are used medically for severe pain management."
+      },
+      {
+        "condition": "Cough Suppression",
+        "description": "Certain purified derivatives such as codeine have been used medically for cough control."
+      },
+      {
+        "condition": "Research Applications",
+        "description": "Poppy alkaloids are studied for their effects on the nervous system and pharmaceutical development."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Annual herb with upright stems, large flowers, and distinctive seed capsules.",
+      "Color": "Flowers commonly appear red, pink, purple, white, or mixed shades.",
+      "Stem": "Tall smooth bluish-green stem that releases milky latex when damaged.",
+      "Arrangement": "Single large flower usually grows at the end of a long upright stem.",
+      "Fruit": "Round or oval seed capsule with a flattened crown-like top.",
+      "Leaves": "Gray-green leaves with irregular lobes and a slightly waxy appearance.",
+      "Flowers": "Large delicate petals surrounding a central disk with many stamens."
+    },
+
+    "feature_images": [
+      {
+        "image": "poppy-flower.jpg",
+        "caption": "Large colorful poppy flower"
+      },
+      {
+        "image": "poppy-seedpod.jpg",
+        "caption": "Rounded seed capsule after flowering"
+      },
+      {
+        "image": "poppy-leaves.jpg",
+        "caption": "Gray-green lobed leaves"
+      },
+      {
+        "image": "poppy-stem.jpg",
+        "caption": "Smooth stem releasing milky latex"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash skin immediately with soap and water after contact with latex.",
+        "Remove contaminated clothing if sap exposure occurs.",
+        "Seek medical advice if irritation or symptoms develop."
+      ],
+      "ingestion": [
+        "Call emergency medical services or a poison center immediately if poisoning is suspected.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep plant material available for identification."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if ingestion is suspected.",
+        "Remove remaining plant material from the pet's access area.",
+        "Monitor for sedation, vomiting, weakness, or breathing changes."
+      ]
+    }
+  },
+
+  "Suicide_tree": {
+    "hero_image": "suicide-tree-1.jpg",
+    "common_name": "Suicide Tree",
+    "scientific_name": "Cerbera odollam",
+    "family_name": "Apocynaceae",
+
+    "toxicity": {
+      "level": "Highly Toxic",
+      "severity": "Potentially fatal",
+      "systems_affected": [
+        "Cardiovascular / Circulatory system",
+        "Digestive system",
+        "Nervous system"
+      ],
+      "summary_warning": "All parts of the plant are poisonous, especially the seeds. The seeds contain cardiac glycosides that can severely disrupt heart function and may cause fatal poisoning."
+    },
+
+    "key_constituents": [
+      "Cerberin (Cardiac glycoside)",
+      "Odollin (Cardiac glycoside)",
+      "Thevetin-like glycosides",
+      "Peruvoside",
+      "Flavonoids",
+      "Triterpenoids",
+      "Saponins"
+    ],
+
+    "effects": {
+      "Cardiovascular": [
+        {
+          "name": "Dangerous Arrhythmias",
+          "description": "Cardiac glycosides interfere with heart electrical activity and may cause life-threatening rhythm disturbances."
+        },
+        {
+          "name": "Slow Heart Rate",
+          "description": "Severe poisoning can result in bradycardia and impaired heart function."
+        },
+        {
+          "name": "Cardiac Arrest",
+          "description": "Extreme toxicity may lead to complete failure of normal heart activity."
+        }
+      ],
+
+      "Gastrointestinal": [
+        {
+          "name": "Nausea and Vomiting",
+          "description": "Common early symptoms after ingestion of seeds or plant material."
+        },
+        {
+          "name": "Abdominal Pain",
+          "description": "Toxic compounds may cause severe stomach cramps and discomfort."
+        },
+        {
+          "name": "Diarrhea",
+          "description": "Digestive irritation may result in loose stools."
+        }
+      ],
+
+      "Neurological": [
+        {
+          "name": "Dizziness and Weakness",
+          "description": "Reduced heart function and toxin effects may cause fatigue and lightheadedness."
+        },
+        {
+          "name": "Confusion",
+          "description": "Severe poisoning may affect mental awareness due to reduced circulation."
+        }
+      ]
+    },
+
+    "toxic_parts": [
+      {
+        "part": "Seeds",
+        "description": "The most toxic part of the plant, containing high concentrations of cerberin and related cardiac glycosides."
+      },
+      {
+        "part": "Fruits",
+        "description": "Contain the poisonous seeds and should never be consumed."
+      },
+      {
+        "part": "Leaves",
+        "description": "Contain cardiac glycosides and may cause poisoning if eaten."
+      },
+      {
+        "part": "Sap and Bark",
+        "description": "Contain toxic compounds and may irritate skin or cause poisoning if ingested."
+      }
+    ],
+
+    "handling_safety": [
+      "Wear gloves when handling plant material or fallen fruits.",
+      "Avoid touching eyes or mouth after contact.",
+      "Wash hands thoroughly after handling.",
+      "Keep seeds and fruits away from children and pets.",
+      "Do not use the plant in homemade remedies."
+    ],
+
+    "commonly_mistaken_for": [
+      {
+        "name": "Mango",
+        "toxicity": "Low Toxicity",
+        "description": "Young plants may appear similar due to elongated leaves, but mango has different fruits and leaf arrangement.",
+        "image": "mango-1.jpg"
+      },
+      {
+        "name": "Oleander",
+        "toxicity": "Highly Toxic",
+        "description": "Closely related species with similar toxic cardiac glycosides and narrow leaves.",
+        "image": "oleander-1.jpg"
+      },
+      {
+        "name": "Frangipani",
+        "toxicity": "Low Toxicity",
+        "description": "Has similar tropical appearance and milky sap but produces thicker branches and different flowers.",
+        "image": "frangipani-1.jpg"
+      },
+      {
+        "name": "Yellow Oleander",
+        "toxicity": "Highly Toxic",
+        "description": "Produces similar trumpet-shaped flowers and contains dangerous cardiac glycosides.",
+        "image": "yellow-oleander-1.jpg"
+      }
+    ],
+
+    "medicinal_uses": [
+      {
+        "condition": "Cardiac Glycoside Research",
+        "description": "Compounds from Cerbera species have been studied scientifically because of their effects on heart function."
+      },
+      {
+        "condition": "Traditional Medicine",
+        "description": "Used historically in some traditional systems, but toxicity makes uncontrolled use unsafe."
+      }
+    ],
+
+    "features_detected": {
+      "Shape": "Small evergreen tree with glossy leaves and fragrant white flowers.",
+      "Color": "Dark green leaves with white flowers that may have yellow or pink centers.",
+      "Stem": "Woody branches containing toxic milky latex.",
+      "Arrangement": "Leaves grow in dense clusters near branch tips.",
+      "Fruit": "Oval green fruit turning reddish or purple when mature, containing a poisonous seed.",
+      "Leaves": "Long, narrow, glossy leaves with smooth edges and pointed tips.",
+      "Flowers": "White five-petaled flowers with a pleasant fragrance."
+    },
+
+    "feature_images": [
+      {
+        "image": "suicide-tree-flower.jpg",
+        "caption": "White fragrant five-petaled flowers"
+      },
+      {
+        "image": "suicide-tree-fruit.jpg",
+        "caption": "Toxic fruit containing poisonous seed"
+      },
+      {
+        "image": "suicide-tree-leaves.jpg",
+        "caption": "Glossy narrow evergreen leaves"
+      },
+      {
+        "image": "suicide-tree-stem.jpg",
+        "caption": "Woody stem with milky sap"
+      }
+    ],
+
+    "emergency": {
+      "contact": [
+        "Wash skin immediately with soap and water after sap contact.",
+        "Remove contaminated clothing if exposed.",
+        "Seek medical advice if irritation or symptoms occur."
+      ],
+      "ingestion": [
+        "Seek emergency medical assistance immediately if seeds or plant parts are swallowed.",
+        "Do not induce vomiting unless instructed by medical professionals.",
+        "Keep plant material available for identification."
+      ],
+      "pets": [
+        "Contact a veterinarian immediately if ingestion is suspected.",
+        "Remove fruits or seeds from the pet's access area.",
+        "Monitor for vomiting, weakness, or abnormal heart-related symptoms."
+      ]
+    }
+  }
 
 
 }
+
+
+
+
+
 
 
