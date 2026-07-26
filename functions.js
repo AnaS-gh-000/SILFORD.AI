@@ -205,6 +205,8 @@ uploadButtons.forEach(button => {
 
         e.preventDefault();
 
+        stopCamera(); 
+        
         imageInput.click();
 
     });
@@ -738,7 +740,7 @@ cameraContainers.forEach(container => {
             .then(data=>{
 
                 stopCamera();
-                
+
                 setTimeout(()=>{
                     showPrediction(data);
                 }, 100);
