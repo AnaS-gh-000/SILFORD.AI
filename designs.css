@@ -167,6 +167,7 @@ html {
 /* Action UI Buttons styling */
 .cta-container {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     gap: 40px;
     margin-top: 20px;
@@ -174,6 +175,23 @@ html {
 
 .cta-container.central {
     margin-bottom: 60px;
+}
+
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.camera-preview {
+    display:none;
+    width:280px;
+    aspect-ratio:4/3;
+    object-fit:cover;
+    border-radius:12px;
+    border:2px solid rgba(255,255,255,.08);
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
 }
 
 .btn {

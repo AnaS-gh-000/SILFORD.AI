@@ -624,10 +624,167 @@ if (backHome){
 
 
 //CAMERA FEATURE LATER ADDITION
-const cameraButtons = document.querySelectorAll(".btn-light-green");
+// ================================================
+// CAMERA FEATURE
+// ================================================
 
-cameraButtons.forEach(button => {
-    button.addEventListener("click", () => {
-        alert("Camera feature coming soon!");
+const cameraContainers = document.querySelectorAll(".camera-container");
+
+let cameraStream = null;
+
+
+cameraContainers.forEach(container => {
+
+    const video = container.querySelector(".camera-preview");
+    const button = container.querySelector(".capture-btn");
+    const canvas = container.querySelector(".camera-canvas");
+
+
+    button.addEventListener("click", async ()=>{
+
+
+        // Start camera first click
+        if(!cameraStream){
+
+            try{
+
+                cameraStream = await navigator.mediaDevices.getUserMedia({
+
+                    video:{
+                        facingMode:"environment"
+                    },
+
+                    audio:false
+
+                });
+
+
+                video.srcObject = cameraStream;
+
+
+                // Wait for camera to load
+                await video.play();
+                video.style.display = "block";
+
+
+                // Change button text
+                button.innerHTML =
+                '<i class="fa-solid fa-camera"></i> Capture';
+
+
+                return;
+
+
+            }
+            catch(error){
+
+                console.error(
+                    "Camera error:",
+                    error
+                );
+
+                alert(
+                    "Camera permission denied."
+                );
+
+                return;
+
+            }
+
+        }
+
+
+
+        // Second click captures image
+
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+
+
+        const ctx = canvas.getContext("2d");
+
+
+        ctx.drawImage(
+            video,
+            0,
+            0,
+            canvas.width,
+            canvas.height
+        );
+
+
+        canvas.toBlob(blob=>{
+
+
+            const formData = new FormData();
+
+
+            formData.append(
+                "image",
+                blob,
+                "camera-photo.jpg"
+            );
+
+
+            fetch(`${API_URL}/predict`,{
+
+                method:"POST",
+                body:formData
+            })
+
+
+            .then(response=>response.json())
+
+            .then(data=>{
+
+                stopCamera();
+                
+                setTimeout(()=>{
+                    showPrediction(data);
+                }, 100);
+            })
+
+
+            .catch(error=>{
+
+                console.error(
+                    "Prediction error:",
+                    error
+                );
+
+            });
+
+
+        }, "image/jpeg");
+
+
     });
+
+
 });
+
+
+
+function stopCamera(){
+
+    if(cameraStream){
+
+        cameraStream.getTracks().forEach(track=>{
+            track.stop();
+        });
+
+        cameraStream=null;
+
+    }
+
+    document.querySelectorAll(".camera-preview").forEach(video =>{
+        video.pause();
+        video.srcObject = null;
+        video.style.display = "none";
+    });
+
+    document.querySelectorAll(".capture-btn").forEach(btn=>{
+        btn.innerHTML = 
+        '<i class="fa-solid fa-camera"></i> Take a picture'
+    });
+}
