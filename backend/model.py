@@ -3,10 +3,11 @@ import os
 import torch
 import torch.nn as nn
 
-from torchvision import models
+from cbam import ResNet50_CBAM
 from torchvision import transforms
 
 from PIL import Image
+
 
 
 
@@ -36,25 +37,14 @@ print(idx_to_class)
 # Create ResNet-50 architecture
 # -------------------------------
 
-model = models.resnet50(weights=None)
+model = ResNet50_CBAM(num_classes=len(class_to_idx))
 
-
-# Replace classifier
-model.fc = nn.Linear(
-    in_features=2048,
-    out_features=len(class_to_idx)
-)
-
-
-
-# Load trained weights
 model.load_state_dict(
-    torch.load(
-        os.path.join(BASE_DIR, "best_resnet50_plant.pth"),
-        map_location="cpu"
-    )
+     torch.load(
+          os.path.join(BASE_DIR, "best_cbam_final.pth"),
+          map_location="cpu"
+     )
 )
-
 
 
 # Evaluation mode

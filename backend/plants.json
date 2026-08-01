@@ -1563,10 +1563,6 @@
         {
             "image": "castor-bean-seeds.jpg",
             "caption": "Distinctive marbled toxic seeds"
-        },
-        {
-            "image": "castor-bean-flowers.jpg",
-            "caption": "Upright flower cluster developing into seed capsules"
         }
         ],
 
@@ -1880,12 +1876,6 @@
         "toxicity": "Highly Toxic",
         "description": "Produces attractive flowers and milky sap but has a swollen succulent stem.",
         "image": "desert-rose-1.jpg"
-      },
-      {
-        "name": "Milkweed",
-        "toxicity": "Moderately Toxic",
-        "description": "Shares milky sap and similar seed pods but usually has narrower leaves and smaller flowers.",
-        "image": "milkweed-1.jpg"
       }
     ],
 
@@ -1924,7 +1914,7 @@
         "caption": "Large gray-green opposite leaves"
       },
       {
-        "image": "giant-milkweed-seedpod.jpg",
+        "image": "giant-milkweed-seedpod.webp",
         "caption": "Inflated seed pod before splitting"
       },
       {
@@ -2077,7 +2067,7 @@
       },
       {
         "name": "Black Nightshade",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Belongs to the same family but produces small berries instead of large spiny capsules.",
         "image": "black-nightshade-1.jpg"
       }
@@ -2258,7 +2248,7 @@
     "commonly_mistaken_for": [
       {
         "name": "Black Nightshade",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Produces similar dark berries but is generally smaller with clustered fruits and white flowers.",
         "image": "black-nightshade-1.jpg"
       },
@@ -2276,7 +2266,7 @@
       },
       {
         "name": "Bittersweet Nightshade",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildy Toxic",
         "description": "Has purple star-shaped flowers and bright red berries rather than solitary black fruits.",
         "image": "bittersweet-nightshade-1.jpg"
       }
@@ -2456,13 +2446,13 @@
       },
       {
         "name": "Snowdrop",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Has white hanging flowers but grows from bulbs and has narrower leaves.",
         "image": "snowdrop-1.jpg"
       },
       {
         "name": "Bluebell",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Produces drooping bell-shaped flowers but has taller flower spikes and different leaves.",
         "image": "bluebell-1.jpg"
       }
@@ -2811,7 +2801,7 @@
       },
       {
         "name": "Periwinkle",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Has similar five-petaled flowers but grows lower with smaller leaves.",
         "image": "periwinkle-1.jpg"
       },
@@ -2823,7 +2813,7 @@
       },
       {
         "name": "Milkweed",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Contains milky latex and similar leaf shapes but usually has different flower clusters.",
         "image": "milkweed-1.jpg"
       }
@@ -3002,7 +2992,7 @@
       },
       {
         "name": "Allamanda",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Has similar yellow trumpet-shaped flowers but grows as a vine or sprawling shrub.",
         "image": "allamanda-1.jpg"
       },
@@ -3177,7 +3167,7 @@
       },
       {
         "name": "Black Nightshade",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Has similar leaves and flowers but produces small dark berries instead of large tomato fruits.",
         "image": "black-nightshade-1.jpg"
       },
@@ -3351,7 +3341,7 @@
       },
       {
         "name": "Lords-and-Ladies",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Young leaves may resemble wild garlic but the plant develops distinctive berries.",
         "image": "lords-and-ladies-1.jpg"
       },
@@ -3721,7 +3711,7 @@
       },
       {
         "name": "Coral Tree",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Produces bright seeds but grows as a tree with different leaf structures.",
         "image": "coral-tree-1.jpg"
       }
@@ -3884,12 +3874,6 @@
         "toxicity": "Low Toxicity",
         "description": "Similar clover appearance but has paler flower heads and different leaf markings.",
         "image": "alsike-clover-1.jpg"
-      },
-      {
-        "name": "Clover Look-alikes",
-        "toxicity": "Variable Toxicity",
-        "description": "Some unrelated plants have similar three-leaf structures and should not be eaten without identification.",
-        "image": "clover-lookalike-1.jpg"
       },
       {
         "name": "Wood Sorrel",
@@ -4081,7 +4065,7 @@
       },
       {
         "name": "Oriental Poppy",
-        "toxicity": "Moderately Toxic",
+        "toxicity": "Mildly Toxic",
         "description": "Produces large colorful flowers and contains related alkaloid compounds.",
         "image": "oriental-poppy-1.jpg"
       },
@@ -4132,8 +4116,8 @@
         "caption": "Gray-green lobed leaves"
       },
       {
-        "image": "poppy-stem.jpg",
-        "caption": "Smooth stem releasing milky latex"
+        "image": "poppy-latex.jpg",
+        "caption": "Smooth stem and pods releasing milky latex"
       }
     ],
 

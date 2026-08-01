@@ -247,6 +247,7 @@ imageInput.addEventListener("change", () => {
         .then(data => {
 
             showPrediction(data);
+            console.log("MODEL RESULT:", data);
 
         })
 
