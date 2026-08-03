@@ -409,7 +409,8 @@ function updatePredictionPage(data){
         `;
     });
 
-    toxicParts.innerHTML += `
+    if (predictionView.classList.contains("tox-high")){
+        toxicParts.innerHTML += `
         <div class="danger-banner-note">
 
             All parts of the 
@@ -422,6 +423,23 @@ function updatePredictionPage(data){
 
         </div>
     `;
+    }
+    else if (predictionView.classList.contains("tox-mid")){
+        toxicParts.innerHTML += `
+        <div class="danger-banner-note">
+
+            All parts of the 
+            <em>${data.common_name} (${data.scientific_name})</em>
+            plant are 
+            <span class="danger-text-highlight">
+                mildly dangerous
+            </span>
+            and should be handled with care.
+
+        </div>
+    `;
+    }
+    
 
     //handling safety
     const safety = document.querySelector(".safety-steps-list");
