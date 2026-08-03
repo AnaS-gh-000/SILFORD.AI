@@ -24,6 +24,27 @@
 * Since it's a prototype, storing up to 10 scans in localStorage is likely sufficient and avoids needing a database.
 6. Deploy the backend to Railway
 
+## To improve model accuracy consider adding more diverse plant images from the datasets  -->
+* PlantCLEF (large-scale plant identification with many organs like leaves, flowers, fruits, bark)
+* LeafSnap (focused on leaves, especially tree species)
+* Pl@ntNet (large citizen-science plant dataset; check licensing and access conditions)
+* Flavia (leaf images)
+* Swedish Leaf Dataset (leaf classification)
+* Folio (leaf images)
+* PlantVillage (mostly crop diseases, but useful if you want healthy crop images for an "unknown" class)
+
+### Also do:
+1. Add CutUp (this one more preferably) and MixUp in augmentation
+2. Expand your "unknown" class to include hundreds or thousands of images of other plants, not just non-plant objects.
+3. Increase diversity for your existing classes by adding leaves, stems, fruits, seed pods, seedlings, and seasonal variations.
+4. Enable Label Smoothing (this is almost free to try).
+5. Experiment with CutMix during training.
+6. Use a confidence threshold so low-confidence predictions become "Unknown" instead of forcing a toxic species label.
+7. Try different models like ConvNeXt/EfficientNetV2 after dataset improvements (not meant to help much though)
+8. More attention modules / deeper architectures (may not help however)
+9. TRY GENERATING **GRAD-CAM**
+
+
 ### NOTE: REMOVE `unknown` class and make it dependent on prediction confidence. Rather add a class `not a plant`- containing not plant images.
 Image Upload
       |

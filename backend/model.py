@@ -126,7 +126,7 @@ def predict(image_file):
 
 
 #IF MODEL IS CONFIDENT ABOUT ITS PREDICTION THEN SHOW RESULTS, ELSE SHOW UNKNOWN
-    if confidence.item() < 0.70:
+    if confidence.item() < 0.75:
             return {
                 "plant":"unknown",
                 "confidence":round(confidence.item(), 4)
