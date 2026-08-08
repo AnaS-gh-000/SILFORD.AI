@@ -5,10 +5,10 @@
 
 const LOCAL_SERVER_URL = "http://127.0.0.1:5000";
 
-const LIVE_SERVER_URL = "https://your-production-backend-url.com";
+const LIVE_SERVER_URL = "https://silfordai-production.up.railway.app";
 
 // Change this when deploying
-const USE_LIVE_SERVER = false;
+const USE_LIVE_SERVER = true;
 
 const API_URL = USE_LIVE_SERVER
     ? LIVE_SERVER_URL
