@@ -235,7 +235,7 @@ html {
     left: 0;
     width: 550px;
     height: 500px;
-    background-image: url('/SILFORD.AI/img-assets/greenplant-Photoroom.png'); 
+    background-image: url('img-assets/greenplant-Photoroom.png'); 
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.70;
@@ -248,7 +248,7 @@ html {
    ========================================================================== */
 .about-section {
     background: linear-gradient(to right, rgba(5,5,5,0.92) 40%, rgba(5,5,5,0.7) 100%), 
-                url('/SILFORD.AI/img-assets/planting.png') no-repeat center right;
+                url('img-assets/planting.png') no-repeat center right;
     background-size: cover;
 }
 
@@ -360,7 +360,7 @@ html {
     left: 30%;
     width: 100%;
     height: 600px;
-    background-image: url('/SILFORD.AI/img-assets/aiNN-Photoroom.png'); 
+    background-image: url('img-assets/aiNN-Photoroom.png'); 
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.70;
