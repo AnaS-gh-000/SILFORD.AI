@@ -18,6 +18,8 @@ CORS(app, origins=[
 
 @app.route("/predict", methods=["POST"])
 def predict_route():
+    print("🔥 /predict RECEIVED", flush=True)
+
 
     try:
         if "image" not in request.files:
@@ -28,6 +30,7 @@ def predict_route():
         image = request.files["image"]
 
         result = predict(image)
+        print("🔥 /predict FINISHED", flush=True)
 
         return jsonify(result)
     

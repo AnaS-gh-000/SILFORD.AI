@@ -99,7 +99,7 @@
                 "name": "Lupine",
                 "toxicity": "Mildly Toxic",
                 "description": "Has pea-like flowers forming a pointed cone.",
-                "image": "lupine-1.jpg"
+                "image": "Lupine-1.jpg"
             },
             {
                 "name": "Comfrey",
@@ -285,7 +285,7 @@
                 "name": "Lupine",
                 "toxicity": "Mildly Toxic",
                 "description": "Has upright flower clusters but flowers are pea-like rather than helmet-shaped.",
-                "image": "lupine-1.jpg"
+                "image": "Lupine-1.jpg"
             }
         ],
 
