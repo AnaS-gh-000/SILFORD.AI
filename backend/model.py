@@ -85,54 +85,113 @@ transform = transforms.Compose([
 # Prediction function
 # -------------------------------
 
-def predict(image_file):
+# def predict(image_file):
 
-    # Open image directly from uploaded file
-    image = Image.open(image_file).convert("RGB")
-
-
-    # Apply preprocessing
-    image = transform(image)
+#     # Open image directly from uploaded file
+#     image = Image.open(image_file).convert("RGB")
 
 
-    # Add batch dimension
-    image = image.unsqueeze(0)
+#     # Apply preprocessing
+#     image = transform(image)
+
+
+#     # Add batch dimension
+#     image = image.unsqueeze(0)
 
 
 
-    # Inference
-    with torch.inference_mode():
+#     # Inference
+#     with torch.inference_mode():
 
-        output = model(image)
-
-
-        probabilities = torch.softmax(
-            output,
-            dim=1
-        )
+#         output = model(image)
 
 
-        confidence, predicted = torch.max(
-            probabilities,
-            dim=1
-        )
+#         probabilities = torch.softmax(
+#             output,
+#             dim=1
+#         )
+
+
+#         confidence, predicted = torch.max(
+#             probabilities,
+#             dim=1
+#         )
 
         
 
 
-    class_id = predicted.item()
+#     class_id = predicted.item()
 
+#     class_name = idx_to_class[class_id]
+
+import time
+
+def predict(image_file):
+
+    print("PRED RECEIVED", flush=True)
+
+    start = time.perf_counter()
+
+    image = Image.open(image_file).convert("RGB")
+    print(
+        f"IMAGE OPENED: {time.perf_counter() - start:.2f}s",
+        flush=True
+    )
+
+    image = transform(image)
+    image = image.unsqueeze(0)
+
+    print(
+        f"PREPROCESSING DONE: {time.perf_counter() - start:.2f}s",
+        flush=True
+    )
+
+    inference_start = time.perf_counter()
+
+    with torch.inference_mode():
+        output = model(image)
+
+    print(
+        f"MODEL FINISHED: {time.perf_counter() - inference_start:.2f}s",
+        flush=True
+    )
+
+    probabilities = torch.softmax(output, dim=1)
+
+    confidence, predicted = torch.max(
+        probabilities,
+        dim=1
+    )
+
+    print(
+        f"PRED FINISHED: {time.perf_counter() - start:.2f}s",
+        flush=True
+    )
+
+    class_id = predicted.item()
     class_name = idx_to_class[class_id]
 
-
-#IF MODEL IS CONFIDENT ABOUT ITS PREDICTION THEN SHOW RESULTS, ELSE SHOW UNKNOWN
     if confidence.item() < 0.75:
-            return {
-                "plant":"unknown",
-                "confidence":round(confidence.item(), 4)
-            }
-    else:
         return {
-            "plant": class_name,
+            "plant": "unknown",
             "confidence": round(confidence.item(), 4)
         }
+
+    return {
+        "plant": class_name,
+        "confidence": round(confidence.item(), 4)
+    }
+
+
+
+# #IF MODEL IS CONFIDENT ABOUT ITS PREDICTION THEN SHOW RESULTS, ELSE SHOW UNKNOWN
+#     if confidence.item() < 0.75:
+#             return {
+#                 "plant":"unknown",
+#                 "confidence":round(confidence.item(), 4)
+#             }
+#     else:
+#         return {
+#             "plant": class_name,
+#             "confidence": round(confidence.item(), 4)
+#         }
